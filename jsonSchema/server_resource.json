@@ -1,0 +1,44 @@
+{
+  "database": "GAME",
+  "name": "SERVER_RESOURCE",
+  "className": "ServerResource",
+  "description": "Server resource",
+  "indexes": [
+    {
+      "name": "PK_SERVER_RESOURCE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nResourceID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "nResourceID",
+      "propertyName": "ResourceId",
+      "description": "Resource Identifier",
+      "type": "int"
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strResource",
+      "propertyName": "Resource",
+      "description": "Sprintf supported string",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

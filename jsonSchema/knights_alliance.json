@@ -1,0 +1,43 @@
+{
+  "database": "GAME",
+  "name": "KNIGHTS_ALLIANCE",
+  "className": "KnightsAlliance",
+  "description": "Knights alliance formations",
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS_ALLIANCE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sMainAllianceKnights"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "sMainAllianceKnights",
+      "propertyName": "MainAllianceKnights",
+      "description": "Alliance leader clan",
+      "type": "smallint"
+    },
+    {
+      "name": "sSubAllianceKnights",
+      "propertyName": "SubAllianceKnights",
+      "description": "Second Knights group",
+      "type": "smallint"
+    },
+    {
+      "name": "sMercenaryClan_1",
+      "propertyName": "MercenaryClan1",
+      "description": "Mercenary clan 1",
+      "type": "smallint"
+    },
+    {
+      "name": "sMercenaryClan_2",
+      "propertyName": "MercenaryClan2",
+      "description": "Mercenary clan 2",
+      "type": "smallint"
+    }
+  ]
+}

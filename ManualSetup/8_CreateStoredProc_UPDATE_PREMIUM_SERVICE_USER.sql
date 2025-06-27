@@ -1,0 +1,5 @@
+CREATE PROCEDURE [UPDATE_PREMIUM_SERVICE_USER]
+	@AccountID varchar(21),
+	@Days smallint
+AS
+RETURN 0

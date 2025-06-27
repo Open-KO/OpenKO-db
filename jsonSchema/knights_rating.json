@@ -1,0 +1,38 @@
+{
+  "database": "GAME",
+  "name": "KNIGHTS_RATING",
+  "className": "KnightsRating",
+  "description": "Knights Ratings",
+  "columns": [
+    {
+      "name": "nRank",
+      "propertyName": "Rank",
+      "description": "Rank",
+      "type": "int"
+    },
+    {
+      "name": "shIndex",
+      "propertyName": "Index",
+      "description": "Knights identifier",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Knights name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nPoints",
+      "propertyName": "Points",
+      "description": "National points",
+      "type": "int",
+      "allowNull": true
+    }
+  ]
+}

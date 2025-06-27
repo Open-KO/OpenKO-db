@@ -1,0 +1,176 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE6",
+  "className": "MagicType6",
+  "description": "Type 6 supports transformation magic",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE6",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Size",
+      "propertyName": "Size",
+      "description": "Size modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "TransformID",
+      "propertyName": "TransformId",
+      "description": "Transformation picture identifier (K_NPC.sPid)",
+      "type": "smallint"
+    },
+    {
+      "name": "Duration",
+      "propertyName": "Duration",
+      "description": "Duration",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxHp",
+      "propertyName": "MaxHp",
+      "description": "Maximum health",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxMp",
+      "propertyName": "MaxMp",
+      "description": "Maximum mana",
+      "type": "smallint"
+    },
+    {
+      "name": "Speed",
+      "propertyName": "Speed",
+      "description": "Movement speed",
+      "type": "tinyint"
+    },
+    {
+      "name": "AttackSpeed",
+      "propertyName": "AttackSpeed",
+      "description": "Attack speed",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalHit",
+      "propertyName": "TotalHit",
+      "description": "Total hit",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalAc",
+      "propertyName": "TotalArmor",
+      "description": "Total armor",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalHitRate",
+      "propertyName": "TotalHitRate",
+      "description": "Total hit rate",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalEvasionRate",
+      "propertyName": "TotalEvasionRate",
+      "description": "Total evasion rate",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalFireR",
+      "propertyName": "TotalFireResist",
+      "description": "Total fire resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalColdR",
+      "propertyName": "TotalColdResist",
+      "description": "Total cold resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalLightningR",
+      "propertyName": "TotalLightningResist",
+      "description": "Total lightning resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalMagicR",
+      "propertyName": "TotalMagicResist",
+      "description": "Total magic resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalDiseaseR",
+      "propertyName": "TotalDiseaseResist",
+      "description": "Total disease resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "TotalPoisonR",
+      "propertyName": "TotalPoisonResist",
+      "description": "Total poison resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "Class",
+      "propertyName": "Class",
+      "description": "Class",
+      "type": "smallint"
+    },
+    {
+      "name": "UserSkillUse",
+      "propertyName": "UserSkillUse",
+      "description": "User skill use TODO - allow skill use?",
+      "type": "tinyint"
+    },
+    {
+      "name": "NeedItem",
+      "propertyName": "NeedItem",
+      "description": "Needs item",
+      "type": "tinyint"
+    },
+    {
+      "name": "SkillSuccessRate",
+      "propertyName": "SkillSuccessRate",
+      "description": "Skill success rate",
+      "type": "tinyint"
+    },
+    {
+      "name": "MonsterFriendly",
+      "propertyName": "MonsterFriendly",
+      "description": "Do monsters ignore the player while transformed?",
+      "type": "tinyint"
+    }
+  ]
+}

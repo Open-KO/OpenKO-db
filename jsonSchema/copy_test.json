@@ -1,0 +1,14 @@
+{
+  "database": "GAME",
+  "name": "COPY_TEST",
+  "className": "CopyTest",
+  "description": "TODO: Doc",
+  "columns": [
+    {
+      "name": "ITEMSERIAL",
+      "propertyName": "ItemSerial",
+      "description": "Item Serial",
+      "type": "bigint"
+    }
+  ]
+}

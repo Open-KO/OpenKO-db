@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "COUPON_SERIAL_LIST",
+  "className": "CouponSerialList",
+  "description": "Coupon Serial List",
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "int"
+    },
+    {
+      "name": "strSerialNum",
+      "propertyName": "SerialNum",
+      "description": "Serial Number",
+      "type": "varchar",
+      "length": 16,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nItemNum",
+      "propertyName": "ItemNumber",
+      "description": "Item Number",
+      "type": "int"
+    },
+    {
+      "name": "sItemCount",
+      "propertyName": "ItemCount",
+      "description": "Item Count",
+      "type": "smallint"
+    }
+  ]
+}

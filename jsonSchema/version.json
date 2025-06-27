@@ -1,0 +1,49 @@
+{
+  "database": "GAME",
+  "name": "VERSION",
+  "className": "Version",
+  "description": "Version data and patch management",
+  "indexes": [
+    {
+      "name": "PK_VERSION",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sVersion"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "sVersion",
+      "propertyName": "Version",
+      "description": "Game version",
+      "type": "smallint"
+    },
+    {
+      "name": "strFileName",
+      "propertyName": "FileName",
+      "description": "Patch file name",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strCompressName",
+      "propertyName": "CompressName",
+      "description": "User-friendly patch name",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "sHistoryVersion",
+      "propertyName": "HistoryVersion",
+      "description": "Previous patch version",
+      "type": "smallint"
+    }
+  ]
+}

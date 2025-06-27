@@ -1,0 +1,176 @@
+{
+  "database": "GAME",
+  "name": "MAGIC",
+  "className": "Magic",
+  "description": "Contains the configuration for magic and abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "MagicNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "MagicNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "EnName",
+      "propertyName": "EnglishName",
+      "description": "English name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "KrName",
+      "propertyName": "KoreanName",
+      "description": "Korean name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "BeforeAction",
+      "propertyName": "BeforeAction",
+      "description": "Before action check",
+      "type": "tinyint"
+    },
+    {
+      "name": "TargetAction",
+      "propertyName": "TargetAction",
+      "description": "Target action check",
+      "type": "tinyint"
+    },
+    {
+      "name": "SelfEffect",
+      "propertyName": "SelfEffect",
+      "description": "Self effect TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "FlyingEffect",
+      "propertyName": "FlyingEffect",
+      "description": "Does the skill fire a projectile",
+      "type": "tinyint"
+    },
+    {
+      "name": "TargetEffect",
+      "propertyName": "TargetEffect",
+      "description": "Effect identifier to use on the target",
+      "type": "smallint"
+    },
+    {
+      "name": "Moral",
+      "propertyName": "Moral",
+      "description": "Targeting constraints",
+      "type": "tinyint"
+    },
+    {
+      "name": "SkillLevel",
+      "propertyName": "SkillLevel",
+      "description": "Skill points required in the tree to unlock the skill",
+      "type": "smallint"
+    },
+    {
+      "name": "Skill",
+      "propertyName": "Skill",
+      "description": "Associated skill tree",
+      "type": "smallint"
+    },
+    {
+      "name": "Msp",
+      "propertyName": "ManaCost",
+      "description": "Mana cost",
+      "type": "smallint"
+    },
+    {
+      "name": "HP",
+      "propertyName": "HpCost",
+      "description": "Health cost",
+      "type": "smallint"
+    },
+    {
+      "name": "ItemGroup",
+      "propertyName": "ItemGroup",
+      "description": "Item group allows a skill to be constrained to having an item type equipped",
+      "type": "tinyint"
+    },
+    {
+      "name": "UseItem",
+      "propertyName": "UseItem",
+      "description": "Must consume this item from inventory in order to activate ability",
+      "type": "int"
+    },
+    {
+      "name": "CastTime",
+      "propertyName": "CastTime",
+      "description": "Time needed to cast the ability",
+      "type": "tinyint"
+    },
+    {
+      "name": "ReCastTime",
+      "propertyName": "RecastTime",
+      "description": "Cooldown",
+      "type": "tinyint"
+    },
+    {
+      "name": "SuccessRate",
+      "propertyName": "SuccessRate",
+      "description": "Chance the skill will hit target",
+      "type": "tinyint"
+    },
+    {
+      "name": "Type1",
+      "propertyName": "Type1",
+      "description": "Look up effect in MAGIC_TYPEX table",
+      "type": "tinyint"
+    },
+    {
+      "name": "Type2",
+      "propertyName": "Type2",
+      "description": "Look up effect in MAGIC_TYPEX table",
+      "type": "tinyint"
+    },
+    {
+      "name": "Range",
+      "propertyName": "Range",
+      "description": "Maximum range from target",
+      "type": "smallint"
+    },
+    {
+      "name": "Etc",
+      "propertyName": "Etc",
+      "description": "Etc TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "Event",
+      "propertyName": "Event",
+      "description": "Event TODO",
+      "type": "int",
+      "allowNull": true
+    }
+  ]
+}

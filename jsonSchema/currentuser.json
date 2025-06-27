@@ -1,0 +1,50 @@
+{
+  "database": "GAME",
+  "name": "CURRENTUSER",
+  "className": "CurrentUser",
+  "description": "Keeps track of users currently connected to the server",
+  "columns": [
+    {
+      "name": "nServerNo",
+      "propertyName": "ServerNumber",
+      "description": "Server Index",
+      "type": "int"
+    },
+    {
+      "name": "strServerIP",
+      "propertyName": "ServerIP",
+      "description": "Server IP Address",
+      "type": "varchar",
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "User Account Identifier",
+      "type": "varchar",
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strCharID",
+      "propertyName": "CharId",
+      "description": "User Character Name",
+      "type": "varchar",
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strClientIP",
+      "propertyName": "ClientIP",
+      "description": "User IP Address",
+      "type": "varchar",
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

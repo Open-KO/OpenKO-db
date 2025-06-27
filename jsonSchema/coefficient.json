@@ -1,0 +1,110 @@
+{
+  "database": "GAME",
+  "name": "COEFFICIENT",
+  "className": "Coefficient",
+  "description": "Coefficient relationship between a character class, weapon types, and stats",
+  "indexes": [
+    {
+      "name": "PK_COEFFICIENT",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sClass"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "sClass",
+      "propertyName": "ClassId",
+      "description": "ClassIdentifier",
+      "type": "smallint"
+    },
+    {
+      "name": "ShortSword",
+      "propertyName": "ShortSword",
+      "description": "Short Sword Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Sword",
+      "propertyName": "Sword",
+      "description": "Sword Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Axe",
+      "propertyName": "Axe",
+      "description": "Axe Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Club",
+      "propertyName": "Club",
+      "description": "Club Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Spear",
+      "propertyName": "Spear",
+      "description": "Spear Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Pole",
+      "propertyName": "Pole",
+      "description": "Polearm Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Staff",
+      "propertyName": "Staff",
+      "description": "Staff Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Bow",
+      "propertyName": "Bow",
+      "description": "Bow Coefficient",
+      "type": "float",
+      "allowNull": true
+    },
+    {
+      "name": "Hp",
+      "propertyName": "HitPoint",
+      "description": "Hit Point Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Mp",
+      "propertyName": "MagicPower",
+      "description": "Magic Power Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Sp",
+      "propertyName": "Sp",
+      "description": "Sp Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Ac",
+      "propertyName": "Armor",
+      "description": "Armor Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Hitrate",
+      "propertyName": "HitRate",
+      "description": "Hit Rate Coefficient",
+      "type": "float"
+    },
+    {
+      "name": "Evasionrate",
+      "propertyName": "Evasionrate",
+      "description": "Evasion Rate Coefficient",
+      "type": "float"
+    }
+  ]
+}

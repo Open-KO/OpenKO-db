@@ -1,0 +1,74 @@
+{
+  "database": "GAME",
+  "name": "K_NPC_MOVE_ITEM",
+  "className": "NpcMoveItem",
+  "description": "NPC Move Item: TODO",
+  "indexes": [
+    {
+      "name": "PK_K_NPC_MOVE_ITEM",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sCastleIndex"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "sCastleIndex",
+      "propertyName": "CastleIndex",
+      "description": "Castle identifier TODO mostly lines up with k_npc.ssid",
+      "type": "smallint"
+    },
+    {
+      "name": "byChangeItem",
+      "propertyName": "ChangeItem",
+      "description": "Change Item TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sChangeSid",
+      "propertyName": "ChangeId",
+      "description": "Change identifier TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "byMoveItem",
+      "propertyName": "MoveItem",
+      "description": "Move item to do",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMinX",
+      "propertyName": "MoveMinX",
+      "description": "Minimum x-axis movement",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMinY",
+      "propertyName": "MoveMinY",
+      "description": "Minimum y-axis movement",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMaxX",
+      "propertyName": "MoveMaxX",
+      "description": "Maximum x-axis movement",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMaxY",
+      "propertyName": "MoveMaxY",
+      "description": "Maximum y-axis movement",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

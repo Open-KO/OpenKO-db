@@ -1,0 +1,37 @@
+{
+  "database": "GAME",
+  "name": "MAKE_ITEM",
+  "className": "MakeItem",
+  "description": "Make item",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "strItemInfo",
+      "propertyName": "ItemInfo",
+      "description": "Item information",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "iItemCode",
+      "propertyName": "ItemCode",
+      "description": "Item Code",
+      "type": "int"
+    },
+    {
+      "name": "byItemLevel",
+      "propertyName": "ItemLevel",
+      "description": "Item level",
+      "type": "tinyint",
+      "defaultValue": "0"
+    }
+  ]
+}

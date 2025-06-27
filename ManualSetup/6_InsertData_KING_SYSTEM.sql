@@ -1,0 +1,3 @@
+INSERT INTO [KING_SYSTEM] ([byNation], [byType], [sYear], [byMonth], [byDay], [byHour], [byMinute], [byImType], [sImYear], [byImMonth], [byImDay], [byImHour], [byImMinute], [byNoahEvent], [byNoahEvent_Day], [byNoahEvent_Hour], [byNoahEvent_Minute], [sNoahEvent_Duration], [byExpEvent], [byExpEvent_Day], [byExpEvent_Hour], [byExpEvent_Minute], [sExpEvent_Duration], [nTribute], [byTerritoryTariff], [nTerritoryTax], [nNationalTreasury], [strKingName], [strImRequestID]) VALUES
+(1, 7, 2012, 12, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 40700, 40700, NULL, NULL),
+(2, 4, 2012, 12, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, N'test', NULL)

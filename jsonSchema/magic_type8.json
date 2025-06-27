@@ -1,0 +1,91 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE8",
+  "className": "MagicType8",
+  "description": "Type 8 supports warp magic",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE8",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Target",
+      "propertyName": "Target",
+      "description": "Target",
+      "type": "tinyint"
+    },
+    {
+      "name": "Radius",
+      "propertyName": "Radius",
+      "description": "Radius",
+      "type": "smallint"
+    },
+    {
+      "name": "WarpType",
+      "propertyName": "WarpType",
+      "description": "Warp type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Gate",
+          "value": "1",
+          "comment": "Teleport to saved gate"
+        },
+        {
+          "name": "SummonFriendly",
+          "value": "12",
+          "comment": "Summons friendly player(s)"
+        },
+        {
+          "name": "SummonMonster",
+          "value": "21",
+          "comment": "TODO"
+        },
+        {
+          "name": "TeleportToFriendly",
+          "value": "25",
+          "comment": "Teleports to a party member"
+        }
+      ]
+    },
+    {
+      "name": "ExpRecover",
+      "propertyName": "ExpRecover",
+      "description": "Experience recovery",
+      "type": "smallint"
+    }
+  ]
+}

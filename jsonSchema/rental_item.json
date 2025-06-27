@@ -1,0 +1,127 @@
+{
+  "database": "GAME",
+  "name": "RENTAL_ITEM",
+  "className": "RentalItem",
+  "description": "Rental item",
+  "indexes": [
+    {
+      "name": "PK_RENTAL_ITEM",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nRentalIndex"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "nRentalIndex",
+      "propertyName": "RentalIndex",
+      "description": "Rental index",
+      "type": "int"
+    },
+    {
+      "name": "nItemIndex",
+      "propertyName": "ItemIndex",
+      "description": "Item index",
+      "type": "int"
+    },
+    {
+      "name": "sDurability",
+      "propertyName": "Durability",
+      "description": "Durability",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nSerialNumber",
+      "propertyName": "SerialNumber",
+      "description": "Serial number",
+      "type": "bigint"
+    },
+    {
+      "name": "byRegType",
+      "propertyName": "RegType",
+      "description": "Reg type",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byItemType",
+      "propertyName": "ItemType",
+      "description": "Item type",
+      "type": "tinyint"
+    },
+    {
+      "name": "byClass",
+      "propertyName": "Class",
+      "description": "Class",
+      "type": "tinyint"
+    },
+    {
+      "name": "sRentalTime",
+      "propertyName": "RentalTime",
+      "description": "Rental time",
+      "type": "smallint"
+    },
+    {
+      "name": "nRentalMoney",
+      "propertyName": "RentalMoney",
+      "description": "Rental money",
+      "type": "int"
+    },
+    {
+      "name": "strLenderCharID",
+      "propertyName": "LenderCharId",
+      "description": "Lender character identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strLenderAcID",
+      "propertyName": "LenderAccountId",
+      "description": "Lender account identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strBorrowerCharID",
+      "propertyName": "BorrowerCharId",
+      "description": "Borrower character identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strBorrowerAcID",
+      "propertyName": "BorrowerAccountId",
+      "description": "Borrower account identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "timeLender",
+      "propertyName": "LendTime",
+      "description": "Lend time",
+      "type": "smalldatetime",
+      "allowNull": true
+    },
+    {
+      "name": "timeRegister",
+      "propertyName": "RegisterTime",
+      "description": "Register time",
+      "type": "smalldatetime",
+      "defaultValue": "getdate()"
+    }
+  ]
+}

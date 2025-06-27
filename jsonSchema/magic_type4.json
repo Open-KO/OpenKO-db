@@ -1,0 +1,264 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE4",
+  "className": "MagicType4",
+  "description": "Type 4 supports stat modification skills",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE4",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "BuffType",
+      "propertyName": "BuffType",
+      "description": "Buff type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Health",
+          "value": "1",
+          "comment": "Max health buffs"
+        },
+        {
+          "name": "Armor",
+          "value": "2",
+          "comment": "Armor modifiers"
+        },
+        {
+          "name": "Size",
+          "value": "3",
+          "comment": "Affects target size"
+        },
+        {
+          "name": "AttackPower",
+          "value": "4",
+          "comment": "Attack power modifiers"
+        },
+        {
+          "name": "AttackSpeed",
+          "value": "5",
+          "comment": "Attack speed modifiers"
+        },
+        {
+          "name": "MovementSpeed",
+          "value": "6",
+          "comment": "Movement speed modifiers"
+        },
+        {
+          "name": "MovementSpeed",
+          "value": "7",
+          "comment": "Movement speed modifiers"
+        },
+        {
+          "name": "Resistance",
+          "value": "8",
+          "comment": "Resistance modifiers"
+        },
+        {
+          "name": "HitChance",
+          "value": "9",
+          "comment": "Hit Chance modifier"
+        },
+        {
+          "name": "MagicPower",
+          "value": "10",
+          "comment": "Magic power modifier"
+        },
+        {
+          "name": "Experience",
+          "value": "11",
+          "comment": "Experience modifier"
+        }
+      ]
+    },
+    {
+      "name": "Radius",
+      "propertyName": "Radius",
+      "description": "Area of effect circle radius",
+      "type": "tinyint"
+    },
+    {
+      "name": "Duration",
+      "propertyName": "Duration",
+      "description": "Effect duration",
+      "type": "smallint"
+    },
+    {
+      "name": "AttackSpeed",
+      "propertyName": "AttackSpeed",
+      "description": "Attack speed modifier - 100 is normal",
+      "type": "tinyint"
+    },
+    {
+      "name": "Speed",
+      "propertyName": "Speed",
+      "description": "Movement speed modifier - 100 is normal",
+      "type": "tinyint"
+    },
+    {
+      "name": "AC",
+      "propertyName": "Armor",
+      "description": "Armor modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "ACPct",
+      "propertyName": "ArmorPercent",
+      "description": "Armor percent modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "Attack",
+      "propertyName": "AttackPower",
+      "description": "Attack power modifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "MagicAttack",
+      "propertyName": "MagicPower",
+      "description": "Magic power modifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "MaxHP",
+      "propertyName": "MaxHp",
+      "description": "Maximum health modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxHpPct",
+      "propertyName": "MaxHpPercent",
+      "description": "Maximum health percent modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxMP",
+      "propertyName": "MaxMp",
+      "description": "Maximum mana modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxMpPct",
+      "propertyName": "MaxMpPercent",
+      "description": "Maximum mana percent modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "HitRate",
+      "propertyName": "HitRate",
+      "description": "Hit chance multiplier",
+      "type": "tinyint"
+    },
+    {
+      "name": "AvoidRate",
+      "propertyName": "AvoidRate",
+      "description": "Evasion chance multiplier",
+      "type": "smallint"
+    },
+    {
+      "name": "Str",
+      "propertyName": "Strength",
+      "description": "Strength modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "Sta",
+      "propertyName": "Stamina",
+      "description": "Stamina modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "Dex",
+      "propertyName": "Dexterity",
+      "description": "Dexterity modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "Intel",
+      "propertyName": "Intelligence",
+      "description": "Intelligence modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "Cha",
+      "propertyName": "Charisma",
+      "description": "Charisma modifier",
+      "type": "smallint"
+    },
+    {
+      "name": "FireR",
+      "propertyName": "FireResist",
+      "description": "Fire resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "ColdR",
+      "propertyName": "ColdResist",
+      "description": "Cold resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "LightningR",
+      "propertyName": "LightningResist",
+      "description": "Lightning resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "MagicR",
+      "propertyName": "MagicResist",
+      "description": "Magic resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "DiseaseR",
+      "propertyName": "DiseaseResist",
+      "description": "Disease resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "PoisonR",
+      "propertyName": "PoisonResist",
+      "description": "Poison resistance",
+      "type": "tinyint"
+    },
+    {
+      "name": "ExpPct",
+      "propertyName": "ExpPercent",
+      "description": "Experience percentage modifier",
+      "type": "tinyint"
+    }
+  ]
+}

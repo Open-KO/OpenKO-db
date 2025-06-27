@@ -1,0 +1,44 @@
+{
+  "database": "GAME",
+  "name": "MONSTER_CHALLENGE",
+  "className": "MonsterChallenge",
+  "description": "Monster challenge (Forgotten Temple)",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "bStartTime1",
+      "propertyName": "StartTime1",
+      "description": "StartTime 1",
+      "type": "tinyint"
+    },
+    {
+      "name": "bStartTime2",
+      "propertyName": "StartTime2",
+      "description": "StartTime 2",
+      "type": "tinyint"
+    },
+    {
+      "name": "bStartTime3",
+      "propertyName": "StartTime3",
+      "description": "StartTime 3",
+      "type": "tinyint"
+    },
+    {
+      "name": "bLevelMin",
+      "propertyName": "LevelMin",
+      "description": "Minimum level to enter",
+      "type": "tinyint"
+    },
+    {
+      "name": "bLevelMax",
+      "propertyName": "LevelMax",
+      "description": "Maximum level to enter",
+      "type": "tinyint"
+    }
+  ]
+}

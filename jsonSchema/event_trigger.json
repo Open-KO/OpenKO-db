@@ -1,0 +1,32 @@
+{
+  "database": "GAME",
+  "name": "EVENT_TRIGGER",
+  "className": "EventTrigger",
+  "description": "NPC Event Triggers",
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "int"
+    },
+    {
+      "name": "bNpcType",
+      "propertyName": "NpcType",
+      "description": "NPC type",
+      "type": "tinyint"
+    },
+    {
+      "name": "sNpcID",
+      "propertyName": "NpcId",
+      "description": "NPC identifer",
+      "type": "smallint"
+    },
+    {
+      "name": "nTriggerNum",
+      "propertyName": "TriggerNumber",
+      "description": "Trigger number",
+      "type": "int"
+    }
+  ]
+}

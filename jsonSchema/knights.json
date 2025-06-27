@@ -1,0 +1,229 @@
+{
+  "database": "GAME",
+  "name": "KNIGHTS",
+  "className": "Knights",
+  "description": "Knights are the clan/guild system of the game",
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "IDNum"
+      ]
+    },
+    {
+      "name": "IX_KNIGHTS",
+      "type": "NONCLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": false,
+      "columns": [
+        "IDName"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "IDNum",
+      "propertyName": "IdNumber",
+      "description": "Identification number",
+      "type": "smallint"
+    },
+    {
+      "name": "Flag",
+      "propertyName": "Flag",
+      "description": "Flag TODO",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Nation",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "Ranking",
+      "propertyName": "Ranking",
+      "description": "Ranking by sum of members National Points",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "IDName",
+      "propertyName": "Name",
+      "description": "Name of the Knights clan",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Members",
+      "propertyName": "Members",
+      "description": "Member count",
+      "type": "smallint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Chief",
+      "propertyName": "Chief",
+      "description": "Leader character identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "ViceChief_1",
+      "propertyName": "ViceChief1",
+      "description": "Vice chief 1 character identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "ViceChief_2",
+      "propertyName": "ViceChief2",
+      "description": "Vice chief 2 character identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "ViceChief_3",
+      "propertyName": "ViceChief3",
+      "description": "Vice chief 3 character identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strEnemyName",
+      "propertyName": "EnemyName",
+      "description": "Enemy Name TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "byOldWarResult",
+      "propertyName": "OldWarResult",
+      "description": "Old war result",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nWarEnemyID",
+      "propertyName": "WarEnemyId",
+      "description": "War enemy identifier",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nVictory",
+      "propertyName": "Victory",
+      "description": "Victory TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nLose",
+      "propertyName": "Lose",
+      "description": "Lose TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Gold",
+      "propertyName": "Gold",
+      "description": "Gold",
+      "type": "bigint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Domination",
+      "propertyName": "Domination",
+      "description": "Domination TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Points",
+      "propertyName": "Points",
+      "description": "National points",
+      "type": "int",
+      "defaultValue": "0",
+      "allowNull": true
+    },
+    {
+      "name": "CreateTime",
+      "propertyName": "CreateTime",
+      "description": "Create time",
+      "type": "smalldatetime",
+      "defaultValue": "getdate()"
+    },
+    {
+      "name": "sMarkVersion",
+      "propertyName": "MarkVersion",
+      "description": "Mark version",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sMarkLen",
+      "propertyName": "MarkLength",
+      "description": "Mark length",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Mark",
+      "propertyName": "Mark",
+      "description": "Mark image",
+      "type": "image",
+      "allowNull": true
+    },
+    {
+      "name": "Stash",
+      "propertyName": "Stash",
+      "description": "Stash TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "bySiegeFlag",
+      "propertyName": "SiegeFlag",
+      "description": "Siege flag",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sAllianceKnights",
+      "propertyName": "AllianceKnights",
+      "description": "Alliance Knights TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sCape",
+      "propertyName": "Cape",
+      "description": "Cape identifier",
+      "type": "smallint",
+      "defaultValue": "-1"
+    }
+  ]
+}

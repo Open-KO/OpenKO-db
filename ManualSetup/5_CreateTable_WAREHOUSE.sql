@@ -1,0 +1,16 @@
+USE [KN_online]
+GO
+
+CREATE TABLE [WAREHOUSE] (
+	[strAccountID] varchar(21) NOT NULL,
+	[nMoney] int NOT NULL,
+	[dwTime] int NOT NULL,
+	[WarehouseData] varchar(1600),
+	[strSerial] varchar(1600)
+	CONSTRAINT [PK_WAREHOUSE] PRIMARY KEY CLUSTERED ([strAccountID])
+)
+GO
+ALTER TABLE [WAREHOUSE] ADD CONSTRAINT [DF_WAREHOUSE_nMoney] DEFAULT 0 FOR [nMoney]
+GO
+ALTER TABLE [WAREHOUSE] ADD CONSTRAINT [DF_WAREHOUSE_dwTime] DEFAULT 0 FOR [dwTime]
+GO

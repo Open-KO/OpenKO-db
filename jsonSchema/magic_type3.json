@@ -1,0 +1,145 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE3",
+  "className": "MagicType3",
+  "description": "Type 3 supports Area of Effect and Damage over Time effects",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE3",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Radius",
+      "propertyName": "Radius",
+      "description": "Area of effect circle radius",
+      "type": "tinyint"
+    },
+    {
+      "name": "Angle",
+      "propertyName": "Angle",
+      "description": "Angle seems unused/unimplemented TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "DirectType",
+      "propertyName": "DirectType",
+      "description": "Damage calculation type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Unknown0",
+          "value": "0",
+          "comment": "TODO: Used by some 300000+ DoT abilities"
+        },
+        {
+          "name": "FlatHp",
+          "value": "1",
+          "comment": "Flat damage against health"
+        },
+        {
+          "name": "FlatMana",
+          "value": "2",
+          "comment": "Flat damage against mana"
+        },
+        {
+          "name": "FlatDurability",
+          "value": "4",
+          "comment": "Flat damage applied to durability"
+        },
+        {
+          "name": "Unknown5",
+          "value": "5",
+          "comment": "TODO: Used by some 400000+ abilities"
+        },
+        {
+          "name": "AbsorbHp",
+          "value": "8",
+          "comment": "Absorbs health from target"
+        },
+        {
+          "name": "PercentHp",
+          "value": "9",
+          "comment": "Deals damage relative to targets current health"
+        },
+        {
+          "name": "Unknown11",
+          "value": "11",
+          "comment": "TODO: Used by 220011"
+        },
+        {
+          "name": "Unknown12",
+          "value": "12",
+          "comment": "TODO: Used by 490402"
+        },
+        {
+          "name": "Unknown255",
+          "value": "255",
+          "comment": "TODO: Used by 501011"
+        }
+      ]
+    },
+    {
+      "name": "FirstDamage",
+      "propertyName": "FirstDamage",
+      "description": "Damage applied on hit",
+      "type": "smallint"
+    },
+    {
+      "name": "EndDamage",
+      "propertyName": "EndDamage",
+      "description": "Damage taken at end of effect",
+      "type": "smallint"
+    },
+    {
+      "name": "TimeDamage",
+      "propertyName": "TimeDamage",
+      "description": "Total damage dealt over Duration",
+      "type": "smallint"
+    },
+    {
+      "name": "Duration",
+      "propertyName": "Duration",
+      "description": "Duration of damage over time effects",
+      "type": "tinyint"
+    },
+    {
+      "name": "Attribute",
+      "propertyName": "Attribute",
+      "description": "Attribute TODO",
+      "type": "tinyint"
+    }
+  ]
+}

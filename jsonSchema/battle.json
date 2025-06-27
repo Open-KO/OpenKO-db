@@ -1,0 +1,135 @@
+{
+  "database": "GAME",
+  "name": "BATTLE",
+  "className": "Battle",
+  "description": "Battle data for the game server",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "Index",
+      "description": "Server Index",
+      "type": "smallint"
+    },
+    {
+      "name": "byNation",
+      "propertyName": "Nation",
+      "description": "Nation Identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "strUserName",
+      "propertyName": "UserName",
+      "description": "User Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "byElmoArea",
+      "propertyName": "ElmoArea",
+      "description": "Elmorad Area: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byKarusArea",
+      "propertyName": "KarusArea",
+      "description": "Karus Area: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byElmoAdvantage",
+      "propertyName": "ElmoAdvantage",
+      "description": "Elmorad Advantage: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byKarusAdvantage",
+      "propertyName": "KarusAdvantage",
+      "description": "Karus Advantage: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_1",
+      "propertyName": "Area1",
+      "description": "Area1: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_2",
+      "propertyName": "Area2",
+      "description": "Area2: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_3",
+      "propertyName": "Area3",
+      "description": "Area3: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_4",
+      "propertyName": "Area4",
+      "description": "Area4: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_5",
+      "propertyName": "Area5",
+      "description": "Area5: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_6",
+      "propertyName": "Area6",
+      "description": "Area6: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_7",
+      "propertyName": "Area7",
+      "description": "Area7: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_8",
+      "propertyName": "Area8",
+      "description": "Area8: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_9",
+      "propertyName": "Area9",
+      "description": "Area9: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_10",
+      "propertyName": "Area10",
+      "description": "Area10: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byArea_11",
+      "propertyName": "Area11",
+      "description": "Area11: TODO Doc",
+      "type": "tinyint",
+      "defaultValue": "0"
+    }
+  ]
+}

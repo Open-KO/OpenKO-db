@@ -1,0 +1,166 @@
+{
+  "database": "GAME",
+  "name": "ITEM_EXCHANGE",
+  "className": "ItemExchange",
+  "description": "Enables players to be able to give items in exchange for an item from an NPC",
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "int"
+    },
+    {
+      "name": "nNpcNum",
+      "propertyName": "NpcNumber",
+      "description": "NPC identifier (K_NPC.sSid)",
+      "type": "smallint"
+    },
+    {
+      "name": "strNpcName",
+      "propertyName": "NpcName",
+      "description": "NPC Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strNote",
+      "propertyName": "Note",
+      "description": "Note",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "bRandomFlag",
+      "propertyName": "RandomFlag",
+      "description": "Random Flag",
+      "type": "tinyint"
+    },
+    {
+      "name": "nOriginItemNum1",
+      "propertyName": "OriginItemNumber1",
+      "description": "Player item 1 needed for exchange",
+      "type": "int"
+    },
+    {
+      "name": "nOriginItemCount1",
+      "propertyName": "OriginItemCount1",
+      "description": "Number of item 1 needed for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nOriginItemNum2",
+      "propertyName": "OriginItemNumber2",
+      "description": "Player item 2 needed for exchange",
+      "type": "int"
+    },
+    {
+      "name": "nOriginItemCount2",
+      "propertyName": "OriginItemCount2",
+      "description": "Number of item 2 needed for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nOriginItemNum3",
+      "propertyName": "OriginItemNumber3",
+      "description": "Player item 3 needed for exchange",
+      "type": "int"
+    },
+    {
+      "name": "nOriginItemCount3",
+      "propertyName": "OriginItemCount3",
+      "description": "Number of item 3 needed for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nOriginItemNum4",
+      "propertyName": "OriginItemNumber4",
+      "description": "Player item 4 needed for exchange",
+      "type": "int"
+    },
+    {
+      "name": "nOriginItemCount4",
+      "propertyName": "OriginItemCount4",
+      "description": "Number of item 4 needed for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nOriginItemNum5",
+      "propertyName": "OriginItemNumber5",
+      "description": "Player item 5 needed for exchange",
+      "type": "int"
+    },
+    {
+      "name": "nOriginItemCount5",
+      "propertyName": "OriginItemCount5",
+      "description": "Number of item 5 needed for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nExchangeItemNum1",
+      "propertyName": "ExchangeItemNumber1",
+      "description": "NPC item 1 given in exchange",
+      "type": "int"
+    },
+    {
+      "name": "nExchangeItemCount1",
+      "propertyName": "ExchangeItemCount1",
+      "description": "Number of item 1 given for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nExchangeItemNum2",
+      "propertyName": "ExchangeItemNumber2",
+      "description": "NPC item 2 given in exchange",
+      "type": "int"
+    },
+    {
+      "name": "nExchangeItemCount2",
+      "propertyName": "ExchangeItemCount2",
+      "description": "Number of item 2 given for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nExchangeItemNum3",
+      "propertyName": "ExchangeItemNumber3",
+      "description": "NPC item 3 given in exchange",
+      "type": "int"
+    },
+    {
+      "name": "nExchangeItemCount3",
+      "propertyName": "ExchangeItemCount3",
+      "description": "Number of item 3 given for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nExchangeItemNum4",
+      "propertyName": "ExchangeItemNumber4",
+      "description": "NPC item 4 given in exchange",
+      "type": "int"
+    },
+    {
+      "name": "nExchangeItemCount4",
+      "propertyName": "ExchangeItemCount4",
+      "description": "Number of item 4 given for exchange",
+      "type": "smallint"
+    },
+    {
+      "name": "nExchangeItemNum5",
+      "propertyName": "ExchangeItemNumber5",
+      "description": "NPC item 5 given in exchange",
+      "type": "int"
+    },
+    {
+      "name": "nExchangeItemCount5",
+      "propertyName": "ExchangeItemCount5",
+      "description": "Number of item 5 given for exchange",
+      "type": "smallint"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "database": "GAME",
+  "name": "START_POSITION",
+  "className": "StartPosition",
+  "description": "Start position",
+  "indexes": [
+    {
+      "name": "PK_START_POSITION",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "ZoneID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "ZoneID",
+      "propertyName": "ZoneId",
+      "description": "Zone identifier",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusX",
+      "propertyName": "KarusX",
+      "description": "Karus X",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusZ",
+      "propertyName": "KarusZ",
+      "description": "Karus Z",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoradX",
+      "propertyName": "ElmoX",
+      "description": "ElMorad X",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoradZ",
+      "propertyName": "ElmoZ",
+      "description": "ElMorad Z",
+      "type": "smallint"
+    },
+    {
+      "name": "bRangeX",
+      "propertyName": "RangeX",
+      "description": "Maximum distance from spawn X",
+      "type": "tinyint"
+    },
+    {
+      "name": "bRangeZ",
+      "propertyName": "RangeZ",
+      "description": "Maximum distance from spawn Z",
+      "type": "tinyint"
+    },
+    {
+      "name": "sKarusGateX",
+      "propertyName": "KarusGateX",
+      "description": "Karus gate X",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusGateZ",
+      "propertyName": "KarusGateZ",
+      "description": "Karus gate Z",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoGateX",
+      "propertyName": "ElmoGateX",
+      "description": "ElMorad gate X",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoGateZ",
+      "propertyName": "ElmoGateZ",
+      "description": "ElMorad gate Z",
+      "type": "smallint"
+    }
+  ]
+}

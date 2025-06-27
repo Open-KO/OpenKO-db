@@ -1,0 +1,266 @@
+{
+  "database": "GAME",
+  "name": "KNIGHTS_SIEGE_WARFARE",
+  "className": "KnightsSiegeWarfare",
+  "description": "Knights Siege Warfare",
+  "columns": [
+    {
+      "name": "sCastleIndex",
+      "propertyName": "CastleIndex",
+      "description": "Castle index TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sMasterKnights",
+      "propertyName": "MasterKnights",
+      "description": "Master knights TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "bySiegeType",
+      "propertyName": "SiegeType",
+      "description": "Siege type TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byWarDay",
+      "propertyName": "WarDay",
+      "description": "War day",
+      "type": "tinyint"
+    },
+    {
+      "name": "byWarTime",
+      "propertyName": "WarHour",
+      "description": "War hour",
+      "type": "tinyint"
+    },
+    {
+      "name": "byWarMinute",
+      "propertyName": "WarMinute",
+      "description": "War minute",
+      "type": "tinyint"
+    },
+    {
+      "name": "sChallengeList_1",
+      "propertyName": "ChallengeList1",
+      "description": "Challenge list 1",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_2",
+      "propertyName": "ChallengeList2",
+      "description": "Challenge list 2",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_3",
+      "propertyName": "ChallengeList3",
+      "description": "Challenge list 3",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_4",
+      "propertyName": "ChallengeList4",
+      "description": "Challenge list 4",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_5",
+      "propertyName": "ChallengeList5",
+      "description": "Challenge list 5",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_6",
+      "propertyName": "ChallengeList6",
+      "description": "Challenge list 6",
+      "type": "smallint"
+    },
+    {
+      "name": "sChallengeList_7",
+      "propertyName": "ChallengeList7",
+      "description": "Challenge list 7",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sChallengeList_8",
+      "propertyName": "ChallengeList8",
+      "description": "Challenge list 8",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sChallengeList_9",
+      "propertyName": "ChallengeList9",
+      "description": "Challenge list 9",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sChallengeList_10",
+      "propertyName": "ChallengeList10",
+      "description": "Challenge list 10",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byWarRequestDay",
+      "propertyName": "WarRequestDay",
+      "description": "War request day",
+      "type": "tinyint",
+      "defaultValue": "3"
+    },
+    {
+      "name": "byWarRequestTime",
+      "propertyName": "WarRequestTime",
+      "description": "War request time",
+      "type": "tinyint",
+      "defaultValue": "9"
+    },
+    {
+      "name": "byWarRequestMinute",
+      "propertyName": "WarRequestMinute",
+      "description": "War request minute",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byGuerrillaWarDay",
+      "propertyName": "GuerrillaWarDay",
+      "description": "Guerrilla war day",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "byGuerrillaWarTime",
+      "propertyName": "GuerrillaWarTime",
+      "description": "Guerrilla war time",
+      "type": "tinyint",
+      "defaultValue": "20"
+    },
+    {
+      "name": "byGuerrillaWarMinute",
+      "propertyName": "GuerrillaWarMinute",
+      "description": "Guerrilla war minute",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "strChallengeList",
+      "propertyName": "ChallengeList",
+      "description": "Challenge list",
+      "type": "char",
+      "allowNull": true,
+      "length": 50,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "sMoradonTariff",
+      "propertyName": "MoradonTariff",
+      "description": "Moradon tariff",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sDellosTariff",
+      "propertyName": "DelosTariff",
+      "description": "Delos tariff",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nDungeonCharge",
+      "propertyName": "DungeonCharge",
+      "description": "Dungeon charge",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nMoradonTax",
+      "propertyName": "MoradonTax",
+      "description": "Moradon tax",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nDellosTax",
+      "propertyName": "DelosTax",
+      "description": "Delos tax",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_1",
+      "propertyName": "RequestList1",
+      "description": "Request list 1",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_2",
+      "propertyName": "RequestList2",
+      "description": "Request list 2",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_3",
+      "propertyName": "RequestList3",
+      "description": "Request list 3",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_4",
+      "propertyName": "RequestList4",
+      "description": "Request list 4",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_5",
+      "propertyName": "RequestList5",
+      "description": "Request list 5",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_6",
+      "propertyName": "RequestList6",
+      "description": "Request list 6",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_7",
+      "propertyName": "RequestList7",
+      "description": "Request list 7",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_8",
+      "propertyName": "RequestList8",
+      "description": "Request list 8",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_9",
+      "propertyName": "RequestList9",
+      "description": "Request list 9",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sRequestList_10",
+      "propertyName": "RequestList10",
+      "description": "Request list 10",
+      "type": "smallint",
+      "defaultValue": "0"
+    }
+  ]
+}

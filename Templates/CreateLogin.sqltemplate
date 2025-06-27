@@ -1,0 +1,27 @@
+/* Template Args:
+   1. Login Name
+   2. Database Name
+   3. Password
+ */
+USE [%[2]s]
+GO
+CREATE LOGIN [%[1]s] WITH PASSWORD=N'%[3]s', DEFAULT_DATABASE=[%[2]s], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+ALTER LOGIN [%[1]s] ENABLE
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'sysadmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'securityadmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'serveradmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'setupadmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'processadmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'diskadmin'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'dbcreator'
+GO
+EXEC sys.sp_addsrvrolemember @loginame = N'%[1]s', @rolename = N'bulkadmin'
+GO

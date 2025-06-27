@@ -1,0 +1,69 @@
+{
+  "database": "GAME",
+  "name": "MONSTER_CHALLENGE_SUMMON_LIST",
+  "className": "MonsterChallengeSummonList",
+  "description": "Forgotten Temple summon list",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "bLevel",
+      "propertyName": "Level",
+      "description": "Level",
+      "type": "tinyint"
+    },
+    {
+      "name": "bStage",
+      "propertyName": "Stage",
+      "description": "Stage",
+      "type": "tinyint"
+    },
+    {
+      "name": "bStageLevel",
+      "propertyName": "StageLevel",
+      "description": "Stage level",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sTime",
+      "propertyName": "Time",
+      "description": "Time to spawn(?)",
+      "type": "smallint"
+    },
+    {
+      "name": "sSid",
+      "propertyName": "MonsterId",
+      "description": "Monster identifier (K_MONSTER.sSid)",
+      "type": "smallint"
+    },
+    {
+      "name": "sCount",
+      "propertyName": "Count",
+      "description": "Number to spawn",
+      "type": "smallint"
+    },
+    {
+      "name": "sPosX",
+      "propertyName": "PosX",
+      "description": "Monster spawn point center x-coordinate",
+      "type": "smallint"
+    },
+    {
+      "name": "sPosZ",
+      "propertyName": "PosZ",
+      "description": "Monster spawn point center z-coordinate",
+      "type": "smallint"
+    },
+    {
+      "name": "bRange",
+      "propertyName": "Range",
+      "description": "Radius from spawn point center to spawn monsters",
+      "type": "tinyint"
+    }
+  ]
+}

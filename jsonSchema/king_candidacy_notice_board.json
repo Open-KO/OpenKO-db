@@ -1,0 +1,48 @@
+{
+  "database": "GAME",
+  "name": "KING_CANDIDACY_NOTICE_BOARD",
+  "className": "KingCandidacyNoticeBoard",
+  "description": "King candidacy notice board",
+  "indexes": [
+    {
+      "name": "PK_KING_CANDIDACY_NOTICE_BOARD",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strUserID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "strUserID",
+      "propertyName": "CandidateId",
+      "description": "Candidate identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "byNation",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "sNoticeLen",
+      "propertyName": "NoticeLength",
+      "description": "Notice length",
+      "type": "smallint"
+    },
+    {
+      "name": "strNotice",
+      "propertyName": "Notice",
+      "description": "Candidate notice",
+      "type": "varbinary",
+      "length": 1024,
+      "isHexProtect": true
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "database": "GAME",
+  "name": "USER_RENTAL_ITEM",
+  "className": "UserRentalItem",
+  "description": "User rental item",
+  "columns": [
+    {
+      "name": "strUserID",
+      "propertyName": "UserId",
+      "description": "User identifier",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "byRentalType",
+      "propertyName": "RentalType",
+      "description": "Rental type",
+      "type": "tinyint"
+    },
+    {
+      "name": "byRegType",
+      "propertyName": "RegTime",
+      "description": "Reg time",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nRentalIndex",
+      "propertyName": "RentalIndex",
+      "description": "Rental index",
+      "type": "int"
+    },
+    {
+      "name": "nItemIndex",
+      "propertyName": "ItemIndex",
+      "description": "Item index",
+      "type": "int"
+    },
+    {
+      "name": "sDurability",
+      "propertyName": "Durability",
+      "description": "Durability",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nSerialNumber",
+      "propertyName": "SerialNumber",
+      "description": "Serial number",
+      "type": "bigint"
+    },
+    {
+      "name": "nRentalMoney",
+      "propertyName": "RentalMoney",
+      "description": "Rental money",
+      "type": "int"
+    },
+    {
+      "name": "sRentalTime",
+      "propertyName": "RentalTime",
+      "description": "Rental time",
+      "type": "smallint"
+    },
+    {
+      "name": "sDuringTime",
+      "propertyName": "DuringTime",
+      "description": "During time",
+      "type": "smallint"
+    },
+    {
+      "name": "timeRental",
+      "propertyName": "RentalTimestamp",
+      "description": "Rental time",
+      "type": "smalldatetime",
+      "allowNull": true
+    },
+    {
+      "name": "timeRegister",
+      "propertyName": "RegisterTime",
+      "description": "Registration time",
+      "type": "smalldatetime",
+      "defaultValue": "getdate()",
+      "allowNull": true
+    }
+  ]
+}

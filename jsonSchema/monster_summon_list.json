@@ -1,0 +1,43 @@
+{
+  "database": "GAME",
+  "name": "MONSTER_SUMMON_LIST",
+  "className": "MonsterSummonList",
+  "description": "Monster summon list",
+  "columns": [
+    {
+      "name": "sSid",
+      "propertyName": "MonsterId",
+      "description": "Monster identifier (K_MONSTER.sSid)",
+      "type": "smallint"
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 31,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "sLevel",
+      "propertyName": "Level",
+      "description": "Level",
+      "type": "smallint"
+    },
+    {
+      "name": "sProbability",
+      "propertyName": "Probability",
+      "description": "Probability",
+      "type": "smallint"
+    },
+    {
+      "name": "bType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "defaultValue": "0"
+    }
+  ]
+}

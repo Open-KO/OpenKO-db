@@ -1,0 +1,81 @@
+{
+  "database": "GAME",
+  "name": "ZONE_INFO",
+  "className": "ZoneInfo",
+  "description": "Zone (map) information",
+  "indexes": [
+    {
+      "name": "PK_ZONE_INFO",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "ServerNo",
+        "ZoneNo"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "ServerNo",
+      "propertyName": "ServerId",
+      "description": "Server identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "ZoneNo",
+      "propertyName": "ZoneId",
+      "description": "Zone identifier",
+      "type": "smallint"
+    },
+    {
+      "name": "strZoneName",
+      "propertyName": "Name",
+      "description": "Zone name",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "InitX",
+      "propertyName": "InitX",
+      "description": "X-coordinate location for a player loading into the zone",
+      "type": "int"
+    },
+    {
+      "name": "InitZ",
+      "propertyName": "InitZ",
+      "description": "Z-coordinate location for a player loading into the zone",
+      "type": "int"
+    },
+    {
+      "name": "InitY",
+      "propertyName": "InitY",
+      "description": "Y-coordinate location for a player loading into the zone",
+      "type": "int"
+    },
+    {
+      "name": "Type",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint"
+    },
+    {
+      "name": "RoomEvent",
+      "propertyName": "RoomEvent",
+      "description": "Map EventId",
+      "type": "tinyint"
+    },
+    {
+      "name": "bz",
+      "propertyName": "Bz",
+      "description": "Bz TODO - just seems like a description column",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

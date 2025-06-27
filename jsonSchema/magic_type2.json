@@ -1,0 +1,94 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE2",
+  "className": "MagicType2",
+  "description": "Type 2 covers bow abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE2",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "HitType",
+      "propertyName": "HitType",
+      "description": "Projectile type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Normal",
+          "value": "0",
+          "comment": "Fire and forget targeting"
+        },
+        {
+          "name": "Seeking",
+          "value": "0",
+          "comment": "Projectile follows target and always hits (unless blocked by collision)"
+        }
+      ]
+    },
+    {
+      "name": "HitRate",
+      "propertyName": "HitRateMod",
+      "description": "Hit chance modifier - 100 is normal",
+      "type": "smallint"
+    },
+    {
+      "name": "AddDamage",
+      "propertyName": "DamageMod",
+      "description": "Hit damage modifier - 100 is normal",
+      "type": "smallint"
+    },
+    {
+      "name": "AddRange",
+      "propertyName": "RangeMod",
+      "description": "Range modifier - 100 is normal",
+      "type": "smallint"
+    },
+    {
+      "name": "NeedArrow",
+      "propertyName": "NeedArrow",
+      "description": "Number of arrows needed for ability",
+      "type": "tinyint"
+    },
+    {
+      "name": "AddDamagePlus",
+      "propertyName": "AddDamagePlus",
+      "description": "Additional flat damage caused by ability",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

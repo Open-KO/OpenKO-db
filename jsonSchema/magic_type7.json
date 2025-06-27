@@ -1,0 +1,123 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE7",
+  "className": "MagicType7",
+  "description": "Type 7 supports targeting modifications",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE7",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strNote",
+      "propertyName": "Note",
+      "description": "Note",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "byValidGroup",
+      "propertyName": "ValidGroup",
+      "description": "Valid group",
+      "type": "tinyint"
+    },
+    {
+      "name": "byNatoinChange",
+      "propertyName": "NationChange",
+      "description": "Nation change",
+      "type": "tinyint"
+    },
+    {
+      "name": "shMonsterNum",
+      "propertyName": "MonsterNumber",
+      "description": "Monster number",
+      "type": "smallint"
+    },
+    {
+      "name": "byTargetChange",
+      "propertyName": "TargetChange",
+      "description": "Monster target mode change",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Provoke",
+          "value": "0",
+          "comment": "Target will target attacker"
+        },
+        {
+          "name": "Sleep",
+          "value": "1",
+          "comment": "Target gets put to sleep"
+        }
+      ]
+    },
+    {
+      "name": "byStateChange",
+      "propertyName": "StateChange",
+      "description": "State change",
+      "type": "tinyint"
+    },
+    {
+      "name": "byRadius",
+      "propertyName": "Radius",
+      "description": "Area of effect circle radius",
+      "type": "tinyint"
+    },
+    {
+      "name": "shHitrate",
+      "propertyName": "HitRate",
+      "description": "Hit rate",
+      "type": "smallint"
+    },
+    {
+      "name": "shDuration",
+      "propertyName": "Duration",
+      "description": "Duration",
+      "type": "smallint"
+    },
+    {
+      "name": "shDamage",
+      "propertyName": "Damage",
+      "description": "Damage",
+      "type": "smallint"
+    },
+    {
+      "name": "byVisoin",
+      "propertyName": "Vision",
+      "description": "Vision",
+      "type": "tinyint"
+    },
+    {
+      "name": "nNeedItem",
+      "propertyName": "NeedItem",
+      "description": "Needs item",
+      "type": "int"
+    }
+  ]
+}

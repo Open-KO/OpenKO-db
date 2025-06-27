@@ -1,0 +1,116 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE1",
+  "className": "MagicType1",
+  "description": "Type 1 covers melee abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE1",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Type",
+      "propertyName": "Type",
+      "description": "Attack special type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Normal",
+          "value": "0",
+          "comment": "Subject to all normal defence checks"
+        },
+        {
+          "name": "AlwaysHit",
+          "value": "1",
+          "comment": "Ability always hits"
+        },
+        {
+          "name": "IgnoreDefense",
+          "value": "2",
+          "comment": "Ability ignores defense"
+        }
+      ]
+    },
+    {
+      "name": "HitRate",
+      "propertyName": "HitRateMod",
+      "description": "Hit chance modifier - 100 is normal",
+      "type": "smallint"
+    },
+    {
+      "name": "Hit",
+      "propertyName": "DamageMod",
+      "description": "Hit damage modifier - 100 is normal",
+      "type": "smallint"
+    },
+    {
+      "name": "AddDamage",
+      "propertyName": "AddDamage",
+      "description": "Additional flat damage caused by ability",
+      "type": "smallint"
+    },
+    {
+      "name": "Delay",
+      "propertyName": "Delay",
+      "description": "Delay TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ComboType",
+      "propertyName": "ComboType",
+      "description": "Combo type TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ComboCount",
+      "propertyName": "ComboCount",
+      "description": "Combo count TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ComboDamage",
+      "propertyName": "ComboDamage",
+      "description": "Combo damage multiplier",
+      "type": "smallint"
+    },
+    {
+      "name": "Range",
+      "propertyName": "Range",
+      "description": "Maximum distance to target",
+      "type": "smallint"
+    }
+  ]
+}

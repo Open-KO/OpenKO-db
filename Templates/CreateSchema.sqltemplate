@@ -1,0 +1,8 @@
+/* Template Args:
+   1. Schema Name
+   2. Database Name
+ */
+USE [%[2]s]
+GO
+CREATE SCHEMA [%[1]s]
+GO

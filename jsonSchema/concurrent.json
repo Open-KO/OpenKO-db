@@ -1,0 +1,56 @@
+{
+  "database": "GAME",
+  "name": "CONCURRENT",
+  "className": "Concurrent",
+  "description": "Keeps track of concurrent user counts",
+  "indexes": [
+    {
+      "name": "PK_CONCURRENT",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "serverid"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "serverid",
+      "propertyName": "ServerId",
+      "description": "Server Identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "zone1_count",
+      "propertyName": "Zone1Count",
+      "description": "Zone 1 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "zone2_count",
+      "propertyName": "Zone2Count",
+      "description": "Zone 2 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "zone3_count",
+      "propertyName": "Zone3Count",
+      "description": "Zone 3 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "bz",
+      "propertyName": "Bz",
+      "description": "Bz: TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

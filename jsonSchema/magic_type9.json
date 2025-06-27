@@ -1,0 +1,111 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE9",
+  "className": "MagicType9",
+  "description": "Type 9 supports stealth and detection abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE9",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic number identifier",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "ValidGroup",
+      "propertyName": "ValidGroup",
+      "description": "Valid group",
+      "type": "tinyint"
+    },
+    {
+      "name": "NationChange",
+      "propertyName": "NationChange",
+      "description": "Nation change",
+      "type": "tinyint"
+    },
+    {
+      "name": "MonsterNum",
+      "propertyName": "MonsterNumber",
+      "description": "Monster number",
+      "type": "smallint"
+    },
+    {
+      "name": "TargetChange",
+      "propertyName": "TargetChange",
+      "description": "Target change",
+      "type": "tinyint"
+    },
+    {
+      "name": "StateChange",
+      "propertyName": "StateChange",
+      "description": "State change",
+      "type": "tinyint"
+    },
+    {
+      "name": "Radius",
+      "propertyName": "Radius",
+      "description": "Radius",
+      "type": "smallint"
+    },
+    {
+      "name": "Hitrate",
+      "propertyName": "HitRate",
+      "description": "Hit rate",
+      "type": "smallint"
+    },
+    {
+      "name": "Duration",
+      "propertyName": "Duration",
+      "description": "Duration",
+      "type": "smallint"
+    },
+    {
+      "name": "AddDamage",
+      "propertyName": "AddDamage",
+      "description": "AddDamage",
+      "type": "smallint"
+    },
+    {
+      "name": "Vision",
+      "propertyName": "Vision",
+      "description": "Vision",
+      "type": "smallint"
+    },
+    {
+      "name": "NeedItem",
+      "propertyName": "NeedItem",
+      "description": "Needs item",
+      "type": "int"
+    }
+  ]
+}

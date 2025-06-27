@@ -1,0 +1,2 @@
+INSERT INTO [KNIGHTS] ([IDNum], [Flag], [Nation], [Ranking], [IDName], [Members], [Chief], [ViceChief_1], [ViceChief_2], [ViceChief_3], [strEnemyName], [byOldWarResult], [nWarEnemyID], [nVictory], [nLose], [Gold], [Domination], [Points], [CreateTime], [sMarkVersion], [sMarkLen], [Mark], [Stash], [bySiegeFlag], [sAllianceKnights], [sCape]) VALUES
+(1, 2, 2, 1, N'test', 1, N'test', NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 50000000, CAST(N'2012-11-08T07:10:00' AS DateTime), 0, 0, NULL, CONVERT(varchar(1600), NULL), 0, 0, 1)

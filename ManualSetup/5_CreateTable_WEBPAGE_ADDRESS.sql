@@ -1,0 +1,9 @@
+USE [KN_online]
+GO
+
+CREATE TABLE [WEBPAGE_ADDRESS] (
+	[nIndex] int NOT NULL,
+	[strWebPageAddress] varchar(100)
+	CONSTRAINT [PK_WEBPAGE_ADDRESS] PRIMARY KEY CLUSTERED ([nIndex])
+)
+GO

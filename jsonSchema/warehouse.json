@@ -1,0 +1,64 @@
+{
+  "database": "GAME",
+  "name": "WAREHOUSE",
+  "className": "Warehouse",
+  "description": "The warehouse system is referred to as the Inn in-game.  It is account-level storage for a user",
+  "indexes": [
+    {
+      "name": "PK_WAREHOUSE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strAccountID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nMoney",
+      "propertyName": "Money",
+      "description": "Money stored in the warehouse",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "dwTime",
+      "propertyName": "DwTime",
+      "description": "DwTime TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "WarehouseData",
+      "propertyName": "ItemData",
+      "description": "Data on items stored in the warehouse",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strSerial",
+      "propertyName": "Serial",
+      "description": "Serial TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

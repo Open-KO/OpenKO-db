@@ -1,0 +1,90 @@
+{
+  "database": "GAME",
+  "name": "MAGIC_TYPE5",
+  "className": "MagicType5",
+  "description": "Type 5 supports recovery skills",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE5",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MagicNumber",
+      "description": "Magic number identifier",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Description",
+      "propertyName": "Description",
+      "description": "Description",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Type",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "CureDisease",
+          "value": "1",
+          "comment": "Removes diseases"
+        },
+        {
+          "name": "CureCurse",
+          "value": "2",
+          "comment": "Remove curses"
+        },
+        {
+          "name": "Resurrection",
+          "value": "3",
+          "comment": "Ability ignores defense"
+        },
+        {
+          "name": "Resurrection4",
+          "value": "4",
+          "comment": "Not sure how it differs from 3 other than it being triggered from an item"
+        },
+        {
+          "name": "Unknown5",
+          "value": "5",
+          "comment": "TODO: 300133 only record using it"
+        }
+      ]
+    },
+    {
+      "name": "ExpRecover",
+      "propertyName": "ExpRecover",
+      "description": "Percent of experience loss recovered",
+      "type": "tinyint"
+    },
+    {
+      "name": "NeedStone",
+      "propertyName": "NeedStone",
+      "description": "Resurrection stones required",
+      "type": "smallint"
+    }
+  ]
+}

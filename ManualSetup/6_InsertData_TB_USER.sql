@@ -1,0 +1,15 @@
+INSERT INTO [TB_USER] ([strAccountID], [strPasswd], [strSocNo], [strEmail], [strAuthority], [PremiumExpire]) VALUES
+(N'BitShift', N'test', N'', N'', 1, CAST(N'2016-05-26T21:48:24.15' AS DateTime)),
+(N'kenner', N'xxx', N'', N'', 1, CAST(N'2025-06-28T22:20:17.193' AS DateTime)),
+(N'testing', N'testing', N'', N'', 1, CAST(N'2016-03-16T19:57:23.977' AS DateTime)),
+(N'testing1', N'testing1', N'', N'', 1, CAST(N'2016-07-03T19:37:56.92' AS DateTime)),
+(N'testing10', N'testing10', N'', N'', 1, CAST(N'2016-07-03T19:38:57.543' AS DateTime)),
+(N'testing2', N'testing2', N'', N'', 1, CAST(N'2016-03-31T14:46:19.23' AS DateTime)),
+(N'testing3', N'testing3', N'', N'', 1, CAST(N'2016-07-03T19:38:11.263' AS DateTime)),
+(N'testing4', N'testing4', N'', N'', 1, CAST(N'2016-07-03T19:38:18.013' AS DateTime)),
+(N'testing5', N'testing5', N'', N'', 1, CAST(N'2016-07-03T19:38:27.56' AS DateTime)),
+(N'testing6', N'testing6', N'', N'', 1, CAST(N'2016-07-03T19:38:33.903' AS DateTime)),
+(N'testing7', N'testing7', N'', N'', 1, CAST(N'2016-07-03T19:38:40.09' AS DateTime)),
+(N'testing8', N'testing8', N'', N'', 1, CAST(N'2016-07-03T19:38:45.793' AS DateTime)),
+(N'testing9', N'testing9', N'', N'', 1, CAST(N'2016-07-03T19:38:52.043' AS DateTime)),
+(N'twostars', N'test', N'', N'', 1, CAST(N'2012-11-11T06:59:06.643' AS DateTime))

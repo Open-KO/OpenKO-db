@@ -1,0 +1,194 @@
+{
+  "database": "GAME",
+  "name": "MAKE_ITEM_GROUP",
+  "className": "MakeItemGroup",
+  "description": "Make item group",
+  "columns": [
+    {
+      "name": "iItemGroupNum",
+      "propertyName": "ItemGroupNumber",
+      "description": "Item group number",
+      "type": "int"
+    },
+    {
+      "name": "iItem_1",
+      "propertyName": "Item1",
+      "description": "Item 1",
+      "type": "int"
+    },
+    {
+      "name": "iItem_2",
+      "propertyName": "Item2",
+      "description": "Item 2",
+      "type": "int"
+    },
+    {
+      "name": "iItem_3",
+      "propertyName": "Item3",
+      "description": "Item 3",
+      "type": "int"
+    },
+    {
+      "name": "iItem_4",
+      "propertyName": "Item4",
+      "description": "Item 4",
+      "type": "int"
+    },
+    {
+      "name": "iItem_5",
+      "propertyName": "Item5",
+      "description": "Item 5",
+      "type": "int"
+    },
+    {
+      "name": "iItem_6",
+      "propertyName": "Item6",
+      "description": "Item 6",
+      "type": "int"
+    },
+    {
+      "name": "iItem_7",
+      "propertyName": "Item7",
+      "description": "Item 7",
+      "type": "int"
+    },
+    {
+      "name": "iItem_8",
+      "propertyName": "Item8",
+      "description": "Item 8",
+      "type": "int"
+    },
+    {
+      "name": "iItem_9",
+      "propertyName": "Item9",
+      "description": "Item 9",
+      "type": "int"
+    },
+    {
+      "name": "iItem_10",
+      "propertyName": "Item10",
+      "description": "Item10",
+      "type": "int"
+    },
+    {
+      "name": "iItem_11",
+      "propertyName": "Item11",
+      "description": "Item 11",
+      "type": "int"
+    },
+    {
+      "name": "iItem_12",
+      "propertyName": "Item12",
+      "description": "Item 12",
+      "type": "int"
+    },
+    {
+      "name": "iItem_13",
+      "propertyName": "Item13",
+      "description": "Item 13",
+      "type": "int"
+    },
+    {
+      "name": "iItem_14",
+      "propertyName": "Item14",
+      "description": "Item 14",
+      "type": "int"
+    },
+    {
+      "name": "iItem_15",
+      "propertyName": "Item15",
+      "description": "Item 15",
+      "type": "int"
+    },
+    {
+      "name": "iItem_16",
+      "propertyName": "Item16",
+      "description": "Item 16",
+      "type": "int"
+    },
+    {
+      "name": "iItem_17",
+      "propertyName": "Item17",
+      "description": "Item 17",
+      "type": "int"
+    },
+    {
+      "name": "iItem_18",
+      "propertyName": "Item18",
+      "description": "Item 18",
+      "type": "int"
+    },
+    {
+      "name": "iItem_19",
+      "propertyName": "Item19",
+      "description": "Item 19",
+      "type": "int"
+    },
+    {
+      "name": "iItem_20",
+      "propertyName": "Item20",
+      "description": "Item 20",
+      "type": "int"
+    },
+    {
+      "name": "iItem_21",
+      "propertyName": "Item21",
+      "description": "Item 21",
+      "type": "int"
+    },
+    {
+      "name": "iItem_22",
+      "propertyName": "Item22",
+      "description": "Item 22",
+      "type": "int"
+    },
+    {
+      "name": "iItem_23",
+      "propertyName": "Item23",
+      "description": "Item 23",
+      "type": "int"
+    },
+    {
+      "name": "iItem_24",
+      "propertyName": "Item24",
+      "description": "Item 24",
+      "type": "int"
+    },
+    {
+      "name": "iItem_25",
+      "propertyName": "Item25",
+      "description": "Item 25",
+      "type": "int"
+    },
+    {
+      "name": "iItem_26",
+      "propertyName": "Item26",
+      "description": "Item 26",
+      "type": "int"
+    },
+    {
+      "name": "iItem_27",
+      "propertyName": "Item27",
+      "description": "Item 27",
+      "type": "int"
+    },
+    {
+      "name": "iItem_28",
+      "propertyName": "Item28",
+      "description": "Item 28",
+      "type": "int"
+    },
+    {
+      "name": "iItem_29",
+      "propertyName": "Item29",
+      "description": "Item 29",
+      "type": "int"
+    },
+    {
+      "name": "iItem_30",
+      "propertyName": "Item30",
+      "description": "Item 30",
+      "type": "int"
+    }
+  ]
+}

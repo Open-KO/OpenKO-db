@@ -1,0 +1,67 @@
+USE [KN_online]
+GO
+
+CREATE TABLE [KNIGHTS] (
+	[IDNum] smallint NOT NULL,
+	[Flag] tinyint NOT NULL,
+	[Nation] tinyint NOT NULL,
+	[Ranking] tinyint NOT NULL,
+	[IDName] varchar(21) NOT NULL,
+	[Members] smallint NOT NULL,
+	[Chief] varchar(21) NOT NULL,
+	[ViceChief_1] varchar(21),
+	[ViceChief_2] varchar(21),
+	[ViceChief_3] varchar(21),
+	[strEnemyName] varchar(21),
+	[byOldWarResult] tinyint NOT NULL,
+	[nWarEnemyID] int NOT NULL,
+	[nVictory] int NOT NULL,
+	[nLose] int NOT NULL,
+	[Gold] bigint NOT NULL,
+	[Domination] smallint NOT NULL,
+	[Points] int,
+	[CreateTime] smalldatetime NOT NULL,
+	[sMarkVersion] smallint NOT NULL,
+	[sMarkLen] smallint NOT NULL,
+	[Mark] image,
+	[Stash] varchar(1600),
+	[bySiegeFlag] tinyint NOT NULL,
+	[sAllianceKnights] smallint NOT NULL,
+	[sCape] smallint NOT NULL
+	CONSTRAINT [PK_KNIGHTS] PRIMARY KEY CLUSTERED ([IDNum])
+)
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [IX_KNIGHTS] ON [KNIGHTS] ([IDName])
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Flag] DEFAULT 1 FOR [Flag]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Ranking] DEFAULT 0 FOR [Ranking]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Members] DEFAULT 1 FOR [Members]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_byOldWarResult] DEFAULT 0 FOR [byOldWarResult]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_nWarEnemyID] DEFAULT 0 FOR [nWarEnemyID]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_nVictory] DEFAULT 0 FOR [nVictory]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_nLose] DEFAULT 0 FOR [nLose]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Gold] DEFAULT 0 FOR [Gold]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Domination] DEFAULT 0 FOR [Domination]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_Points] DEFAULT 0 FOR [Points]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_CreateTime] DEFAULT getdate() FOR [CreateTime]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_sMarkVersion] DEFAULT 0 FOR [sMarkVersion]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_sMarkLen] DEFAULT 0 FOR [sMarkLen]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_bySiegeFlag] DEFAULT 0 FOR [bySiegeFlag]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_sAllianceKnights] DEFAULT 0 FOR [sAllianceKnights]
+GO
+ALTER TABLE [KNIGHTS] ADD CONSTRAINT [DF_KNIGHTS_sCape] DEFAULT -1 FOR [sCape]
+GO

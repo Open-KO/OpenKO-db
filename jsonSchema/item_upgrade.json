@@ -1,0 +1,135 @@
+{
+  "database": "GAME",
+  "name": "ITEM_UPGRADE",
+  "className": "ItemUpgrade",
+  "description": "Item upgrade configuration",
+  "indexes": [
+    {
+      "name": "PK_ITEM_UPGRADE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "int"
+    },
+    {
+      "name": "nNPCNum",
+      "propertyName": "NpcNumber",
+      "description": "NPC Identifier (K_NPC.sSid)",
+      "type": "smallint"
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strNote",
+      "propertyName": "Note",
+      "description": "Note",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nOriginType",
+      "propertyName": "OriginType",
+      "description": "Origin Type",
+      "type": "smallint"
+    },
+    {
+      "name": "nOriginItem",
+      "propertyName": "OriginItem",
+      "description": "Origin Item",
+      "type": "smallint"
+    },
+    {
+      "name": "nReqItem1",
+      "propertyName": "RequireItem1",
+      "description": "Required item 1 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem2",
+      "propertyName": "RequireItem2",
+      "description": "Required item 2 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem3",
+      "propertyName": "RequireItem3",
+      "description": "Required item 3 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem4",
+      "propertyName": "RequireItem4",
+      "description": "Required item 4 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem5",
+      "propertyName": "RequireItem5",
+      "description": "Required item 5 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem6",
+      "propertyName": "RequireItem6",
+      "description": "Required item 6 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem7",
+      "propertyName": "RequireItem7",
+      "description": "Required item 7 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqItem8",
+      "propertyName": "RequireItem8",
+      "description": "Required item 8 identifier",
+      "type": "int"
+    },
+    {
+      "name": "nReqNoah",
+      "propertyName": "RequireCoin",
+      "description": "Coins required to upgrade",
+      "type": "int"
+    },
+    {
+      "name": "bRateType",
+      "propertyName": "RateType",
+      "description": "Rate type",
+      "type": "tinyint"
+    },
+    {
+      "name": "nGenRate",
+      "propertyName": "GenRate",
+      "description": "Upgrade success rate",
+      "type": "smallint"
+    },
+    {
+      "name": "nGiveItem",
+      "propertyName": "GiveItem",
+      "description": "Item acquired on successful upgrade",
+      "type": "smallint"
+    }
+  ]
+}

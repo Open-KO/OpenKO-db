@@ -1,0 +1,477 @@
+{
+  "database": "GAME",
+  "name": "USERDATA",
+  "className": "UserData",
+  "description": "User data contains saved character information",
+  "indexes": [
+    {
+      "name": "PK_USERDATA",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strUserId"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "strUserId",
+      "propertyName": "UserId",
+      "description": "User identifier",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "Nation",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Race",
+      "propertyName": "Race",
+      "description": "Racial subtype",
+      "type": "tinyint",
+      "defaultValue": "1",
+      "enums": [
+        {
+          "name": "AechTaurek",
+          "value": "1",
+          "comment": "Karus warrior"
+        },
+        {
+          "name": "Tuarek",
+          "value": "2",
+          "comment": "Karus male"
+        },
+        {
+          "name": "WrinkleTuarek",
+          "value": "3",
+          "comment": "Karus mage"
+        },
+        {
+          "name": "PuriTuarek",
+          "value": "4",
+          "comment": "Karus female"
+        },
+        {
+          "name": "Barbarian",
+          "value": "11",
+          "comment": "ElMorad warrior"
+        },
+        {
+          "name": "ElMoradMale",
+          "value": "12",
+          "comment": "ElMorad male"
+        },
+        {
+          "name": "ElMoradFemale",
+          "value": "13",
+          "comment": "ElMorad female"
+        }
+      ]
+    },
+    {
+      "name": "Class",
+      "propertyName": "Class",
+      "description": "Player job class",
+      "type": "smallint",
+      "defaultValue": "0",
+      "enums": [
+        {
+          "name": "KarusWarrior",
+          "value": "101",
+          "comment": "Karus warrior pre-job change"
+        },
+        {
+          "name": "KarusRogue",
+          "value": "102",
+          "comment": "Karus rogue pre-job change"
+        },
+        {
+          "name": "KarusWizard",
+          "value": "103",
+          "comment": "Karus wizard pre-job change"
+        },
+        {
+          "name": "KarusPriest",
+          "value": "104",
+          "comment": "Karus priest pre-job change"
+        },
+        {
+          "name": "Berserker",
+          "value": "105",
+          "comment": "Karus warrior"
+        },
+        {
+          "name": "Guardian",
+          "value": "106",
+          "comment": "Karus master warrior"
+        },
+        {
+          "name": "Hunter",
+          "value": "107",
+          "comment": "Karus rogue"
+        },
+        {
+          "name": "Penetrator",
+          "value": "108",
+          "comment": "Karus master rogue"
+        },
+        {
+          "name": "Sorcerer",
+          "value": "109",
+          "comment": "Karus wizard"
+        },
+        {
+          "name": "Necromancer",
+          "value": "110",
+          "comment": "Karus master wizard"
+        },
+        {
+          "name": "Shaman",
+          "value": "111",
+          "comment": "Karus priest"
+        },
+        {
+          "name": "DarkPriest",
+          "value": "112",
+          "comment": "Karus master priest"
+        },
+        {
+          "name": "ElmoWarrior",
+          "value": "201",
+          "comment": "ElMorad warrior pre-job change"
+        },
+        {
+          "name": "ElmoRogue",
+          "value": "202",
+          "comment": "ElMorad rogue pre-job change"
+        },
+        {
+          "name": "ElmoWizard",
+          "value": "203",
+          "comment": "ElMorad wizard pre-job change"
+        },
+        {
+          "name": "ElmoPriest",
+          "value": "204",
+          "comment": "ElMorad priest pre-job change"
+        },
+        {
+          "name": "Blade",
+          "value": "205",
+          "comment": "ElMorad warrior"
+        },
+        {
+          "name": "Protector",
+          "value": "206",
+          "comment": "ElMorad master warrior"
+        },
+        {
+          "name": "Ranger",
+          "value": "207",
+          "comment": "ElMorad rogue"
+        },
+        {
+          "name": "Assassin",
+          "value": "208",
+          "comment": "ElMorad master rogue"
+        },
+        {
+          "name": "Mage",
+          "value": "209",
+          "comment": "ElMorad wizard"
+        },
+        {
+          "name": "Enchanter",
+          "value": "210",
+          "comment": "ElMorad master wizard"
+        },
+        {
+          "name": "Cleric",
+          "value": "211",
+          "comment": "ElMorad priest"
+        },
+        {
+          "name": "Druid",
+          "value": "212",
+          "comment": "ElMorad master priest"
+        }
+      ]
+    },
+    {
+      "name": "HairColor",
+      "propertyName": "HairColor",
+      "description": "Hair color",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Rank",
+      "propertyName": "Rank",
+      "description": "User ranking",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Title",
+      "propertyName": "Title",
+      "description": "Title",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Level",
+      "propertyName": "Level",
+      "description": "Level",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Exp",
+      "propertyName": "Exp",
+      "description": "Experience",
+      "type": "int",
+      "defaultValue": "5"
+    },
+    {
+      "name": "Loyalty",
+      "propertyName": "Loyalty",
+      "description": "National points",
+      "type": "int",
+      "defaultValue": "500"
+    },
+    {
+      "name": "Face",
+      "propertyName": "Face",
+      "description": "Face",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "City",
+      "propertyName": "City",
+      "description": "City",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Knights",
+      "propertyName": "KnightsId",
+      "description": "Knights identifier (guild/clan)",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Fame",
+      "propertyName": "Fame",
+      "description": "Fame",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Hp",
+      "propertyName": "Hp",
+      "description": "Health",
+      "type": "smallint",
+      "defaultValue": "100"
+    },
+    {
+      "name": "Mp",
+      "propertyName": "Mp",
+      "description": "Mana",
+      "type": "smallint",
+      "defaultValue": "100"
+    },
+    {
+      "name": "Sp",
+      "propertyName": "Sp",
+      "description": "Sp TODO",
+      "type": "smallint",
+      "defaultValue": "100"
+    },
+    {
+      "name": "Strong",
+      "propertyName": "Strength",
+      "description": "Strength",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Sta",
+      "propertyName": "Stamina",
+      "description": "Stamina",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Dex",
+      "propertyName": "Dexterity",
+      "description": "Dexterity",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Intel",
+      "propertyName": "Intelligence",
+      "description": "Intelligence",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Cha",
+      "propertyName": "Charisma",
+      "description": "Charisma",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Authority",
+      "propertyName": "Authority",
+      "description": "Authorization level",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Points",
+      "propertyName": "StatPoints",
+      "description": "Unspent stat points",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Gold",
+      "propertyName": "Gold",
+      "description": "Gold",
+      "type": "int",
+      "defaultValue": "50000"
+    },
+    {
+      "name": "Zone",
+      "propertyName": "Zone",
+      "description": "Current zone",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Bind",
+      "propertyName": "Bind",
+      "description": "Bind",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "PX",
+      "propertyName": "PosX",
+      "description": "X-axis position coordinate",
+      "type": "int",
+      "defaultValue": "268100"
+    },
+    {
+      "name": "PZ",
+      "propertyName": "PosZ",
+      "description": "Z-axis position coordinate",
+      "type": "int",
+      "defaultValue": "131000"
+    },
+    {
+      "name": "PY",
+      "propertyName": "PosY",
+      "description": "Y-axis position coordinate",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "dwTime",
+      "propertyName": "DwTime",
+      "description": "DwTime TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "strSkill",
+      "propertyName": "SkillData",
+      "description": "Skill data",
+      "type": "varchar",
+      "defaultValue": "0x00",
+      "allowNull": true,
+      "length": 10,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strItem",
+      "propertyName": "ItemData",
+      "description": "Character inventory",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 400,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strSerial",
+      "propertyName": "Serial",
+      "description": "Serial TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 400,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "sQuestCount",
+      "propertyName": "QuestCount",
+      "description": "Completed quest count",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "strQuest",
+      "propertyName": "QuestData",
+      "description": "Quest data",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 400,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "MannerPoint",
+      "propertyName": "MannerPoint",
+      "description": "Manner points are awarded when a higher level character helps a Beginner Knight level up",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "LoyaltyMonthly",
+      "propertyName": "LoyaltyMonthly",
+      "description": "Monthly national points",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "CreateTime",
+      "propertyName": "CreateTime",
+      "description": "Creation time",
+      "type": "smalldatetime",
+      "defaultValue": "getdate()"
+    },
+    {
+      "name": "UpdateTime",
+      "propertyName": "UpdateTime",
+      "description": "Update time",
+      "type": "smalldatetime",
+      "allowNull": true
+    }
+  ]
+}

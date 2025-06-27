@@ -1,0 +1,11 @@
+/* Template Args:
+   1. User Name
+   2. Default Schema Name
+   3. Database name
+ */
+USE [%[3]s]
+GO
+CREATE USER [%[1]s] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[%[2]s]
+GO
+sys.sp_addrolemember @rolename = N'db_owner', @membername = N'%[1]s'
+GO

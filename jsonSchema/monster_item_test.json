@@ -1,0 +1,84 @@
+{
+  "database": "GAME",
+  "name": "MONSTER_ITEM_TEST",
+  "className": "MonsterItemTest",
+  "description": "Monster item test",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "iItem01",
+      "propertyName": "Item1",
+      "description": "Item 1",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent01",
+      "propertyName": "Percent1",
+      "description": "Percent 1",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem02",
+      "propertyName": "Item2",
+      "description": "Item 2",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent02",
+      "propertyName": "Percent2",
+      "description": "Percent 2",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem03",
+      "propertyName": "Item3",
+      "description": "Item 3",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent03",
+      "propertyName": "Percent3",
+      "description": "Percent 3",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem04",
+      "propertyName": "Item4",
+      "description": "Item 4",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent04",
+      "propertyName": "Percent4",
+      "description": "Percent 4",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem05",
+      "propertyName": "Item5",
+      "description": "Item 5",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent05",
+      "propertyName": "Percent5",
+      "description": "Percent 5",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "database": "GAME",
+  "name": "MAKE_ITEM_GRADECODE",
+  "className": "MakeItemGradeCode",
+  "description": "Make item grade code",
+  "columns": [
+    {
+      "name": "byItemIndex",
+      "propertyName": "ItemIndex",
+      "description": "Item index",
+      "type": "tinyint"
+    },
+    {
+      "name": "byGrade_1",
+      "propertyName": "Grade1",
+      "description": "Grade 1",
+      "type": "smallint"
+    },
+    {
+      "name": "byGrade_2",
+      "propertyName": "Grade2",
+      "description": "Grade 2",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_3",
+      "propertyName": "Grade3",
+      "description": "Grade 3",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_4",
+      "propertyName": "Grade4",
+      "description": "Grade 4",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_5",
+      "propertyName": "Grade5",
+      "description": "Grade 5",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_6",
+      "propertyName": "Grade6",
+      "description": "Grade 6",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_7",
+      "propertyName": "Grade7",
+      "description": "Grade 7",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_8",
+      "propertyName": "Grade8",
+      "description": "Grade 8",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byGrade_9",
+      "propertyName": "Grade9",
+      "description": "Grade 9",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

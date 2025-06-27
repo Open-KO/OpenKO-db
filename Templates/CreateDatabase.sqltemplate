@@ -1,0 +1,8 @@
+/* Template Args:
+   1. Database Name
+ */
+USE [master]
+GO
+
+CREATE DATABASE [%[1]s]
+GO

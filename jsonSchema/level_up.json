@@ -1,0 +1,31 @@
+{
+  "database": "GAME",
+  "name": "LEVEL_UP",
+  "className": "LevelUp",
+  "description": "Level experience requirements",
+  "indexes": [
+    {
+      "name": "PK_LEVEL_UP",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "level"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "level",
+      "propertyName": "Level",
+      "description": "Level",
+      "type": "tinyint"
+    },
+    {
+      "name": "Exp",
+      "propertyName": "RequiredExp",
+      "description": "Required experience to advance to the next level",
+      "type": "int"
+    }
+  ]
+}

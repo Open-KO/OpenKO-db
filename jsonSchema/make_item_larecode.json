@@ -1,0 +1,42 @@
+{
+  "database": "GAME",
+  "name": "MAKE_ITEM_LARECODE",
+  "className": "MakeItemRareCode",
+  "description": "Make item rarity codes",
+  "columns": [
+    {
+      "name": "byLevelGrade",
+      "propertyName": "LevelGrade",
+      "description": "Level grade",
+      "type": "tinyint"
+    },
+    {
+      "name": "sUpgradeItem",
+      "propertyName": "UpgradeItem",
+      "description": "Upgrade item",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sLareItem",
+      "propertyName": "RareItem",
+      "description": "Rare item",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sMagicItem",
+      "propertyName": "MagicItem",
+      "description": "Magic item",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sGereralItem",
+      "propertyName": "GeneralItem",
+      "description": "General item",
+      "type": "smallint",
+      "defaultValue": "0"
+    }
+  ]
+}

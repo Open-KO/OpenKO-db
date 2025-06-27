@@ -1,0 +1,54 @@
+{
+  "database": "GAME",
+  "name": "HERO_USER",
+  "className": "HeroUser",
+  "description": "TODO Doc",
+  "columns": [
+    {
+      "name": "shIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "strUserID",
+      "propertyName": "UserId",
+      "description": "User identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strNation",
+      "propertyName": "Nation",
+      "description": "Nation text",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strClass",
+      "propertyName": "ClassName",
+      "description": "Class name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 30,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "strAchievement",
+      "propertyName": "Achievement",
+      "description": "Achievement text",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

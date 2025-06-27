@@ -1,0 +1,148 @@
+{
+  "database": "GAME",
+  "name": "USER_SAVED_MAGIC",
+  "className": "UserSavedMagic",
+  "description": "User saved magic",
+  "indexes": [
+    {
+      "name": "PK_USER_SAVED_MAGIC",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strCharID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "strCharID",
+      "propertyName": "CharId",
+      "description": "Character identifier",
+      "type": "varchar",
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nSkill1",
+      "propertyName": "Skill1",
+      "description": "Skill 1",
+      "type": "int"
+    },
+    {
+      "name": "nDuring1",
+      "propertyName": "During1",
+      "description": "During 1",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill2",
+      "propertyName": "Skill2",
+      "description": "Skill 2",
+      "type": "int"
+    },
+    {
+      "name": "nDuring2",
+      "propertyName": "During2",
+      "description": "During 2",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill3",
+      "propertyName": "Skill3",
+      "description": "Skill 3",
+      "type": "int"
+    },
+    {
+      "name": "nDuring3",
+      "propertyName": "During3",
+      "description": "During 3",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill4",
+      "propertyName": "Skill4",
+      "description": "Skill 4",
+      "type": "int"
+    },
+    {
+      "name": "nDuring4",
+      "propertyName": "During4",
+      "description": "During 4",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill5",
+      "propertyName": "Skill5",
+      "description": "Skill 5",
+      "type": "int"
+    },
+    {
+      "name": "nDuring5",
+      "propertyName": "During5",
+      "description": "During 5",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill6",
+      "propertyName": "Skill6",
+      "description": "Skill 6",
+      "type": "int"
+    },
+    {
+      "name": "nDuring6",
+      "propertyName": "During6",
+      "description": "During 6",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill7",
+      "propertyName": "Skill7",
+      "description": "Skill 7",
+      "type": "int"
+    },
+    {
+      "name": "nDuring7",
+      "propertyName": "During7",
+      "description": "During 7",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill8",
+      "propertyName": "Skill8",
+      "description": "Skill 8",
+      "type": "int"
+    },
+    {
+      "name": "nDuring8",
+      "propertyName": "During8",
+      "description": "During 8",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill9",
+      "propertyName": "Skill9",
+      "description": "Skill 9",
+      "type": "int"
+    },
+    {
+      "name": "nDuring9",
+      "propertyName": "During9",
+      "description": "During 9",
+      "type": "smallint"
+    },
+    {
+      "name": "nSkill10",
+      "propertyName": "Skill10",
+      "description": "Skill 10",
+      "type": "int"
+    },
+    {
+      "name": "nDuring10",
+      "propertyName": "During10",
+      "description": "During 10",
+      "type": "smallint"
+    }
+  ]
+}

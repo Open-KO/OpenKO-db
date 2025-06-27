@@ -1,0 +1,234 @@
+{
+  "database": "GAME",
+  "name": "ITEM_GROUP",
+  "className": "ItemGroup",
+  "description": "TODO Doc; No Data in table",
+  "columns": [
+    {
+      "name": "group",
+      "propertyName": "Group",
+      "description": "Group",
+      "type": "smallint"
+    },
+    {
+      "name": "name",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 30,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "item1",
+      "propertyName": "Item1",
+      "description": "Item identifier 1",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item2",
+      "propertyName": "Item2",
+      "description": "Item identifier 2",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item3",
+      "propertyName": "Item3",
+      "description": "Item identifier 3",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item4",
+      "propertyName": "Item4",
+      "description": "Item identifier 4",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item5",
+      "propertyName": "Item5",
+      "description": "Item identifier 5",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item6",
+      "propertyName": "Item6",
+      "description": "Item identifier 6",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item7",
+      "propertyName": "Item7",
+      "description": "Item identifier 7",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item8",
+      "propertyName": "Item8",
+      "description": "Item identifier 8",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item9",
+      "propertyName": "Item9",
+      "description": "Item identifier 9",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item10",
+      "propertyName": "Item10",
+      "description": "Item identifier 10",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item11",
+      "propertyName": "Item11",
+      "description": "Item identifier 11",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item12",
+      "propertyName": "Item12",
+      "description": "Item identifier 12",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item13",
+      "propertyName": "Item13",
+      "description": "Item identifier 13",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item14",
+      "propertyName": "Item14",
+      "description": "Item identifier 14",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item15",
+      "propertyName": "Item15",
+      "description": "Item identifier 15",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item16",
+      "propertyName": "Item16",
+      "description": "Item identifier 16",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item17",
+      "propertyName": "Item17",
+      "description": "Item identifier 17",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item18",
+      "propertyName": "Item18",
+      "description": "Item identifier 18",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item19",
+      "propertyName": "Item19",
+      "description": "Item identifier 19",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item20",
+      "propertyName": "Item20",
+      "description": "Item identifier 20",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item21",
+      "propertyName": "Item21",
+      "description": "Item identifier 21",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item22",
+      "propertyName": "Item22",
+      "description": "Item identifier 22",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item23",
+      "propertyName": "Item23",
+      "description": "Item identifier 23",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item24",
+      "propertyName": "Item24",
+      "description": "Item identifier 24",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item25",
+      "propertyName": "Item25",
+      "description": "Item identifier 25",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item26",
+      "propertyName": "Item26",
+      "description": "Item identifier 26",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item27",
+      "propertyName": "Item27",
+      "description": "Item identifier 27",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item28",
+      "propertyName": "Item28",
+      "description": "Item identifier 28",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item29",
+      "propertyName": "Item29",
+      "description": "Item identifier 29",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "item30",
+      "propertyName": "Item30",
+      "description": "Item identifier 30",
+      "type": "int",
+      "defaultValue": "0"
+    }
+  ]
+}

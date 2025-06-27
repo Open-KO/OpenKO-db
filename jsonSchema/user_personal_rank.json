@@ -1,0 +1,106 @@
+{
+  "database": "GAME",
+  "name": "USER_PERSONAL_RANK",
+  "className": "UserPersonalRank",
+  "description": "User personal ranking",
+  "indexes": [
+    {
+      "name": "PK_USER_PERSONAL_RANK",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nRank"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "nRank",
+      "propertyName": "Rank",
+      "description": "Ranking",
+      "type": "smallint"
+    },
+    {
+      "name": "strPosition",
+      "propertyName": "Position",
+      "description": "Position",
+      "type": "varchar",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nElmoUP",
+      "propertyName": "ElmoUp",
+      "description": "ElMorad Up?",
+      "type": "smallint"
+    },
+    {
+      "name": "strElmoUserID",
+      "propertyName": "ElmoUserId",
+      "description": "ElMorad user identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nElmoLoyaltyMonthly",
+      "propertyName": "ElmoLoyaltyMonthly",
+      "description": "ElMorad national points monthly",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "nElmoCheck",
+      "propertyName": "ElmoCheck",
+      "description": "ElMorad check",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nKarusUP",
+      "propertyName": "KarusUp",
+      "description": "Karus Up?",
+      "type": "smallint"
+    },
+    {
+      "name": "strKarusUserID",
+      "propertyName": "KarusUserId",
+      "description": "Karus user identifier",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nKarusLoyaltyMonthly",
+      "propertyName": "KarusLoyaltyMonthly",
+      "description": "Karus national points monthly",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "nKarusCheck",
+      "propertyName": "KarusCheck",
+      "description": "Karus check",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nSalary",
+      "propertyName": "Salary",
+      "description": "Salary",
+      "type": "int"
+    },
+    {
+      "name": "UpdateDate",
+      "propertyName": "UpdateDate",
+      "description": "Update date",
+      "type": "smalldatetime"
+    }
+  ]
+}

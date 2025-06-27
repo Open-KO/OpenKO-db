@@ -1,0 +1,47 @@
+{
+  "database": "GAME",
+  "name": "USERDATA_SKILLSHORTCUT",
+  "className": "UserDataSkillShortcut",
+  "description": "User data skill shortcut",
+  "indexes": [
+    {
+      "name": "PK_USERDATA_SKILLSHORTCUT",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strCharID"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "strCharID",
+      "propertyName": "CharId",
+      "description": "Character identifier",
+      "type": "varchar",
+      "defaultValue": "''",
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    },
+    {
+      "name": "nCount",
+      "propertyName": "Count",
+      "description": "Count",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "strSkillData",
+      "propertyName": "SkillData",
+      "description": "Skill data",
+      "type": "varchar",
+      "defaultValue": "0x00",
+      "length": 260,
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
+    }
+  ]
+}

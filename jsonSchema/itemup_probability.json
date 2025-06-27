@@ -1,0 +1,53 @@
+{
+  "database": "GAME",
+  "name": "ITEMUP_PROBABILITY",
+  "className": "ItemUpProbability",
+  "description": "TODO: Doc usage",
+  "indexes": [
+    {
+      "name": "PK_ITEMUP_PROBABILITY",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "bType"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "bType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint"
+    },
+    {
+      "name": "nMaxSuccess",
+      "propertyName": "MaxSuccess",
+      "description": "Max Success",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nMaxFail",
+      "propertyName": "MaxFail",
+      "description": "Max Fail",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nCurSuccess",
+      "propertyName": "CurrentSuccess",
+      "description": "Current success",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nCurFail",
+      "propertyName": "CurrentFailure",
+      "description": "Current failure",
+      "type": "smallint",
+      "defaultValue": "0"
+    }
+  ]
+}

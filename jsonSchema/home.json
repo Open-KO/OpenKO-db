@@ -1,0 +1,134 @@
+{
+  "database": "GAME",
+  "name": "HOME",
+  "className": "Home",
+  "description": "TODO Doc",
+  "columns": [
+    {
+      "name": "Nation",
+      "propertyName": "Nation",
+      "description": "Nation Identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "ElmoZoneX",
+      "propertyName": "ElmoZoneX",
+      "description": "Elmorad Zone X",
+      "type": "int"
+    },
+    {
+      "name": "ElmoZoneZ",
+      "propertyName": "ElmoZoneZ",
+      "description": "Elmorad Zone Z",
+      "type": "int"
+    },
+    {
+      "name": "ElmoZoneLX",
+      "propertyName": "ElmoZoneLX",
+      "description": "Elmorad Zone LX",
+      "type": "tinyint"
+    },
+    {
+      "name": "ElmoZoneLZ",
+      "propertyName": "ElmoZoneLZ",
+      "description": "Elmorad Zone LZ",
+      "type": "tinyint"
+    },
+    {
+      "name": "KarusZoneX",
+      "propertyName": "KarusZoneX",
+      "description": "Karus Zone X",
+      "type": "int"
+    },
+    {
+      "name": "KarusZoneZ",
+      "propertyName": "KarusZoneZ",
+      "description": "Karus Zone Z",
+      "type": "int"
+    },
+    {
+      "name": "KarusZoneLX",
+      "propertyName": "KarusZoneLX",
+      "description": "Karus Zone LX",
+      "type": "tinyint"
+    },
+    {
+      "name": "KarusZoneLZ",
+      "propertyName": "KarusZoneLZ",
+      "description": "Karus Zone LZ",
+      "type": "tinyint"
+    },
+    {
+      "name": "FreeZoneX",
+      "propertyName": "FreeZoneX",
+      "description": "Free Zone X",
+      "type": "int"
+    },
+    {
+      "name": "FreeZoneZ",
+      "propertyName": "FreeZoneZ",
+      "description": "Free Zone Z",
+      "type": "int"
+    },
+    {
+      "name": "FreeZoneLX",
+      "propertyName": "FreeZoneLX",
+      "description": "Free Zone LX",
+      "type": "tinyint"
+    },
+    {
+      "name": "FreeZoneLZ",
+      "propertyName": "FreeZoneLZ",
+      "description": "Free Zone LZ",
+      "type": "tinyint"
+    },
+    {
+      "name": "BattleZoneX",
+      "propertyName": "BattleZoneX",
+      "description": "Battle Zone X",
+      "type": "int"
+    },
+    {
+      "name": "BattleZoneZ",
+      "propertyName": "BattleZoneZ",
+      "description": "Battle Zone Z",
+      "type": "int"
+    },
+    {
+      "name": "BattleZoneLX",
+      "propertyName": "BattleZoneLX",
+      "description": "Battle Zone LX",
+      "type": "tinyint"
+    },
+    {
+      "name": "BattleZoneLZ",
+      "propertyName": "BattleZoneLZ",
+      "description": "Battle Zone LZ",
+      "type": "tinyint"
+    },
+    {
+      "name": "BattleZone2X",
+      "propertyName": "BattleZone2X",
+      "description": "Battle Zone 2 X",
+      "type": "int"
+    },
+    {
+      "name": "BattleZone2Z",
+      "propertyName": "BattleZone2Z",
+      "description": "Battle Zone 2 Z",
+      "type": "int"
+    },
+    {
+      "name": "BattleZone2LX",
+      "propertyName": "BattleZone2LX",
+      "description": "Battle Zone 2 LX",
+      "type": "tinyint"
+    },
+    {
+      "name": "BattleZone2LZ",
+      "propertyName": "BattleZone2LZ",
+      "description": "Battle Zone 2 LZ",
+      "type": "tinyint"
+    }
+  ]
+}
