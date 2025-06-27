@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
+  <diagram name="Page-1" id="1TUF4Br6c55Hzl8MgPFO">
+    <mxGraphModel dx="984" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TMfGIlJinfv-TgW69KNu-1" value="OpenKO-db" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="310" y="110" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TMfGIlJinfv-TgW69KNu-2" target="TMfGIlJinfv-TgW69KNu-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-6" value="reads table definitions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-5" vertex="1" connectable="0">
+          <mxGeometry x="0.516" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-2" value="&lt;div&gt;jsonSchema&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMfGIlJinfv-TgW69KNu-3" target="TMfGIlJinfv-TgW69KNu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-3" value="ManualSetup" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TMfGIlJinfv-TgW69KNu-4" target="TMfGIlJinfv-TgW69KNu-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-13" value="generates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.2986" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-4" value="&lt;div&gt;openko-gen&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TMfGIlJinfv-TgW69KNu-7" target="TMfGIlJinfv-TgW69KNu-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-10" value="exports jsonSchema&lt;br&gt;database properties" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.1005" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="TMfGIlJinfv-TgW69KNu-7" target="TMfGIlJinfv-TgW69KNu-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-19" value="&lt;div&gt;import/export&lt;/div&gt;&lt;div&gt;sql scripts&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-18" vertex="1" connectable="0">
+          <mxGeometry x="0.0006" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-7" value="kodb-util" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TMfGIlJinfv-TgW69KNu-9" target="TMfGIlJinfv-TgW69KNu-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-17" value="used for database, schema,&amp;nbsp;&lt;br&gt;login and user exports" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.4679" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-9" value="Templates" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TMfGIlJinfv-TgW69KNu-11" target="TMfGIlJinfv-TgW69KNu-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-15" value="&lt;div&gt;dependency: used for table&lt;/div&gt;&lt;div&gt;exports&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TMfGIlJinfv-TgW69KNu-14" vertex="1" connectable="0">
+          <mxGeometry x="0.3089" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMfGIlJinfv-TgW69KNu-11" value="openko-gorm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BOweWaz8aRKy1NPJauxD-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.8095238095239" y="450.04761904761904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BOweWaz8aRKy1NPJauxD-2" target="TMfGIlJinfv-TgW69KNu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-7" value="export jobs (read)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BOweWaz8aRKy1NPJauxD-5">
+          <mxGeometry x="-0.3339" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-2" value="SQL&lt;br&gt;Server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TMfGIlJinfv-TgW69KNu-7" target="BOweWaz8aRKy1NPJauxD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BOweWaz8aRKy1NPJauxD-6" value="import jobs (write)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BOweWaz8aRKy1NPJauxD-3">
+          <mxGeometry x="-0.1177" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
