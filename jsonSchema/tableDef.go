@@ -2,8 +2,8 @@ package jsonSchema
 
 import (
 	"fmt"
-	"github.com/kenner2/OpenKO-db/jsonSchema/enums/dbType"
-	"github.com/kenner2/OpenKO-db/jsonSchema/enums/tsql"
+	"github.com/Open-KO/OpenKO-db/jsonSchema/enums/dbType"
+	"github.com/Open-KO/OpenKO-db/jsonSchema/enums/tsql"
 )
 
 // READ BEFORE MODIFYING:
