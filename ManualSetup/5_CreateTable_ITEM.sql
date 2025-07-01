@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [ITEM] (
 	[Num] int NOT NULL,
-	[strName] varchar(50) NOT NULL,
+	[strName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[Kind] tinyint NOT NULL,
 	[Slot] tinyint NOT NULL,
 	[Race] tinyint NOT NULL,

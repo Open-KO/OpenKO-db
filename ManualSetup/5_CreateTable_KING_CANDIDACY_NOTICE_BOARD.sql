@@ -2,7 +2,7 @@ USE [KN_online]
 GO
 
 CREATE TABLE [KING_CANDIDACY_NOTICE_BOARD] (
-	[strUserID] varchar(21) NOT NULL,
+	[strUserID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[byNation] tinyint NOT NULL,
 	[sNoticeLen] smallint NOT NULL,
 	[strNotice] varbinary(1024) NOT NULL

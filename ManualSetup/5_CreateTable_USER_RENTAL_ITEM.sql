@@ -2,8 +2,8 @@ USE [KN_online]
 GO
 
 CREATE TABLE [USER_RENTAL_ITEM] (
-	[strUserID] varchar(50) NOT NULL,
-	[strAccountID] varchar(50) NOT NULL,
+	[strUserID] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strAccountID] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[byRentalType] tinyint NOT NULL,
 	[byRegType] tinyint NOT NULL,
 	[nRentalIndex] int NOT NULL,

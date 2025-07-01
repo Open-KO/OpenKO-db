@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [MONSTER_SUMMON_LIST] (
 	[sSid] smallint NOT NULL,
-	[strName] varchar(31),
+	[strName] varchar(31) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[sLevel] smallint NOT NULL,
 	[sProbability] smallint NOT NULL,
 	[bType] tinyint NOT NULL

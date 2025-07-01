@@ -2,7 +2,7 @@ USE [KN_online]
 GO
 
 CREATE TABLE [USERDATA] (
-	[strUserId] varchar(21) NOT NULL,
+	[strUserId] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[Nation] tinyint NOT NULL,
 	[Race] tinyint NOT NULL,
 	[Class] smallint NOT NULL,
@@ -33,11 +33,11 @@ CREATE TABLE [USERDATA] (
 	[PZ] int NOT NULL,
 	[PY] int NOT NULL,
 	[dwTime] int NOT NULL,
-	[strSkill] varchar(10),
-	[strItem] varchar(400),
-	[strSerial] varchar(400),
+	[strSkill] varchar(10) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strItem] varchar(400) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strSerial] varchar(400) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[sQuestCount] smallint NOT NULL,
-	[strQuest] varchar(400),
+	[strQuest] varchar(400) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[MannerPoint] int NOT NULL,
 	[LoyaltyMonthly] int NOT NULL,
 	[CreateTime] smalldatetime NOT NULL,

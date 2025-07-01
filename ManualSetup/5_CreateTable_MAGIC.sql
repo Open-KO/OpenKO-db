@@ -3,9 +3,9 @@ GO
 
 CREATE TABLE [MAGIC] (
 	[MagicNum] int NOT NULL,
-	[EnName] varchar(50),
-	[KrName] varchar(50),
-	[Description] varchar(100),
+	[EnName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[KrName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[Description] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[BeforeAction] tinyint NOT NULL,
 	[TargetAction] tinyint NOT NULL,
 	[SelfEffect] tinyint NOT NULL,

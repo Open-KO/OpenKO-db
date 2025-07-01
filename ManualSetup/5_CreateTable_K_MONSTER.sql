@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [K_MONSTER] (
 	[sSid] smallint NOT NULL,
-	[strName] varchar(30),
+	[strName] varchar(30) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[sPid] smallint NOT NULL,
 	[sSize] smallint NOT NULL,
 	[iWeapon1] int NOT NULL,

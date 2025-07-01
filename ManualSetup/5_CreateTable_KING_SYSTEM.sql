@@ -29,8 +29,8 @@ CREATE TABLE [KING_SYSTEM] (
 	[byTerritoryTariff] tinyint NOT NULL,
 	[nTerritoryTax] int NOT NULL,
 	[nNationalTreasury] int NOT NULL,
-	[strKingName] varchar(21),
-	[strImRequestID] varchar(21)
+	[strKingName] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strImRequestID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS
 )
 GO
 ALTER TABLE [KING_SYSTEM] ADD CONSTRAINT [DF_KING_SYSTEM_byNoahEvent] DEFAULT 0 FOR [byNoahEvent]

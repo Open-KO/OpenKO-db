@@ -11,10 +11,10 @@ CREATE TABLE [RENTAL_ITEM_LIST] (
 	[byClass] tinyint NOT NULL,
 	[sRentalTime] smallint NOT NULL,
 	[nRentalMoney] int NOT NULL,
-	[strLenderCharID] varchar(21) NOT NULL,
-	[strLenderAcID] varchar(21) NOT NULL,
-	[strBorrowerCharID] varchar(21),
-	[strBorrowerAcID] varchar(21),
+	[strLenderCharID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strLenderAcID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strBorrowerCharID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strBorrowerAcID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[timeLender] smalldatetime,
 	[timeRegister] smalldatetime NOT NULL
 )

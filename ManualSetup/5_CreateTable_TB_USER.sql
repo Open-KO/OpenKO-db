@@ -2,10 +2,10 @@ USE [KN_online]
 GO
 
 CREATE TABLE [TB_USER] (
-	[strAccountID] varchar(21) NOT NULL,
-	[strPasswd] varchar(13) NOT NULL,
-	[strSocNo] varchar(20) NOT NULL,
-	[strEmail] varchar(250) NOT NULL,
+	[strAccountID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strPasswd] varchar(13) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strSocNo] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strEmail] varchar(250) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[strAuthority] tinyint NOT NULL,
 	[PremiumExpire] datetime NOT NULL
 	CONSTRAINT [PK_TB_USER] PRIMARY KEY CLUSTERED ([strAccountID])

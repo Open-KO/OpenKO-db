@@ -24,7 +24,7 @@ CREATE TABLE [KNIGHTS_SIEGE_WARFARE] (
 	[byGuerrillaWarDay] tinyint NOT NULL,
 	[byGuerrillaWarTime] tinyint NOT NULL,
 	[byGuerrillaWarMinute] tinyint NOT NULL,
-	[strChallengeList] char(50),
+	[strChallengeList] char(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[sMoradonTariff] smallint NOT NULL,
 	[sDellosTariff] smallint NOT NULL,
 	[nDungeonCharge] int NOT NULL,
