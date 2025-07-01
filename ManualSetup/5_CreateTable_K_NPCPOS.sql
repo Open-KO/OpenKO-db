@@ -21,6 +21,6 @@ CREATE TABLE [K_NPCPOS] (
 	[RegTime] smallint,
 	[byDirection] int,
 	[DotCnt] tinyint,
-	[path] text
+	[path] text COLLATE SQL_Latin1_General_CP1_CI_AS
 )
 GO

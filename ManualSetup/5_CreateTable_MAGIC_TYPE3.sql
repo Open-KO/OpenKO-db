@@ -3,8 +3,8 @@ GO
 
 CREATE TABLE [MAGIC_TYPE3] (
 	[iNum] int NOT NULL,
-	[Name] varchar(50),
-	[Description] varchar(100),
+	[Name] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[Description] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[Radius] tinyint NOT NULL,
 	[Angle] smallint NOT NULL,
 	[DirectType] tinyint NOT NULL,

@@ -4,7 +4,7 @@ GO
 CREATE TABLE [BATTLE] (
 	[sIndex] smallint NOT NULL,
 	[byNation] tinyint NOT NULL,
-	[strUserName] varchar(21),
+	[strUserName] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[byElmoArea] tinyint NOT NULL,
 	[byKarusArea] tinyint NOT NULL,
 	[byElmoAdvantage] tinyint NOT NULL,

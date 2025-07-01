@@ -3,13 +3,13 @@ GO
 
 CREATE TABLE [USER_PERSONAL_RANK] (
 	[nRank] smallint NOT NULL,
-	[strPosition] varchar(21) NOT NULL,
+	[strPosition] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[nElmoUP] smallint NOT NULL,
-	[strElmoUserID] varchar(21),
+	[strElmoUserID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[nElmoLoyaltyMonthly] int,
 	[nElmoCheck] int NOT NULL,
 	[nKarusUP] smallint NOT NULL,
-	[strKarusUserID] varchar(21),
+	[strKarusUserID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[nKarusLoyaltyMonthly] int,
 	[nKarusCheck] int NOT NULL,
 	[nSalary] int NOT NULL,

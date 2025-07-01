@@ -2,11 +2,11 @@ USE [KN_online]
 GO
 
 CREATE TABLE [WAREHOUSE] (
-	[strAccountID] varchar(21) NOT NULL,
+	[strAccountID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[nMoney] int NOT NULL,
 	[dwTime] int NOT NULL,
-	[WarehouseData] varchar(1600),
-	[strSerial] varchar(1600)
+	[WarehouseData] varchar(1600) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strSerial] varchar(1600) COLLATE SQL_Latin1_General_CP1_CI_AS
 	CONSTRAINT [PK_WAREHOUSE] PRIMARY KEY CLUSTERED ([strAccountID])
 )
 GO

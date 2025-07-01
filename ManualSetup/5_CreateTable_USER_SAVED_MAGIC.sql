@@ -2,7 +2,7 @@ USE [KN_online]
 GO
 
 CREATE TABLE [USER_SAVED_MAGIC] (
-	[strCharID] varchar(50) NOT NULL,
+	[strCharID] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[nSkill1] int NOT NULL,
 	[nDuring1] smallint NOT NULL,
 	[nSkill2] int NOT NULL,

@@ -4,8 +4,8 @@ GO
 CREATE TABLE [ITEM_UPGRADE] (
 	[nIndex] int NOT NULL,
 	[nNPCNum] smallint NOT NULL,
-	[strName] varchar(50),
-	[strNote] varchar(100),
+	[strName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strNote] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[nOriginType] smallint NOT NULL,
 	[nOriginItem] smallint NOT NULL,
 	[nReqItem1] int NOT NULL,

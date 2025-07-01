@@ -2,14 +2,14 @@ USE [KN_online]
 GO
 
 CREATE TABLE [WEB_ITEMMALL] (
-	[strAccountID] varchar(21) NOT NULL,
-	[strCharID] varchar(21) NOT NULL,
+	[strAccountID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strCharID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[ServerNo] smallint NOT NULL,
 	[ItemID] int NOT NULL,
 	[ItemCount] smallint NOT NULL,
 	[BuyTime] smalldatetime NOT NULL,
-	[img_file_name] varchar(50),
-	[strItemName] varchar(100),
+	[img_file_name] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strItemName] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[price] int,
 	[pay_type] int
 )

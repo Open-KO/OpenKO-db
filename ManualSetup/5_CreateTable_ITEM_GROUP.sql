@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [ITEM_GROUP] (
 	[group] smallint NOT NULL,
-	[name] varchar(30),
+	[name] varchar(30) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[item1] int NOT NULL,
 	[item2] int NOT NULL,
 	[item3] int NOT NULL,

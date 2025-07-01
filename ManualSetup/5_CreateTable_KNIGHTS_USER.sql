@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [KNIGHTS_USER] (
 	[sIDNum] smallint NOT NULL,
-	[strUserID] varchar(21) NOT NULL
+	[strUserID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
 	CONSTRAINT [PK_KNIGHTS_USER] PRIMARY KEY CLUSTERED ([sIDNum], [strUserID])
 )
 GO

@@ -3,7 +3,7 @@ GO
 
 CREATE TABLE [MAKE_ITEM] (
 	[sIndex] smallint NOT NULL,
-	[strItemInfo] varchar(20),
+	[strItemInfo] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[iItemCode] int NOT NULL,
 	[byItemLevel] tinyint NOT NULL
 )

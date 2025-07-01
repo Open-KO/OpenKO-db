@@ -2,9 +2,9 @@ USE [KN_online]
 GO
 
 CREATE TABLE [USERDATA_SKILLSHORTCUT] (
-	[strCharID] varchar(21) NOT NULL,
+	[strCharID] varchar(21) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[nCount] smallint NOT NULL,
-	[strSkillData] varchar(260) NOT NULL
+	[strSkillData] varchar(260) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
 	CONSTRAINT [PK_USERDATA_SKILLSHORTCUT] PRIMARY KEY CLUSTERED ([strCharID])
 )
 GO
