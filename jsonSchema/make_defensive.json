@@ -3,6 +3,24 @@
   "name": "MAKE_DEFENSIVE",
   "className": "MakeDefensive",
   "description": "Make defensive",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4",
+	  "sClass_5", "sClass_6", "sClass_7"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MAKE_DEFENSIVE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "byLevel"
+      ]
+    }
+  ], 
   "columns": [
     {
       "name": "byLevel",

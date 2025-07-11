@@ -3,6 +3,12 @@
   "name": "USER_PERSONAL_RANK",
   "className": "UserPersonalRank",
   "description": "User personal ranking",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nRank", "strElmoUserID", "strKarusUserID", "nSalary"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_USER_PERSONAL_RANK",

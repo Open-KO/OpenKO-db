@@ -3,6 +3,12 @@
   "name": "SERVER_RESOURCE",
   "className": "ServerResource",
   "description": "Server resource",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nResourceID", "strResource"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_SERVER_RESOURCE",

@@ -3,6 +3,18 @@
   "name": "MAGIC_TYPE2",
   "className": "MagicType2",
   "description": "Supports bow abilities",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "HitType", "HitRate", "AddDamage", "AddRange",
+	  "NeedArrow", "AddDamagePlus"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "HitType", "HitRate", "AddDamage", "AddRange",
+	  "NeedArrow", "AddDamagePlus"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE2",

@@ -3,6 +3,12 @@
   "name": "KNIGHTS_ALLIANCE",
   "className": "KnightsAlliance",
   "description": "Knights alliance formations",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sMainAllianceKnights", "sSubAllianceKnights", "sMercenaryClan_1", "sMercenaryClan_2"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_KNIGHTS_ALLIANCE",

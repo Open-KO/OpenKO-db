@@ -3,6 +3,24 @@
   "name": "MONSTER_CHALLENGE_SUMMON_LIST",
   "className": "MonsterChallengeSummonList",
   "description": "Forgotten Temple summon list",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sIndex", "bLevel", "bStage", "bStageLevel", "sTime",
+	  "sSid", "sCount", "sPosX", "sPosZ", "bRange"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MONSTER_CHALLENGE_SUMMON_LIST",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "sIndex",

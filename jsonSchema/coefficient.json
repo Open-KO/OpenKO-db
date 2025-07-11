@@ -3,6 +3,13 @@
   "name": "COEFFICIENT",
   "className": "Coefficient",
   "description": "Coefficient relationship between a character class, weapon types, and stats",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sClass", "ShortSword", "Sword", "Axe", "Club", "Spear",
+	  "Pole", "Staff", "Bow", "Hp", "Mp", "Sp", "Ac", "Hitrate", "Evasionrate"]
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_COEFFICIENT",

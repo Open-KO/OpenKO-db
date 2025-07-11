@@ -3,6 +3,12 @@
   "name": "MAGIC_TYPE8",
   "className": "MagicType8",
   "description": "Supports warp magic",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "Target", "Radius", "WarpType", "ExpRecover"]
+    }
+  ], 
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE8",

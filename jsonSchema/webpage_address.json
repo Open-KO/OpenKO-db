@@ -3,6 +3,12 @@
   "name": "WEBPAGE_ADDRESS",
   "className": "WebpageAddress",
   "description": "Webpage URL list",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "strWebPageAddress"]
+    }
+  ], 
   "indexes": [
     {
       "name": "PK_WEBPAGE_ADDRESS",

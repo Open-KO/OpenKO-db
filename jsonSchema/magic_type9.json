@@ -3,6 +3,14 @@
   "name": "MAGIC_TYPE9",
   "className": "MagicType9",
   "description": "Supports stealth and detection abilities",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "ValidGroup", "NationChange", "MonsterNum",
+	  "TargetChange", "StateChange", "Radius", "Hitrate", "Duration",
+	  "AddDamage", "Vision", "NeedItem"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE9",

@@ -3,6 +3,23 @@
   "name": "MAKE_ITEM",
   "className": "MakeItem",
   "description": "Make item",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sIndex", "iItemCode", "byItemLevel"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MAKE_DEFENSIVE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "sIndex",

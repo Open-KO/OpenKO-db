@@ -3,6 +3,16 @@
   "name": "KNIGHTS",
   "className": "Knights",
   "description": "Knights are the clan/guild system of the game",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["IDNum", "Flag", "Nation", "Ranking", "IDName", "Members",
+	  "Chief", "ViceChief_1", "ViceChief_2", "ViceChief_3", "strEnemyName",
+	  "byOldWarResult", "nWarEnemyID", "nVictory", "nLose", "Gold",
+	  "Domination", "Points", "CreateTime", "sMarkVersion", "sMarkLen",
+	  "Mark", "Stash", "bySiegeFlag", "sAllianceKnights", "sCape"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_KNIGHTS",

@@ -3,6 +3,23 @@
   "name": "COUPON_SERIAL_LIST",
   "className": "CouponSerialList",
   "description": "Coupon Serial List",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "strSerialNum", "nItemNum", "sItemCount"]
+    }
+  ],  
+  "indexes": [
+    {
+      "name": "PK_COUPON_SERIAL_LIST",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "nIndex",

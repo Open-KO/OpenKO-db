@@ -3,6 +3,12 @@
   "name": "K_NPC_MOVE_ITEM",
   "className": "NpcMoveItem",
   "description": "NPC Move Item: TODO",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sCastleIndex", "byChangeItem", "sChangeSid", "byMoveItem", "sMoveMinX", "sMoveMinY", "sMoveMaxX", "sMoveMaxY"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_K_NPC_MOVE_ITEM",
@@ -13,7 +19,7 @@
         "sCastleIndex"
       ]
     }
-  ],
+  ],  
   "columns": [
     {
       "name": "sCastleIndex",

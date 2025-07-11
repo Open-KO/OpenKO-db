@@ -3,6 +3,16 @@
   "name": "MAGIC_TYPE6",
   "className": "MagicType6",
   "description": "Supports transformation magic",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "Size", "TransformID", "Duration", "MaxHp", "MaxMp",
+	  "Speed", "AttackSpeed", "TotalHit", "TotalAc", "TotalHitRate", "TotalEvasionRate",
+	  "TotalFireR", "TotalColdR", "TotalLightningR", "TotalMagicR", "TotalDiseaseR",
+	  "TotalPoisonR", "Class", "UserSkillUse", "NeedItem", "SkillSuccessRate",
+	  "MonsterFriendly"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE6",

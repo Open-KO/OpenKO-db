@@ -3,6 +3,28 @@
   "name": "HOME",
   "className": "Home",
   "description": "TODO Doc",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["Nation", "ElmoZoneX", "ElmoZoneZ", "ElmoZoneLX", "ElmoZoneLZ",
+	  "KarusZoneX", "KarusZoneZ", "KarusZoneLX", "KarusZoneLZ",
+	  "FreeZoneX", "FreeZoneZ", "FreeZoneLX", "FreeZoneLZ",
+	  "BattleZoneX", "BattleZoneZ", "BattleZoneLX", "BattleZoneLZ",
+	  "BattleZone2X", "BattleZone2Z", "BattleZone2LX", "BattleZone2LZ"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_HOME",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "Nation"
+      ]
+    },
+    }
+  ],
   "columns": [
     {
       "name": "Nation",

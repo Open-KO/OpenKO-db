@@ -3,6 +3,23 @@
   "name": "KNIGHTS_RATING",
   "className": "KnightsRating",
   "description": "Knights Ratings",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nRank", "shIndex", "nPoints"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS_RATING",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nRank"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "nRank",

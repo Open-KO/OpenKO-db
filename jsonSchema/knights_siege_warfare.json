@@ -3,6 +3,33 @@
   "name": "KNIGHTS_SIEGE_WARFARE",
   "className": "KnightsSiegeWarfare",
   "description": "Knights Siege Warfare",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sCastleIndex", "sMasterKnights", "bySiegeType", "byWarDay",
+	  "byWarTime", "byWarMinute", "sChallengeList_1", "sChallengeList_2",
+	  "sChallengeList_3", "sChallengeList_4", "sChallengeList_5",
+	  "sChallengeList_6", "sChallengeList_7", "sChallengeList_8",
+	  "sChallengeList_9", "sChallengeList_10", "byWarRequestDay",
+	  "byWarRequestTime", "byWarRequestMinute", "byGuerrillaWarDay",
+	  "byGuerrillaWarTime", "byGuerrillaWarMinute", "strChallengeList",
+	  "sMoradonTariff", "sDellosTariff", "nDungeonCharge", "nMoradonTax",
+	  "nDellosTax", "sRequestList_1", "sRequestList_2", "sRequestList_3",
+	  "sRequestList_4", "sRequestList_5", "sRequestList_6", "sRequestList_7",
+	  "sRequestList_8", "sRequestList_9", "sRequestList_10"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS_SIEGE_WARFARE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sCastleIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "sCastleIndex",

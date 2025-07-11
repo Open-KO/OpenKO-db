@@ -3,6 +3,12 @@
   "name": "MAGIC_TYPE5",
   "className": "MagicType5",
   "description": "Supports recovery skills",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "Type", "ExpRecover", "NeedStone"]
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE5",

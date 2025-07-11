@@ -3,6 +3,15 @@
   "name": "ITEM_UPGRADE",
   "className": "ItemUpgrade",
   "description": "Item upgrade configuration",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "nNPCNum", "nOriginType", "nOriginItem",
+	  "nReqItem1", "nReqItem2", "nReqItem3", "nReqItem4", "nReqItem5",
+	  "nReqItem6", "nReqItem7", "nReqItem8", "nReqNoah", "bRateType",
+	  "nGenRate", "nGiveItem"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_ITEM_UPGRADE",

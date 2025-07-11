@@ -3,6 +3,24 @@
   "name": "MAKE_ITEM_GRADECODE",
   "className": "MakeItemGradeCode",
   "description": "Make item grade code",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["byItemIndex", "byGrade_1", "byGrade_2", "byGrade_3",
+	  "byGrade_4", "byGrade_5", "byGrade_6", "byGrade_7", "byGrade_8", "byGrade_9"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MAKE_ITEM_GRADECODE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "byItemIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "byItemIndex",

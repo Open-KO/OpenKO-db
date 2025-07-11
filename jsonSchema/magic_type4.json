@@ -3,6 +3,24 @@
   "name": "MAGIC_TYPE4",
   "className": "MagicType4",
   "description": "Supports stat modification skills",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "BuffType", "Radius", "Duration", "AttackSpeed",
+	  "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct",
+	  "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex",
+	  "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR",
+	  "PoisonR", "ExpPct"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "BuffType", "Radius", "Duration", "AttackSpeed",
+	  "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct",
+	  "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex",
+	  "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR",
+	  "PoisonR", "ExpPct"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE4",

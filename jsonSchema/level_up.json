@@ -3,6 +3,16 @@
   "name": "LEVEL_UP",
   "className": "LevelUp",
   "description": "Level experience requirements",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["level", "Exp"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["level", "Exp"]
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_LEVEL_UP",
