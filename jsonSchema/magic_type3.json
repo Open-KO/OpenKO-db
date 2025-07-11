@@ -2,7 +2,7 @@
   "database": "GAME",
   "name": "MAGIC_TYPE3",
   "className": "MagicType3",
-  "description": "Type 3 supports Area of Effect and Damage over Time effects",
+  "description": "Supports Area of Effect and Damage over Time effects",
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE3",

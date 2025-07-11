@@ -2,7 +2,7 @@
   "database": "GAME",
   "name": "MAGIC_TYPE7",
   "className": "MagicType7",
-  "description": "Type 7 supports targeting modifications",
+  "description": "Supports targeting modifications",
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE7",

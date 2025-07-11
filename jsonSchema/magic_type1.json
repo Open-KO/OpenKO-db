@@ -2,7 +2,7 @@
   "database": "GAME",
   "name": "MAGIC_TYPE1",
   "className": "MagicType1",
-  "description": "Type 1 covers melee abilities",
+  "description": "Supports melee abilities",
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE1",

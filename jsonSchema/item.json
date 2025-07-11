@@ -3,6 +3,25 @@
   "name": "ITEM",
   "className": "Item",
   "description": "Item information",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["Num", "strName", "Kind", "Slot", "Race", "Class",
+        "Damage", "Delay", "Range", "Weight", "Duration", "BuyPrice",
+        "SellPrice", "Ac", "Countable", "Effect1", "Effect2", "ReqLevel",
+        "ReqRank", "ReqTitle", "ReqStr", "ReqSta", "ReqDex", "ReqIntel",
+        "ReqCha", "SellingGroup", "ItemType", "Hitrate", "Evasionrate",
+        "DaggerAc", "SwordAc", "MaceAc", "AxeAc", "SpearAc", "BowAc",
+        "FireDamage", "IceDamage", "LightningDamage", "PoisonDamage",
+        "HPDrain", "MPDamage", "MPDrain", "MirrorDamage", "Droprate",
+        "StrB", "StaB", "DexB", "IntelB", "ChaB", "MaxHpB", "MaxMpB",
+        "FireR", "ColdR", "LightningR", "MagicR", "PoisonR", "CurseR"]
+    },
+    {
+      "namespace": "aujard",
+      "columns": ["Num", "Countable"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_ITEM",

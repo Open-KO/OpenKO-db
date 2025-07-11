@@ -2,7 +2,7 @@
   "database": "GAME",
   "name": "MAGIC_TYPE6",
   "className": "MagicType6",
-  "description": "Type 6 supports transformation magic",
+  "description": "Supports transformation magic",
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE6",

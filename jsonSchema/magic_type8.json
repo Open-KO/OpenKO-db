@@ -2,7 +2,7 @@
   "database": "GAME",
   "name": "MAGIC_TYPE8",
   "className": "MagicType8",
-  "description": "Type 8 supports warp magic",
+  "description": "Supports warp magic",
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE8",
