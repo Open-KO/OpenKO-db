@@ -12,5 +12,6 @@ CREATE TABLE [MAKE_ITEM_GRADECODE] (
 	[byGrade_7] smallint,
 	[byGrade_8] smallint,
 	[byGrade_9] smallint
+	CONSTRAINT [PK_MAKE_ITEM_GRADECODE] PRIMARY KEY CLUSTERED ([byItemIndex])
 )
 GO

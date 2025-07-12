@@ -3,6 +3,23 @@
   "name": "MAKE_ITEM_LARECODE",
   "className": "MakeItemRareCode",
   "description": "Make item rarity codes",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["byLevelGrade", "sUpgradeItem", "sLareItem", "sMagicItem", "sGereralItem"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MAKE_ITEM_LARECODE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "byLevelGrade"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "byLevelGrade",

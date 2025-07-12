@@ -3,6 +3,19 @@
   "name": "K_MONSTER",
   "className": "Monster",
   "description": "Monster definitions",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2",
+	  "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle",
+	  "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint",
+	  "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay",
+	  "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3",
+	  "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR",
+	  "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange",
+	  "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_K_MONSTER",

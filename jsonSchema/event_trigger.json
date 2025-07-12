@@ -3,6 +3,23 @@
   "name": "EVENT_TRIGGER",
   "className": "EventTrigger",
   "description": "NPC Event Triggers",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "bNpcType", "sNpcID", "nTriggerNum"]
+    }
+  ],  
+  "indexes": [
+    {
+      "name": "PK_EVENT_TRIGGER",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "nIndex",

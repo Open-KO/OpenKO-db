@@ -3,6 +3,23 @@
   "name": "MONSTER_SUMMON_LIST",
   "className": "MonsterSummonList",
   "description": "Monster summon list",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sSid", "strName", "sLevel", "sProbability", "bType"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_MONSTER_SUMMON_LIST",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sSid"
+      ]
+    }
+  ], 
   "columns": [
     {
       "name": "sSid",

@@ -3,6 +3,12 @@
   "name": "KNIGHTS_CAPE",
   "className": "KnightsCape",
   "description": "Knights cape information",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sCapeIndex", "nBuyPrice", "nDuration", "byGrade"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_KNIGHTS_CAPE",

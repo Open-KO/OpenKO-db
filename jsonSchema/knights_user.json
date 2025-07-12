@@ -3,6 +3,12 @@
   "name": "KNIGHTS_USER",
   "className": "KnightsUser",
   "description": "Knights to character relationships",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sIDNum", "strUserID"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_KNIGHTS_USER",

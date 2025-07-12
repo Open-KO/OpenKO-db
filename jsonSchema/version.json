@@ -17,8 +17,8 @@
   "columns": [
     {
       "name": "sVersion",
-      "propertyName": "Version",
-      "description": "Game version",
+      "propertyName": "Number",
+      "description": "Game version number",
       "type": "smallint"
     },
     {

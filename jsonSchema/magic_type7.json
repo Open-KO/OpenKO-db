@@ -2,7 +2,21 @@
   "database": "GAME",
   "name": "MAGIC_TYPE7",
   "className": "MagicType7",
-  "description": "Type 7 supports targeting modifications",
+  "description": "Supports targeting modifications",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["nIndex", "byValidGroup", "byNatoinChange", "shMonsterNum",
+	  "byTargetChange", "byStateChange", "byRadius", "shHitrate", "shDuration",
+	  "shDamage", "byVisoin", "nNeedItem"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "byValidGroup", "byNatoinChange", "shMonsterNum",
+	  "byTargetChange", "byStateChange", "byRadius", "shHitrate", "shDuration",
+	  "shDamage", "byVisoin", "nNeedItem"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE7",

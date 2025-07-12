@@ -10,5 +10,6 @@ CREATE TABLE [MAKE_DEFENSIVE] (
 	[sClass_5] smallint,
 	[sClass_6] smallint,
 	[sClass_7] smallint
+	CONSTRAINT [PK_MAKE_DEFENSIVE] PRIMARY KEY CLUSTERED ([byLevel])
 )
 GO

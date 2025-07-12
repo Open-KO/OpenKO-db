@@ -3,6 +3,7 @@ package jsonSchema
 import (
 	"fmt"
 	"github.com/Open-KO/OpenKO-db/jsonSchema/enums/dbType"
+	"github.com/Open-KO/OpenKO-db/jsonSchema/enums/profile"
 	"github.com/Open-KO/OpenKO-db/jsonSchema/enums/tsql"
 )
 
@@ -18,6 +19,7 @@ type TableDef struct {
 	Name        string        `json:"name"`              // Table name in the database
 	ClassName   string        `json:"className"`         // Code-friendly class/struct name
 	Description string        `json:"description"`       // Table description
+	Exports     []Export      `json:"exports,omitempty"` // application specific exports
 	Indexes     []IndexDef    `json:"indexes,omitempty"` // Any index definitions for the table
 	Columns     []Column      `json:"columns"`           // Columns belonging to the table
 }
@@ -48,6 +50,12 @@ type Enum struct {
 	Name    string `json:"name"`
 	Value   string `json:"value"`
 	Comment string `json:"comment"`
+}
+
+type Export struct {
+	Namespace profile.ExportName `json:"namespace"`         // should be the server app name
+	Columns   []string           `json:"columns,omitempty"` // columns to include in the export.  If none are specified, full column export assumed
+	Exclude   []string           `json:"exclude,omitempty"` // columns to exclude from the full set
 }
 
 func (this *Column) GormType() string {

@@ -3,6 +3,23 @@
   "name": "BATTLE",
   "className": "Battle",
   "description": "Battle data for the game server",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sIndex", "byNation"]
+    }
+  ],  
+  "indexes": [
+    {
+      "name": "PK_BATTLE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "sIndex",

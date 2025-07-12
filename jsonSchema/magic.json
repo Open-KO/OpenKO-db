@@ -3,6 +3,22 @@
   "name": "MAGIC",
   "className": "Magic",
   "description": "Contains the configuration for magic and abilities",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["MagicNum", "BeforeAction", "TargetAction", "SelfEffect",
+	  "FlyingEffect", "TargetEffect", "Moral", "SkillLevel", "Skill",
+	  "Msp", "HP", "ItemGroup", "UseItem", "CastTime", "ReCastTime",
+	  "SuccessRate", "Type1", "Type2", "Range", "Etc", "Event"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["MagicNum", "BeforeAction", "TargetAction", "SelfEffect",
+	  "FlyingEffect", "TargetEffect", "Moral", "SkillLevel", "Skill",
+	  "Msp", "HP", "ItemGroup", "UseItem", "CastTime", "ReCastTime",
+	  "SuccessRate", "Type1", "Type2", "Range", "Etc", "Event"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC",

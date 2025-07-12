@@ -15,5 +15,6 @@ CREATE TABLE [MAKE_WEAPON] (
 	[sClass_10] smallint,
 	[sClass_11] smallint,
 	[sClass_12] smallint
+	CONSTRAINT [PK_MAKE_WEAPON] PRIMARY KEY CLUSTERED ([byLevel])
 )
 GO

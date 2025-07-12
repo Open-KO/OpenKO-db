@@ -3,6 +3,13 @@
   "name": "START_POSITION",
   "className": "StartPosition",
   "description": "Start position",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["ZoneID", "sKarusX", "sKarusZ", "sElmoradX", "sElmoradZ",
+	  "bRangeX", "bRangeZ", "sKarusGateX", "sKarusGateZ", "sElmoGateX", "sElmoGateZ"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_START_POSITION",

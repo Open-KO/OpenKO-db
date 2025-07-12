@@ -2,7 +2,19 @@
   "database": "GAME",
   "name": "MAGIC_TYPE1",
   "className": "MagicType1",
-  "description": "Type 1 covers melee abilities",
+  "description": "Supports melee abilities",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "Type", "HitRate", "Hit", "AddDamage", "Delay",
+	  "ComboType", "ComboCount", "ComboDamage", "Range"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "Type", "HitRate", "Hit", "AddDamage", "Delay",
+	  "ComboType", "ComboCount", "ComboDamage", "Range"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE1",

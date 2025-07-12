@@ -2,7 +2,25 @@
   "database": "GAME",
   "name": "MAGIC_TYPE4",
   "className": "MagicType4",
-  "description": "Type 4 supports stat modification skills",
+  "description": "Supports stat modification skills",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "BuffType", "Radius", "Duration", "AttackSpeed",
+	  "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct",
+	  "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex",
+	  "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR",
+	  "PoisonR", "ExpPct"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "BuffType", "Radius", "Duration", "AttackSpeed",
+	  "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct",
+	  "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex",
+	  "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR",
+	  "PoisonR", "ExpPct"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE4",
@@ -48,9 +66,13 @@
       "type": "tinyint",
       "enums": [
         {
-          "name": "Health",
+          "name": "None",
+          "value": "0"
+        },
+        {
+          "name": "HealthMana",
           "value": "1",
-          "comment": "Max health buffs"
+          "comment": "Maximum health/mana buffs"
         },
         {
           "name": "Armor",
@@ -78,9 +100,9 @@
           "comment": "Movement speed modifiers"
         },
         {
-          "name": "MovementSpeed",
+          "name": "Stats",
           "value": "7",
-          "comment": "Movement speed modifiers"
+          "comment": "Stat modifiers"
         },
         {
           "name": "Resistance",
@@ -101,6 +123,21 @@
           "name": "Experience",
           "value": "11",
           "comment": "Experience modifier"
+        },
+        {
+          "name": "Weight",
+          "value": "12",
+          "comment": "Experience modifier"
+        },
+        {
+          "name": "WeaponEnchant",
+          "value": "13",
+          "comment": "Weapon damage enchant effect"
+        },
+        {
+          "name": "ArmorEnchant",
+          "value": "14",
+          "comment": "Armor enchant effect"
         }
       ]
     },

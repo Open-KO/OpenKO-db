@@ -2,7 +2,19 @@
   "database": "GAME",
   "name": "MAGIC_TYPE3",
   "className": "MagicType3",
-  "description": "Type 3 supports Area of Effect and Damage over Time effects",
+  "description": "Supports Area of Effect and Damage over Time effects",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "Radius", "Angle", "DirectType", "FirstDamage",
+	  "EndDamage", "TimeDamage", "Duration", "Attribute"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "Radius", "Angle", "DirectType", "FirstDamage",
+	  "EndDamage", "TimeDamage", "Duration", "Attribute"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE3",

@@ -3,6 +3,15 @@
   "name": "K_NPCPOS",
   "className": "NpcPos",
   "description": "NPC Spawn Positions",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["ZoneID", "NpcID", "ActType", "RegenType", "DungeonFamily",
+	  "SpecialType", "TrapNumber", "LeftX", "TopZ", "RightX", "BottomZ",
+	  "LimitMinZ", "LimitMinX", "LimitMaxX", "LimitMaxZ", "NumNPC", "RegTime",
+	  "byDirection", "DotCnt", "path"]
+    }
+  ],
   "columns": [
     {
       "name": "ZoneID",

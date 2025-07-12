@@ -3,6 +3,24 @@
   "name": "MAKE_WEAPON",
   "className": "MakeWeapon",
   "description": "Make weapon",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4",
+	  "sClass_5", "sClass_6", "sClass_7", "sClass_8", "sClass_9", "sClass_10", "sClass_11", "sClass_12"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MAKE_WEAPON",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "byLevel"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "byLevel",

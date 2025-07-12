@@ -2,7 +2,15 @@
   "database": "GAME",
   "name": "MAGIC_TYPE9",
   "className": "MagicType9",
-  "description": "Type 9 supports stealth and detection abilities",
+  "description": "Supports stealth and detection abilities",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "ValidGroup", "NationChange", "MonsterNum",
+	  "TargetChange", "StateChange", "Radius", "Hitrate", "Duration",
+	  "AddDamage", "Vision", "NeedItem"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE9",

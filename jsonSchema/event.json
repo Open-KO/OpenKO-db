@@ -3,6 +3,12 @@
   "name": "EVENT",
   "className": "Event",
   "description": "Event Information",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["ZoneNum", "EventNum", "Type", "Exec1", "Exec2", "Exec3", "Exec4", "Exec5"]
+    }
+  ],  
   "columns": [
     {
       "name": "ZoneNum",

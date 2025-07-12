@@ -27,5 +27,6 @@ CREATE TABLE [ITEM_EXCHANGE] (
 	[nExchangeItemCount4] smallint NOT NULL,
 	[nExchangeItemNum5] int NOT NULL,
 	[nExchangeItemCount5] smallint NOT NULL
+	CONSTRAINT [PK_ITEM_EXCHANGE] PRIMARY KEY CLUSTERED ([nIndex])
 )
 GO

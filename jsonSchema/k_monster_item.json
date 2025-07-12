@@ -3,6 +3,13 @@
   "name": "K_MONSTER_ITEM",
   "className": "MonsterItem",
   "description": "Monster loot table",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sIndex", "iItem01", "sPersent01", "iItem02", "sPersent02",
+	  "iItem03", "sPersent03", "iItem04", "sPersent04", "iItem05", "sPersent05"]
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_K_MONSTER_ITEM",
