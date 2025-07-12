@@ -17,12 +17,11 @@
     {
       "name": "PK_HOME",
       "type": "CLUSTERED",
-      "isUnique": true,
+      "isUnique": false,
       "isPrimaryKey": true,
       "columns": [
         "Nation"
       ]
-    },
     }
   ],
   "columns": [
