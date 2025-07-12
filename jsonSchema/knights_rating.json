@@ -6,7 +6,7 @@
   "exports": [
     {
       "namespace": "ebenezer",
-      "columns": ["nRank", "shIndex", "nPoints"]
+      "columns": ["nRank", "shIndex", "strName", "nPoints"]
     }
   ],
   "indexes": [
