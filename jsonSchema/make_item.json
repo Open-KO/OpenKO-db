@@ -11,7 +11,7 @@
   ], 
   "indexes": [
     {
-      "name": "PK_MAKE_DEFENSIVE",
+      "name": "PK_MAKE_ITEM",
       "type": "CLUSTERED",
       "isUnique": true,
       "isPrimaryKey": true,
