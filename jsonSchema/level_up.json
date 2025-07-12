@@ -34,7 +34,7 @@
     {
       "name": "Exp",
       "propertyName": "RequiredExp",
-      "description": "Required experience to advance to the next level",
+      "description": "Experience required to advance to the next level",
       "type": "int"
     }
   ]

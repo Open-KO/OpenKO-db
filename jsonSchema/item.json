@@ -593,7 +593,7 @@
     },
     {
       "name": "ReqLevel",
-      "propertyName": "RequireLevel",
+      "propertyName": "MinLevel",
       "description": "Minimum level required to use item",
       "type": "tinyint"
     },
@@ -605,13 +605,13 @@
     },
     {
       "name": "ReqRank",
-      "propertyName": "RequireRank",
+      "propertyName": "RequiredRank",
       "description": "Rank required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqTitle",
-      "propertyName": "RequireTitle",
+      "propertyName": "RequiredTitle",
       "description": "Title required to use item",
       "type": "tinyint",
       "enums": [
@@ -659,31 +659,31 @@
     },
     {
       "name": "ReqStr",
-      "propertyName": "RequireStrength",
+      "propertyName": "RequiredStrength",
       "description": "Strength required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqSta",
-      "propertyName": "RequireStamina",
+      "propertyName": "RequiredStamina",
       "description": "Stamina required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqDex",
-      "propertyName": "RequireDexterity",
+      "propertyName": "RequiredDexterity",
       "description": "Dexterity required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqIntel",
-      "propertyName": "RequireIntelligence",
+      "propertyName": "RequiredIntelligence",
       "description": "Intelligence required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqCha",
-      "propertyName": "RequireCharisma",
+      "propertyName": "RequiredCharisma",
       "description": "Charisma required to use item",
       "type": "tinyint"
     },
