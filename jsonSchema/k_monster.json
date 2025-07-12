@@ -256,43 +256,43 @@
     },
     {
       "name": "sFireR",
-      "propertyName": "FireResistance",
+      "propertyName": "FireResist",
       "description": "Fire resistance",
       "type": "smallint"
     },
     {
       "name": "sColdR",
-      "propertyName": "ColdResistance",
+      "propertyName": "ColdResist",
       "description": "Cold resistance",
       "type": "smallint"
     },
     {
       "name": "sLightningR",
-      "propertyName": "LightningResistance",
+      "propertyName": "LightningResist",
       "description": "Lightning resistance",
       "type": "smallint"
     },
     {
       "name": "sMagicR",
-      "propertyName": "MagicResistance",
+      "propertyName": "MagicResist",
       "description": "Magic resistance",
       "type": "smallint"
     },
     {
       "name": "sDiseaseR",
-      "propertyName": "DiseaseResistance",
+      "propertyName": "DiseaseResist",
       "description": "Disease resistance",
       "type": "smallint"
     },
     {
       "name": "sPoisonR",
-      "propertyName": "PoisonResistance",
+      "propertyName": "PoisonResist",
       "description": "Poison resistance",
       "type": "smallint"
     },
     {
       "name": "sLightR",
-      "propertyName": "LightResistance",
+      "propertyName": "LightResist",
       "description": "Light resistance",
       "type": "smallint"
     },

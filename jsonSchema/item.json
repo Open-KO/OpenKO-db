@@ -858,42 +858,42 @@
     },
     {
       "name": "FireR",
-      "propertyName": "FireResistance",
+      "propertyName": "FireResist",
       "description": "Fire resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "ColdR",
-      "propertyName": "ColdResistance",
+      "propertyName": "ColdResist",
       "description": "Cold resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "LightningR",
-      "propertyName": "LightningResistance",
+      "propertyName": "LightningResist",
       "description": "Lightning resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "MagicR",
-      "propertyName": "MagicResistance",
+      "propertyName": "MagicResist",
       "description": "Magic resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "PoisonR",
-      "propertyName": "PoisonResistance",
+      "propertyName": "PoisonResist",
       "description": "Poison resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "CurseR",
-      "propertyName": "CurseResistance",
+      "propertyName": "CurseResist",
       "description": "Curse resistance",
       "type": "smallint",
       "defaultValue": "0"

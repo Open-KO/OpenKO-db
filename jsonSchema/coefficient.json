@@ -74,8 +74,7 @@
       "name": "Bow",
       "propertyName": "Bow",
       "description": "Bow Coefficient",
-      "type": "float",
-      "allowNull": true
+      "type": "float"
     },
     {
       "name": "Hp",
@@ -85,8 +84,8 @@
     },
     {
       "name": "Mp",
-      "propertyName": "MagicPower",
-      "description": "Magic Power Coefficient",
+      "propertyName": "ManaPoint",
+      "description": "Mana Point Coefficient",
       "type": "float"
     },
     {
