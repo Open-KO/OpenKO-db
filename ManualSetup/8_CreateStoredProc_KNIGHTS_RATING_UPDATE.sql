@@ -7,10 +7,10 @@ CREATE PROCEDURE [KNIGHTS_RATING_UPDATE] AS
 if exists (select * from sysobjects where id = object_id(N'[dbo].[rating_temp]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
 drop table [dbo].[rating_temp]
 CREATE TABLE [dbo].[rating_temp] (
-	[nRank] [int] IDENTITY (1, 1) NOT NULL ,
-	[shIndex] [smallint] NULL,
-	[strName] [varchar] (21) NULL ,
-	[nPoints] [int] NULL ,
+	[nRank] [int] IDENTITY (1, 1) NOT NULL,
+	[shIndex] [smallint] NOT NULL,
+	[strName] [varchar] (21) NOT NULL,
+	[nPoints] [int] NOT NULL,
 ) ON [PRIMARY]
 
 

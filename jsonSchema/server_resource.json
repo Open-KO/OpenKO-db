@@ -41,7 +41,6 @@
       "propertyName": "Resource",
       "description": "Sprintf supported string",
       "type": "varchar",
-      "allowNull": true,
       "length": 100,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

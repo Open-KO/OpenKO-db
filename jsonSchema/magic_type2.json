@@ -99,8 +99,7 @@
       "name": "AddDamagePlus",
       "propertyName": "AddDamagePlus",
       "description": "Additional flat damage caused by ability",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     }
   ]
 }

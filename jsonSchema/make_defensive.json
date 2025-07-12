@@ -32,50 +32,43 @@
       "name": "sClass_1",
       "propertyName": "Class1",
       "description": "Class 1",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_2",
       "propertyName": "Class2",
       "description": "Class 2",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_3",
       "propertyName": "Class3",
       "description": "Class 3",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_4",
       "propertyName": "Class4",
       "description": "Class 4",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_5",
       "propertyName": "Class5",
       "description": "Class 5",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_6",
       "propertyName": "Class6",
       "description": "Class 6",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "sClass_7",
       "propertyName": "Class7",
       "description": "Class 7",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     }
   ]
 }

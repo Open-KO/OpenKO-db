@@ -32,71 +32,61 @@
       "name": "iItem01",
       "propertyName": "ItemId1",
       "description": "Item identifier 1",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "sPersent01",
       "propertyName": "DropChance1",
       "description": "Chance for item 1 to drop",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "iItem02",
       "propertyName": "ItemId2",
       "description": "Item identifier 2",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "sPersent02",
       "propertyName": "DropChance2",
       "description": "Chance for item 2 to drop",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "iItem03",
       "propertyName": "ItemId3",
       "description": "Item identifier 3",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "sPersent03",
       "propertyName": "DropChance3",
       "description": "Chance for item 3 to drop",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "iItem04",
       "propertyName": "ItemId4",
       "description": "Item identifier 4",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "sPersent04",
       "propertyName": "DropChance4",
       "description": "Chance for item 4 to drop",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "iItem05",
       "propertyName": "ItemId5",
       "description": "Item identifier 5",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "sPersent05",
       "propertyName": "DropChance5",
       "description": "Chance for item 5 to drop",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     }
   ]
 }

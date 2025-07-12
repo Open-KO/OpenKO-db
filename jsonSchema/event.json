@@ -83,7 +83,6 @@
       "propertyName": "Execute1",
       "description": "Execute 1",
       "type": "varchar",
-      "allowNull": true,
       "length": 128,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -93,7 +92,6 @@
       "propertyName": "Execute2",
       "description": "Execute 2",
       "type": "varchar",
-      "allowNull": true,
       "length": 128,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -103,7 +101,6 @@
       "propertyName": "Execute3",
       "description": "Execute 3",
       "type": "varchar",
-      "allowNull": true,
       "length": 128,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -113,7 +110,6 @@
       "propertyName": "Execute4",
       "description": "Execute 4",
       "type": "varchar",
-      "allowNull": true,
       "length": 128,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -123,7 +119,6 @@
       "propertyName": "Execute5",
       "description": "Execute 5",
       "type": "varchar",
-      "allowNull": true,
       "length": 128,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

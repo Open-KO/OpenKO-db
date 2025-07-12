@@ -9,8 +9,8 @@
       "columns": ["IDNum", "Flag", "Nation", "Ranking", "IDName", "Members",
 	  "Chief", "ViceChief_1", "ViceChief_2", "ViceChief_3", "strEnemyName",
 	  "byOldWarResult", "nWarEnemyID", "nVictory", "nLose", "Gold",
-	  "Domination", "Points", "CreateTime", "sMarkVersion", "sMarkLen",
-	  "Mark", "Stash", "bySiegeFlag", "sAllianceKnights", "sCape"]
+	  "Domination", "Points", "sMarkVersion", "sMarkLen", "Mark", "bySiegeFlag",
+	  "sAllianceKnights", "sCape"]
     }
   ],
   "indexes": [
@@ -36,7 +36,7 @@
   "columns": [
     {
       "name": "IDNum",
-      "propertyName": "IdNumber",
+      "propertyName": "ID",
       "description": "Identification number",
       "type": "smallint"
     },
@@ -172,8 +172,7 @@
       "propertyName": "Points",
       "description": "National points",
       "type": "int",
-      "defaultValue": "0",
-      "allowNull": true
+      "defaultValue": "0"
     },
     {
       "name": "CreateTime",

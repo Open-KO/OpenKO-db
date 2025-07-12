@@ -25,22 +25,19 @@
       "name": "zone1_count",
       "propertyName": "Zone1Count",
       "description": "Zone 1 Count",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "zone2_count",
       "propertyName": "Zone2Count",
       "description": "Zone 2 Count",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "zone3_count",
       "propertyName": "Zone3Count",
       "description": "Zone 3 Count",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "bz",

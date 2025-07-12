@@ -185,8 +185,7 @@
       "name": "Event",
       "propertyName": "Event",
       "description": "Event TODO",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     }
   ]
 }

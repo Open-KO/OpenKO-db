@@ -17,134 +17,115 @@
       "name": "ZoneID",
       "propertyName": "ZoneId",
       "description": "Zone Identifier",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "NpcID",
       "propertyName": "NpcId",
       "description": "NPC Identifier (K_NPC.sSid)",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "ActType",
       "propertyName": "ActType",
       "description": "Act type TODO",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "RegenType",
       "propertyName": "RegenType",
       "description": "Regen type TODO",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "DungeonFamily",
       "propertyName": "DungeonFamily",
       "description": "Dungeon family TODO",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "SpecialType",
       "propertyName": "SpecialType",
       "description": "Special type TODO",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "TrapNumber",
       "propertyName": "TrapNumber",
       "description": "Trap number",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "LeftX",
       "propertyName": "LeftX",
       "description": "X-coordinate representing the left side of the spawn area",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "TopZ",
       "propertyName": "TopZ",
       "description": "Z-coordinate representing the top side of the spawn area",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "RightX",
       "propertyName": "RightX",
       "description": "X-coordinate representing the right side of the spawn area",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "BottomZ",
       "propertyName": "BottomZ",
       "description": "Z-coordinate representing the bottom side of the spawn area",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "LimitMinZ",
       "propertyName": "LimitMinZ",
       "description": "Minimum z-coordinate value for valid roaming",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "LimitMinX",
       "propertyName": "LimitMinX",
       "description": "Minimum x-coordinate value for valid roaming",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "LimitMaxX",
       "propertyName": "LimitMaxX",
       "description": "Maximum x-coordinate value for valid roaming",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "LimitMaxZ",
       "propertyName": "LimitMaxZ",
       "description": "Maximum z-coordinate value for valid roaming",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "NumNPC",
       "propertyName": "NumNpc",
       "description": "Target number of NPCs for the spawn area",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "RegTime",
       "propertyName": "RespawnTime",
       "description": "How long it takes for a dead NPC to respawn",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "byDirection",
       "propertyName": "Direction",
       "description": "Direction TODO",
-      "type": "int",
-      "allowNull": true
+      "type": "int"
     },
     {
       "name": "DotCnt",
       "propertyName": "DotCount",
       "description": "Dot count TODO",
-      "type": "tinyint",
-      "allowNull": true
+      "type": "tinyint"
     },
     {
       "name": "path",
