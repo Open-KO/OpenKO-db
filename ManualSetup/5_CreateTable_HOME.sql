@@ -23,5 +23,6 @@ CREATE TABLE [HOME] (
 	[BattleZone2Z] int NOT NULL,
 	[BattleZone2LX] tinyint NOT NULL,
 	[BattleZone2LZ] tinyint NOT NULL
+	CONSTRAINT [PK_HOME] PRIMARY KEY CLUSTERED ([Nation])
 )
 GO

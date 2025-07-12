@@ -6,6 +6,7 @@ CREATE TABLE [MAKE_ITEM] (
 	[strItemInfo] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[iItemCode] int NOT NULL,
 	[byItemLevel] tinyint NOT NULL
+	CONSTRAINT [PK_MAKE_ITEM] PRIMARY KEY CLUSTERED ([sIndex])
 )
 GO
 ALTER TABLE [MAKE_ITEM] ADD CONSTRAINT [DF_MAKE_ITEM_byItemLevel] DEFAULT 0 FOR [byItemLevel]
