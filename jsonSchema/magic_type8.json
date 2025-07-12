@@ -23,7 +23,7 @@
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MagicNumber",
+      "propertyName": "ID",
       "description": "Magic identification number",
       "type": "int"
     },

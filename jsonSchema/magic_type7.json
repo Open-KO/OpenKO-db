@@ -31,7 +31,7 @@
   "columns": [
     {
       "name": "nIndex",
-      "propertyName": "MagicNumber",
+      "propertyName": "ID",
       "description": "Magic identification number",
       "type": "int"
     },
