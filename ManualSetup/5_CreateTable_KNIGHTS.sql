@@ -19,7 +19,7 @@ CREATE TABLE [KNIGHTS] (
 	[nLose] int NOT NULL,
 	[Gold] bigint NOT NULL,
 	[Domination] smallint NOT NULL,
-	[Points] int,
+	[Points] int NOT NULL,
 	[CreateTime] smalldatetime NOT NULL,
 	[sMarkVersion] smallint NOT NULL,
 	[sMarkLen] smallint NOT NULL,

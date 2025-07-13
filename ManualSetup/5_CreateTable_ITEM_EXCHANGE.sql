@@ -4,8 +4,8 @@ GO
 CREATE TABLE [ITEM_EXCHANGE] (
 	[nIndex] int NOT NULL,
 	[nNpcNum] smallint NOT NULL,
-	[strNpcName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[strNote] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strNpcName] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[strNote] varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[bRandomFlag] tinyint NOT NULL,
 	[nOriginItemNum1] int NOT NULL,
 	[nOriginItemCount1] smallint NOT NULL,

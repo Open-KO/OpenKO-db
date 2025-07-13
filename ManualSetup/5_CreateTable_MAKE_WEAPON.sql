@@ -3,18 +3,18 @@ GO
 
 CREATE TABLE [MAKE_WEAPON] (
 	[byLevel] tinyint NOT NULL,
-	[sClass_1] smallint,
-	[sClass_2] smallint,
-	[sClass_3] smallint,
-	[sClass_4] smallint,
-	[sClass_5] smallint,
-	[sClass_6] smallint,
-	[sClass_7] smallint,
-	[sClass_8] smallint,
-	[sClass_9] smallint,
-	[sClass_10] smallint,
-	[sClass_11] smallint,
-	[sClass_12] smallint
+	[sClass_1] smallint NOT NULL,
+	[sClass_2] smallint NOT NULL,
+	[sClass_3] smallint NOT NULL,
+	[sClass_4] smallint NOT NULL,
+	[sClass_5] smallint NOT NULL,
+	[sClass_6] smallint NOT NULL,
+	[sClass_7] smallint NOT NULL,
+	[sClass_8] smallint NOT NULL,
+	[sClass_9] smallint NOT NULL,
+	[sClass_10] smallint NOT NULL,
+	[sClass_11] smallint NOT NULL,
+	[sClass_12] smallint NOT NULL
 	CONSTRAINT [PK_MAKE_WEAPON] PRIMARY KEY CLUSTERED ([byLevel])
 )
 GO
