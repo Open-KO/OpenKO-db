@@ -9,7 +9,13 @@
       "columns": ["byItemIndex", "byGrade_1", "byGrade_2", "byGrade_3",
 	  "byGrade_4", "byGrade_5", "byGrade_6", "byGrade_7", "byGrade_8", "byGrade_9"]
     }
-  ], 
+  ],
+  "unions": [
+    {
+      "propertyName": "Grade",
+      "columnPattern": "^byGrade_+."
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAKE_ITEM_GRADECODE",
