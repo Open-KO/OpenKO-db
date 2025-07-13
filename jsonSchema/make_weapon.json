@@ -12,8 +12,8 @@
   ],
   "unions": [
     {
-      "propertyName": "ClassUnion",
-      "description": "Union grouping for columns sClass_N",
+      "propertyName": "Class",
+      "description": "Union array grouping for columns sClass_N",
       "columnPattern": "^sClass+."
     }
   ],

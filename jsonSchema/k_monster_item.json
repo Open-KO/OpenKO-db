@@ -10,6 +10,18 @@
 	  "iItem03", "sPersent03", "iItem04", "sPersent04", "iItem05", "sPersent05"]
     }
   ],  
+  "unions": [
+    {
+      "propertyName": "ItemId",
+      "description": "Union array grouping for columns iItemN",
+      "columnPattern": "^iItem+."
+    },
+    {
+      "propertyName": "DropChance",
+      "description": "Union array grouping for columns sPersentN",
+      "columnPattern": "^sPersent+."
+    }
+  ],
   "indexes": [
     {
       "name": "PK_K_MONSTER_ITEM",

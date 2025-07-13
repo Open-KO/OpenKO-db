@@ -13,6 +13,13 @@
 	  "iItem_26", "iItem_27", "iItem_28", "iItem_29", "iItem_30"]
     }
   ], 
+  "unions": [
+    {
+      "propertyName": "Item",
+      "description": "Union array grouping for columns iItem_N",
+      "columnPattern": "^iItem_+."
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAKE_ITEM_GROUP",
