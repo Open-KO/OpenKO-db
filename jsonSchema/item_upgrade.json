@@ -15,7 +15,6 @@
   "unions": [
     {
       "propertyName": "RequiredItem",
-      "description": "Union array grouping for columns nReqItemN",
       "columnPattern": "^nReqItem+."
     }
   ],  

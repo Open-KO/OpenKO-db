@@ -61,7 +61,6 @@ type Export struct {
 
 type Union struct {
 	PropertyName  string `json:"propertyName"`
-	Description   string `json:"description"`
 	ColumnPattern string `json:"columnPattern"`
 }
 

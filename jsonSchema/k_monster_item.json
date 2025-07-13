@@ -13,12 +13,10 @@
   "unions": [
     {
       "propertyName": "ItemId",
-      "description": "Union array grouping for columns iItemN",
       "columnPattern": "^iItem+."
     },
     {
       "propertyName": "DropChance",
-      "description": "Union array grouping for columns sPersentN",
       "columnPattern": "^sPersent+."
     }
   ],

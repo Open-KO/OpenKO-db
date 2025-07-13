@@ -13,7 +13,6 @@
   "unions": [
     {
       "propertyName": "Class",
-      "description": "Union array grouping for columns sClass_N",
       "columnPattern": "^sClass+."
     }
   ],

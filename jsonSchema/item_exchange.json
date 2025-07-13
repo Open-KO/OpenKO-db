@@ -17,22 +17,18 @@
   "unions": [
     {
       "propertyName": "OriginItemNumber",
-      "description": "Union array grouping for columns nOriginItemNumN",
       "columnPattern": "^nOriginItemNum+."
     },
     {
       "propertyName": "OriginItemCount",
-      "description": "Union array grouping for columns nOriginItemCountN",
       "columnPattern": "^nOriginItemCount+."
     },
     {
       "propertyName": "ExchangeItemNumber",
-      "description": "Union array grouping for columns nExchangeItemNumN",
       "columnPattern": "^nExchangeItemNum+."
     },
     {
       "propertyName": "ExchangeItemCount",
-      "description": "Union array grouping for columns nExchangeItemCountN",
       "columnPattern": "^nExchangeItemCount+."
     }
   ],

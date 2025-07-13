@@ -16,7 +16,6 @@
   "unions": [
     {
       "propertyName": "Item",
-      "description": "Union array grouping for columns iItem_N",
       "columnPattern": "^iItem_+."
     }
   ],
