@@ -64,6 +64,21 @@ type Union struct {
 	ColumnPattern string `json:"columnPattern"`
 }
 
+type ProcDef struct {
+	Name        string     `json:"name"`
+	Description string     `json:"description"`
+	Params      []ParamDef `json:"params"`
+}
+
+type ParamDef struct {
+	Name        string        `json:"name"`      // raw sql name
+	ParamName   string        `json:"paramName"` // code-friendly name
+	Description string        `json:"description"`
+	Type        tsql.TSqlType `json:"type"`
+	Length      int           `json:"length"`
+	ParamOrder  int           `json:"paramOrder"`
+}
+
 func (this *Column) GormType() string {
 	if this.Length > 0 {
 		return fmt.Sprintf("%s(%d)", this.Type, this.Length)
