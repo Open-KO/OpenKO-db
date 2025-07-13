@@ -12,7 +12,7 @@ import (
 // if you're modifying this, you'll need to add the following to the end of your
 // importing go.mod to use your local changes.  Otherwise, you'll be using
 // the main branch code from github
-// replace github.com/kenner2/OpenKO-db => ./OpenKO-db
+// replace github.com/Open-KO/OpenKO-db => ./OpenKO-db
 
 type TableDef struct {
 	Database    dbType.DbType `json:"database"`          // Which database this table should be created inside of
@@ -20,6 +20,7 @@ type TableDef struct {
 	ClassName   string        `json:"className"`         // Code-friendly class/struct name
 	Description string        `json:"description"`       // Table description
 	Exports     []Export      `json:"exports,omitempty"` // application specific exports
+	Unions      []Union       `json:"unions,omitempty"`  // grouped columns to generate unions from
 	Indexes     []IndexDef    `json:"indexes,omitempty"` // Any index definitions for the table
 	Columns     []Column      `json:"columns"`           // Columns belonging to the table
 }
@@ -56,6 +57,12 @@ type Export struct {
 	Namespace profile.ExportName `json:"namespace"`         // should be the server app name
 	Columns   []string           `json:"columns,omitempty"` // columns to include in the export.  If none are specified, full column export assumed
 	Exclude   []string           `json:"exclude,omitempty"` // columns to exclude from the full set
+}
+
+type Union struct {
+	PropertyName  string `json:"propertyName"`
+	Description   string `json:"description"`
+	ColumnPattern string `json:"columnPattern"`
 }
 
 func (this *Column) GormType() string {
