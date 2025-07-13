@@ -71,3 +71,10 @@ func (this *Column) GormType() string {
 	}
 	return string(this.Type)
 }
+
+func (this *Column) IsBlobType() bool {
+	if this.Type == tsql.Text || this.Type == tsql.Image || this.Length > 255 {
+		return true
+	}
+	return false
+}

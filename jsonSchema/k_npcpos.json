@@ -123,14 +123,14 @@
     },
     {
       "name": "DotCnt",
-      "propertyName": "DotCount",
-      "description": "Dot count TODO",
+      "propertyName": "PathPointCount",
+      "description": "The number of points contained within Path",
       "type": "tinyint"
     },
     {
       "name": "path",
       "propertyName": "Path",
-      "description": "Pathfinding data TODO",
+      "description": "Pathfinding data. Each point contains an x and z coordinate. Each coordinate is 4-digits wide and zero-padded",
       "type": "text",
       "allowNull": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
