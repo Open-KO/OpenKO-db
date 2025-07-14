@@ -1,6 +1,6 @@
 {
   "name": "DELETE_KNIGHTS",
-  "className": "",
+  "className": "DeleteKnights",
   "description": "MANUAL_TODO",
   "params": [
     {

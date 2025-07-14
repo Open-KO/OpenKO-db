@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_WAREHOUSE",
-  "className": "",
+  "className": "UpdateWarehouse",
   "description": "MANUAL_TODO",
   "params": [
     {

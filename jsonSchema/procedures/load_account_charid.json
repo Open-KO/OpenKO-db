@@ -1,6 +1,6 @@
 {
   "name": "LOAD_ACCOUNT_CHARID",
-  "className": "",
+  "className": "LoadAccountCharid",
   "description": "MANUAL_TODO",
   "params": [
     {

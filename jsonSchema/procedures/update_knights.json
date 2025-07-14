@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_KNIGHTS",
-  "className": "",
+  "className": "UpdateKnights",
   "description": "MANUAL_TODO",
   "params": [
     {

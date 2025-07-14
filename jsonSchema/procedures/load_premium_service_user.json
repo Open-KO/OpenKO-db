@@ -1,6 +1,6 @@
 {
   "name": "LOAD_PREMIUM_SERVICE_USER",
-  "className": "",
+  "className": "LoadPremiumServiceUser",
   "description": "MANUAL_TODO",
   "params": [
     {

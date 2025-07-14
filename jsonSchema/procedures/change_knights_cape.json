@@ -1,6 +1,6 @@
 {
   "name": "CHANGE_KNIGHTS_CAPE",
-  "className": "",
+  "className": "ChangeKnightsCape",
   "description": "MANUAL_TODO",
   "params": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "KING_INSERT_PRIZE_EVENT",
-  "className": "",
+  "className": "KingInsertPrizeEvent",
   "description": "MANUAL_TODO",
   "params": [
     {

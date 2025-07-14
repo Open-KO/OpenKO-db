@@ -1,6 +1,6 @@
 {
   "name": "ACCOUNT_LOGIN",
-  "className": "",
+  "className": "AccountLogin",
   "description": "MANUAL_TODO",
   "params": [
     {

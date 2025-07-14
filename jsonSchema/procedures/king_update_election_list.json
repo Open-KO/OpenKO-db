@@ -1,6 +1,6 @@
 {
   "name": "KING_UPDATE_ELECTION_LIST",
-  "className": "",
+  "className": "KingUpdateElectionList",
   "description": "MANUAL_TODO",
   "params": [
     {

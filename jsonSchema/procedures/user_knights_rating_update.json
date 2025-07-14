@@ -1,6 +1,6 @@
 {
   "name": "USER_KNIGHTS_RATING_UPDATE",
-  "className": "",
+  "className": "UserKnightsRatingUpdate",
   "description": "MANUAL_TODO",
   "params": []
 }

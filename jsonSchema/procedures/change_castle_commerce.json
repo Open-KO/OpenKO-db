@@ -1,6 +1,6 @@
 {
   "name": "CHANGE_CASTLE_COMMERCE",
-  "className": "",
+  "className": "ChangeCastleCommerce",
   "description": "MANUAL_TODO",
   "params": [
     {

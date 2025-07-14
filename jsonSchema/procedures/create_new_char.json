@@ -1,6 +1,6 @@
 {
   "name": "CREATE_NEW_CHAR",
-  "className": "",
+  "className": "CreateNewChar",
   "description": "MANUAL_TODO",
   "params": [
     {

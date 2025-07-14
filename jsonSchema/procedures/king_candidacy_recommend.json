@@ -1,6 +1,6 @@
 {
   "name": "KING_CANDIDACY_RECOMMEND",
-  "className": "",
+  "className": "KingCandidacyRecommend",
   "description": "MANUAL_TODO",
   "params": [
     {

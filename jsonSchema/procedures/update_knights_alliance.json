@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_KNIGHTS_ALLIANCE",
-  "className": "",
+  "className": "UpdateKnightsAlliance",
   "description": "MANUAL_TODO",
   "params": [
     {

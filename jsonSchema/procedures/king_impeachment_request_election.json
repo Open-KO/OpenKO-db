@@ -1,6 +1,6 @@
 {
   "name": "KING_IMPEACHMENT_REQUEST_ELECTION",
-  "className": "",
+  "className": "KingImpeachmentRequestElection",
   "description": "MANUAL_TODO",
   "params": [
     {

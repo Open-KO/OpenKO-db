@@ -1,6 +1,6 @@
 {
   "name": "INSERT_PROGRAM_CHECK_USER",
-  "className": "",
+  "className": "InsertProgramCheckUser",
   "description": "MANUAL_TODO",
   "params": [
     {

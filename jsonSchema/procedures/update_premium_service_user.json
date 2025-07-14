@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_PREMIUM_SERVICE_USER",
-  "className": "",
+  "className": "UpdatePremiumServiceUser",
   "description": "MANUAL_TODO",
   "params": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "RENTAL_ITEM_DESTORY",
-  "className": "",
+  "className": "RentalItemDestory",
   "description": "MANUAL_TODO",
   "params": [
     {

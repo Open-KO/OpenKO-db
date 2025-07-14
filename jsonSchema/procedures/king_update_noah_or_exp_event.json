@@ -1,6 +1,6 @@
 {
   "name": "KING_UPDATE_NOAH_OR_EXP_EVENT",
-  "className": "",
+  "className": "KingUpdateNoahOrExpEvent",
   "description": "MANUAL_TODO",
   "params": [
     {

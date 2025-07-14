@@ -1,6 +1,6 @@
 {
   "name": "KING_UPDATE_ELECTION_STATUS",
-  "className": "",
+  "className": "KingUpdateElectionStatus",
   "description": "MANUAL_TODO",
   "params": [
     {

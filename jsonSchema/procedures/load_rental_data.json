@@ -1,6 +1,6 @@
 {
   "name": "LOAD_RENTAL_DATA",
-  "className": "",
+  "className": "LoadRentalData",
   "description": "MANUAL_TODO",
   "params": [
     {

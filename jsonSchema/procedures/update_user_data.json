@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_USER_DATA",
-  "className": "",
+  "className": "UpdateUserData",
   "description": "MANUAL_TODO",
   "params": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_BATTLE_HERO",
-  "className": "",
+  "className": "UpdateBattleHero",
   "description": "MANUAL_TODO",
   "params": [
     {

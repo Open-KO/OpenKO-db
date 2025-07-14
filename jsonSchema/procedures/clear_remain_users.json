@@ -1,6 +1,6 @@
 {
   "name": "CLEAR_REMAIN_USERS",
-  "className": "",
+  "className": "ClearRemainUsers",
   "description": "MANUAL_TODO",
   "params": [
     {

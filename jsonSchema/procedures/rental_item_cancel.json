@@ -1,6 +1,6 @@
 {
   "name": "RENTAL_ITEM_CANCEL",
-  "className": "",
+  "className": "RentalItemCancel",
   "description": "MANUAL_TODO",
   "params": [
     {

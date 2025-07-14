@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_EDITOR_ITEM_DATA",
-  "className": "",
+  "className": "UpdateEditorItemData",
   "description": "MANUAL_TODO",
   "params": [
     {

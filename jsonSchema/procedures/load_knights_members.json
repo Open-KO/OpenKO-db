@@ -1,6 +1,6 @@
 {
   "name": "LOAD_KNIGHTS_MEMBERS",
-  "className": "",
+  "className": "LoadKnightsMembers",
   "description": "MANUAL_TODO",
   "params": [
     {

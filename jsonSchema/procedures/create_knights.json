@@ -1,6 +1,6 @@
 {
   "name": "CREATE_KNIGHTS",
-  "className": "",
+  "className": "CreateKnights",
   "description": "MANUAL_TODO",
   "params": [
     {

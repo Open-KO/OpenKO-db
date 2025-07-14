@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_SAVED_MAGIC",
-  "className": "",
+  "className": "UpdateSavedMagic",
   "description": "MANUAL_TODO",
   "params": [
     {

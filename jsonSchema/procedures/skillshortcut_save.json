@@ -1,6 +1,6 @@
 {
   "name": "SKILLSHORTCUT_SAVE",
-  "className": "",
+  "className": "SkillshortcutSave",
   "description": "MANUAL_TODO",
   "params": [
     {

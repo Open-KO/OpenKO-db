@@ -1,6 +1,6 @@
 {
   "name": "KING_CHANGE_TAX",
-  "className": "",
+  "className": "KingChangeTax",
   "description": "MANUAL_TODO",
   "params": [
     {

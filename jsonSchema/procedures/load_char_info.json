@@ -1,6 +1,6 @@
 {
   "name": "LOAD_CHAR_INFO",
-  "className": "",
+  "className": "LoadCharInfo",
   "description": "MANUAL_TODO",
   "params": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_KNIGHTS_MARK",
-  "className": "",
+  "className": "UpdateKnightsMark",
   "description": "MANUAL_TODO",
   "params": [
     {

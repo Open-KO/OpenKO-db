@@ -1,6 +1,6 @@
 {
   "name": "RENTAL_ITEM_LEND",
-  "className": "",
+  "className": "RentalItemLend",
   "description": "MANUAL_TODO",
   "params": [
     {

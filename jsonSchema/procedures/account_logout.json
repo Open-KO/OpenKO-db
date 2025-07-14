@@ -1,6 +1,6 @@
 {
   "name": "ACCOUNT_LOGOUT",
-  "className": "",
+  "className": "AccountLogout",
   "description": "MANUAL_TODO",
   "params": [
     {

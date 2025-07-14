@@ -1,6 +1,6 @@
 {
   "name": "RESET_LOYALTY_MONTHLY",
-  "className": "",
+  "className": "ResetLoyaltyMonthly",
   "description": "MANUAL_TODO",
   "params": []
 }

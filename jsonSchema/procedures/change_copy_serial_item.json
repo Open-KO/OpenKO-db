@@ -1,6 +1,6 @@
 {
   "name": "CHANGE_COPY_SERIAL_ITEM",
-  "className": "",
+  "className": "ChangeCopySerialItem",
   "description": "MANUAL_TODO",
   "params": []
 }

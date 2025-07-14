@@ -1,6 +1,6 @@
 {
   "name": "UPDATE_SIEGE_DECIDE_CHALLENGER",
-  "className": "",
+  "className": "UpdateSiegeDecideChallenger",
   "description": "MANUAL_TODO",
   "params": [
     {

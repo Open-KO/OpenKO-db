@@ -1,6 +1,6 @@
 {
   "name": "KING_CANDIDACY_NOTICE_BOARD_PROC",
-  "className": "",
+  "className": "KingCandidacyNoticeBoardProc",
   "description": "MANUAL_TODO",
   "params": [
     {
