@@ -1,0 +1,153 @@
+{
+  "name": "UPDATE_SAVED_MAGIC",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@Skill1",
+      "paramName": "Skill1",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During1",
+      "paramName": "During1",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill2",
+      "paramName": "Skill2",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During2",
+      "paramName": "During2",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill3",
+      "paramName": "Skill3",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During3",
+      "paramName": "During3",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill4",
+      "paramName": "Skill4",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During4",
+      "paramName": "During4",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill5",
+      "paramName": "Skill5",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During5",
+      "paramName": "During5",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill6",
+      "paramName": "Skill6",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During6",
+      "paramName": "During6",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill7",
+      "paramName": "Skill7",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During7",
+      "paramName": "During7",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill8",
+      "paramName": "Skill8",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During8",
+      "paramName": "During8",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill9",
+      "paramName": "Skill9",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During9",
+      "paramName": "During9",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Skill10",
+      "paramName": "Skill10",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@During10",
+      "paramName": "During10",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

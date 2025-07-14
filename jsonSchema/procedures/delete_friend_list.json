@@ -1,0 +1,27 @@
+{
+  "name": "DELETE_FRIEND_LIST",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@strFriend",
+      "paramName": "strFriend",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

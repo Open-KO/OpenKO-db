@@ -1,0 +1,41 @@
+{
+  "name": "RENTAL_ITEM_LEND",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@CharID",
+      "paramName": "CharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@nRentalIndex",
+      "paramName": "nRentalIndex",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nItemNumber",
+      "paramName": "nItemNumber",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "UPDATE_SIEGE_CHALLENGER",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@sCastleIndex",
+      "paramName": "sCastleIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@strChallengerList",
+      "paramName": "strChallengerList",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50
+    }
+  ]
+}

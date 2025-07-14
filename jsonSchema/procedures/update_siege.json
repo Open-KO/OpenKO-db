@@ -1,0 +1,55 @@
+{
+  "name": "UPDATE_SIEGE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@sCastleIndex",
+      "paramName": "sCastleIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@sKnightsIndex",
+      "paramName": "sKnightsIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@byWarType",
+      "paramName": "byWarType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byUpdateType",
+      "paramName": "byUpdateType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byWarDay",
+      "paramName": "byWarDay",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byWarTime",
+      "paramName": "byWarTime",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byWarMinute",
+      "paramName": "byWarMinute",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    }
+  ]
+}

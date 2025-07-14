@@ -1,0 +1,55 @@
+{
+  "name": "KING_UPDATE_ELECTION_SCHDULE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@sYear",
+      "paramName": "sYear",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@byMonth",
+      "paramName": "byMonth",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byDay",
+      "paramName": "byDay",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byHour",
+      "paramName": "byHour",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byMinute",
+      "paramName": "byMinute",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    }
+  ]
+}

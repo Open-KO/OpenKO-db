@@ -1,0 +1,13 @@
+{
+  "name": "SKILLSHORTCUT_LOAD",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    }
+  ]
+}

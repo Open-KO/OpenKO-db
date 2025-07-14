@@ -1,0 +1,48 @@
+{
+  "name": "KING_UPDATE_ELECTION_LIST",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byDBType",
+      "paramName": "byDBType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@nKnights",
+      "paramName": "nKnights",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nAmount",
+      "paramName": "nAmount",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    }
+  ]
+}

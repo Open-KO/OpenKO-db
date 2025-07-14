@@ -1,0 +1,41 @@
+{
+  "name": "UPDATE_KNIGHTS",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Type",
+      "paramName": "Type",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@UserId",
+      "paramName": "UserId",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@KnightsIndex",
+      "paramName": "KnightsIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@Domanation",
+      "paramName": "Domanation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    }
+  ]
+}

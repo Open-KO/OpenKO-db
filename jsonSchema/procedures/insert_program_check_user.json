@@ -1,0 +1,27 @@
+{
+  "name": "INSERT_PROGRAM_CHECK_USER",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strAccountID",
+      "paramName": "strAccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@HackToolName",
+      "paramName": "HackToolName",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1024
+    }
+  ]
+}

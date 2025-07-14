@@ -1,0 +1,27 @@
+{
+  "name": "KING_IMPEACHMENT_RESULT",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@nTotalMan",
+      "paramName": "nTotalMan",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nAgreeMan",
+      "paramName": "nAgreeMan",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

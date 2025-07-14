@@ -1,0 +1,48 @@
+{
+  "name": "RENTAL_ITEM_DESTORY",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@CharID",
+      "paramName": "CharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@nItemNumber",
+      "paramName": "nItemNumber",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nRentalIndex",
+      "paramName": "nRentalIndex",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nDurability",
+      "paramName": "nDurability",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

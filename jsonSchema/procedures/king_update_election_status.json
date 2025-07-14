@@ -1,0 +1,20 @@
+{
+  "name": "KING_UPDATE_ELECTION_STATUS",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    }
+  ]
+}

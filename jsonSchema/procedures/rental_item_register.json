@@ -1,0 +1,90 @@
+{
+  "name": "RENTAL_ITEM_REGISTER",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@charID",
+      "paramName": "charID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@sRentalTime",
+      "paramName": "sRentalTime",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nItemID",
+      "paramName": "nItemID",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@sDurability",
+      "paramName": "sDurability",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nMoney",
+      "paramName": "nMoney",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@bGameBangType",
+      "paramName": "bGameBangType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@bItemType",
+      "paramName": "bItemType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@bItemClass",
+      "paramName": "bItemClass",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@nSerialNumber",
+      "paramName": "nSerialNumber",
+      "description": "MANUAL_TODO",
+      "type": "bigint",
+      "length": 8
+    },
+    {
+      "name": "@nRet_Index",
+      "paramName": "nRet_Index",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

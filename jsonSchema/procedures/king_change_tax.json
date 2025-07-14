@@ -1,0 +1,62 @@
+{
+  "name": "KING_CHANGE_TAX",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@nKarusTax1",
+      "paramName": "nKarusTax1",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nKarusTax2",
+      "paramName": "nKarusTax2",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nKarusTax3",
+      "paramName": "nKarusTax3",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nElmoTax1",
+      "paramName": "nElmoTax1",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nElmoTax2",
+      "paramName": "nElmoTax2",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nElmoTax3",
+      "paramName": "nElmoTax3",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    }
+  ]
+}

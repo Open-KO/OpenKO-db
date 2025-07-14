@@ -1,0 +1,27 @@
+{
+  "name": "INSERT_HACKTOOL_USER",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@CharID",
+      "paramName": "CharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@HackToolName",
+      "paramName": "HackToolName",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 512
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "LOAD_RENTAL_DATA",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strAccountID",
+      "paramName": "strAccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    }
+  ]
+}

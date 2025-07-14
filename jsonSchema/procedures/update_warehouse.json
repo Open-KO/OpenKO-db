@@ -1,0 +1,41 @@
+{
+  "name": "UPDATE_WAREHOUSE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@accountid",
+      "paramName": "accountid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@Money",
+      "paramName": "Money",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@dwTime",
+      "paramName": "dwTime",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@strItem",
+      "paramName": "strItem",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1600
+    },
+    {
+      "name": "@strSerial",
+      "paramName": "strSerial",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1600
+    }
+  ]
+}

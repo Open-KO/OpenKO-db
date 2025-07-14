@@ -1,0 +1,41 @@
+{
+  "name": "UPDATE_KNIGHTS_ALLIANCE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@shAlliancIndex",
+      "paramName": "shAlliancIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@shKnightsIndex",
+      "paramName": "shKnightsIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@byEmptyIndex",
+      "paramName": "byEmptyIndex",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@bySiegeFlag",
+      "paramName": "bySiegeFlag",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "LOAD_PREMIUM_SERVICE_USER",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@type",
+      "paramName": "type",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@days",
+      "paramName": "days",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    }
+  ]
+}

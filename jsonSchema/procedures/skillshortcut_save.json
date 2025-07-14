@@ -1,0 +1,27 @@
+{
+  "name": "SKILLSHORTCUT_SAVE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@nCount",
+      "paramName": "nCount",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@strSkillData",
+      "paramName": "strSkillData",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 260
+    }
+  ]
+}

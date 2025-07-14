@@ -1,0 +1,27 @@
+{
+  "name": "ACCOUNT_LOGIN",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@Password",
+      "paramName": "Password",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 13
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

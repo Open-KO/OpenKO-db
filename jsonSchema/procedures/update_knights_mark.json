@@ -1,0 +1,34 @@
+{
+  "name": "UPDATE_KNIGHTS_MARK",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@IDNum",
+      "paramName": "IDNum",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@MarkLen",
+      "paramName": "MarkLen",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@KnightMark",
+      "paramName": "KnightMark",
+      "description": "MANUAL_TODO",
+      "type": "varbinary",
+      "length": 2400
+    }
+  ]
+}

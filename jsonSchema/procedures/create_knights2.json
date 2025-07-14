@@ -1,0 +1,48 @@
+{
+  "name": "CREATE_KNIGHTS2",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@index",
+      "paramName": "index",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nation",
+      "paramName": "nation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@community",
+      "paramName": "community",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@strName",
+      "paramName": "strName",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@strChief",
+      "paramName": "strChief",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    }
+  ]
+}

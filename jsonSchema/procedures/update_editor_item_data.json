@@ -1,0 +1,69 @@
+{
+  "name": "UPDATE_EDITOR_ITEM_DATA",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@charid",
+      "paramName": "charid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@accountid",
+      "paramName": "accountid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@opid",
+      "paramName": "opid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@opip",
+      "paramName": "opip",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@sPos",
+      "paramName": "sPos",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@nItemID1",
+      "paramName": "nItemID1",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nItemID2",
+      "paramName": "nItemID2",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@sDBIndex",
+      "paramName": "sDBIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

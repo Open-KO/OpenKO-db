@@ -1,0 +1,20 @@
+{
+  "name": "CHANGE_KNIGHTS_CAPE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@KnightsIndex",
+      "paramName": "KnightsIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@CapeIndex",
+      "paramName": "CapeIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "RENTAL_ITEM_DURABILITY_UPDATE",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRentalIndex",
+      "paramName": "nRentalIndex",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    },
+    {
+      "name": "@nDurability",
+      "paramName": "nDurability",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4
+    }
+  ]
+}

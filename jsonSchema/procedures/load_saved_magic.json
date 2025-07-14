@@ -1,0 +1,20 @@
+{
+  "name": "LOAD_SAVED_MAGIC",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@CharId",
+      "paramName": "CharId",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    }
+  ]
+}

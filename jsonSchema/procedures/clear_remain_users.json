@@ -1,0 +1,13 @@
+{
+  "name": "CLEAR_REMAIN_USERS",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strServerIP",
+      "paramName": "strServerIP",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 15
+    }
+  ]
+}

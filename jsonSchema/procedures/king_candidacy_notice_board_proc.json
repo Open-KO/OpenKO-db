@@ -1,0 +1,34 @@
+{
+  "name": "KING_CANDIDACY_NOTICE_BOARD_PROC",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "@sNoticeLen",
+      "paramName": "sNoticeLen",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1
+    },
+    {
+      "name": "@strNotice",
+      "paramName": "strNotice",
+      "description": "MANUAL_TODO",
+      "type": "varbinary",
+      "length": 1024
+    }
+  ]
+}
