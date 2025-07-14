@@ -7,35 +7,40 @@
       "paramName": "accountid",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@Money",
       "paramName": "Money",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@dwTime",
       "paramName": "dwTime",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@strItem",
       "paramName": "strItem",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 1600
+      "length": 1600,
+      "isOutput": false
     },
     {
       "name": "@strSerial",
       "paramName": "strSerial",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 1600
+      "length": 1600,
+      "isOutput": false
     }
   ]
 }

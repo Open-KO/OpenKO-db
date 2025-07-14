@@ -7,35 +7,40 @@
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@Type",
       "paramName": "Type",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@UserId",
       "paramName": "UserId",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@KnightsIndex",
       "paramName": "KnightsIndex",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@Domanation",
       "paramName": "Domanation",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     }
   ]
 }

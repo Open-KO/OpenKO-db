@@ -7,7 +7,8 @@
       "paramName": "knightsindex",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     }
   ]
 }

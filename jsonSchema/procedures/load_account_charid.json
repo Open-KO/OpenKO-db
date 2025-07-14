@@ -7,7 +7,8 @@
       "paramName": "Accountid",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     }
   ]
 }

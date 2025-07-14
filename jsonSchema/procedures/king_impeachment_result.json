@@ -7,21 +7,24 @@
       "paramName": "byNation",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@nTotalMan",
       "paramName": "nTotalMan",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@nAgreeMan",
       "paramName": "nAgreeMan",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     }
   ]
 }

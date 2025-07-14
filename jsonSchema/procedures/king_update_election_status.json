@@ -7,14 +7,16 @@
       "paramName": "byType",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@byNation",
       "paramName": "byNation",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     }
   ]
 }

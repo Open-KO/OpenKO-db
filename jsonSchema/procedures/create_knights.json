@@ -7,42 +7,48 @@
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@index",
       "paramName": "index",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@nation",
       "paramName": "nation",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@community",
       "paramName": "community",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@strName",
       "paramName": "strName",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@strChief",
       "paramName": "strChief",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     }
   ]
 }

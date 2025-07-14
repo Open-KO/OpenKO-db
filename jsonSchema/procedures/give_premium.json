@@ -7,21 +7,24 @@
       "paramName": "strAccountID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "isOutput": false
     },
     {
       "name": "@strUserID",
       "paramName": "strUserID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "isOutput": false
     },
     {
       "name": "@days",
       "paramName": "days",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     }
   ]
 }

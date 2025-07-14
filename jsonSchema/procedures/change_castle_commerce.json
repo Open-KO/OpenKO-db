@@ -7,49 +7,56 @@
       "paramName": "sCastleIndex",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@byType",
       "paramName": "byType",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@nMoradonTariff",
       "paramName": "nMoradonTariff",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@nDellosTariff",
       "paramName": "nDellosTariff",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@nMoney",
       "paramName": "nMoney",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@strACID",
       "paramName": "strACID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@strCharID",
       "paramName": "strCharID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     }
   ]
 }

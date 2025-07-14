@@ -7,14 +7,16 @@
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@knightsindex",
       "paramName": "knightsindex",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     }
   ]
 }

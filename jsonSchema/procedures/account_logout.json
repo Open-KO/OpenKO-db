@@ -7,28 +7,32 @@
       "paramName": "AccountID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@LogoutCode",
       "paramName": "LogoutCode",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@nRet",
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@nRet2",
       "paramName": "nRet2",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     }
   ]
 }

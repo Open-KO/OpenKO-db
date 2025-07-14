@@ -7,28 +7,32 @@
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     },
     {
       "name": "@IDNum",
       "paramName": "IDNum",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@MarkLen",
       "paramName": "MarkLen",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@KnightMark",
       "paramName": "KnightMark",
       "description": "MANUAL_TODO",
       "type": "varbinary",
-      "length": 2400
+      "length": 2400,
+      "isOutput": false
     }
   ]
 }

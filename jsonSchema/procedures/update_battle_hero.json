@@ -7,35 +7,40 @@
       "paramName": "strCharID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@strNation",
       "paramName": "strNation",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 20
+      "length": 20,
+      "isOutput": false
     },
     {
       "name": "@strClass",
       "paramName": "strClass",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 30
+      "length": 30,
+      "isOutput": false
     },
     {
       "name": "@strAchievement",
       "paramName": "strAchievement",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "isOutput": false
     },
     {
       "name": "@nIndex",
       "paramName": "nIndex",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     }
   ]
 }

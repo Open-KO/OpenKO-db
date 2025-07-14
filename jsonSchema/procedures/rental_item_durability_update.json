@@ -7,14 +7,16 @@
       "paramName": "nRentalIndex",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@nDurability",
       "paramName": "nDurability",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     }
   ]
 }

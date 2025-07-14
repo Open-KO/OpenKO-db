@@ -7,84 +7,96 @@
       "paramName": "charID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@AccountID",
       "paramName": "AccountID",
       "description": "MANUAL_TODO",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isOutput": false
     },
     {
       "name": "@sRentalTime",
       "paramName": "sRentalTime",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@nItemID",
       "paramName": "nItemID",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@sDurability",
       "paramName": "sDurability",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": false
     },
     {
       "name": "@nMoney",
       "paramName": "nMoney",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": false
     },
     {
       "name": "@bGameBangType",
       "paramName": "bGameBangType",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@bItemType",
       "paramName": "bItemType",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@bItemClass",
       "paramName": "bItemClass",
       "description": "MANUAL_TODO",
       "type": "tinyint",
-      "length": 1
+      "length": 1,
+      "isOutput": false
     },
     {
       "name": "@nSerialNumber",
       "paramName": "nSerialNumber",
       "description": "MANUAL_TODO",
       "type": "bigint",
-      "length": 8
+      "length": 8,
+      "isOutput": false
     },
     {
       "name": "@nRet_Index",
       "paramName": "nRet_Index",
       "description": "MANUAL_TODO",
       "type": "int",
-      "length": 4
+      "length": 4,
+      "isOutput": true
     },
     {
       "name": "@nRet",
       "paramName": "nRet",
       "description": "MANUAL_TODO",
       "type": "smallint",
-      "length": 2
+      "length": 2,
+      "isOutput": true
     }
   ]
 }
