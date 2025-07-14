@@ -9,6 +9,7 @@
       "description": "MANUAL_TODO",
       "type": "tinyint",
       "length": 1,
+      "paramIndex": 1,
       "isOutput": false
     },
     {
@@ -17,6 +18,7 @@
       "description": "MANUAL_TODO",
       "type": "tinyint",
       "length": 1,
+      "paramIndex": 2,
       "isOutput": false
     },
     {
@@ -25,6 +27,7 @@
       "description": "MANUAL_TODO",
       "type": "tinyint",
       "length": 1,
+      "paramIndex": 3,
       "isOutput": false
     },
     {
@@ -33,6 +36,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 4,
       "isOutput": false
     },
     {
@@ -41,6 +45,7 @@
       "description": "MANUAL_TODO",
       "type": "int",
       "length": 4,
+      "paramIndex": 5,
       "isOutput": false
     },
     {
@@ -49,6 +54,7 @@
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,
+      "paramIndex": 6,
       "isOutput": false
     }
   ]

@@ -9,6 +9,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 1,
       "isOutput": true
     },
     {
@@ -17,6 +18,7 @@
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,
+      "paramIndex": 2,
       "isOutput": false
     },
     {
@@ -25,6 +27,7 @@
       "description": "MANUAL_TODO",
       "type": "tinyint",
       "length": 1,
+      "paramIndex": 3,
       "isOutput": false
     }
   ]

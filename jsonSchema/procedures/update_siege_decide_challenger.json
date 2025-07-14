@@ -9,6 +9,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 1,
       "isOutput": false
     },
     {
@@ -17,6 +18,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 2,
       "isOutput": false
     },
     {
@@ -25,6 +27,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 3,
       "isOutput": false
     },
     {
@@ -33,6 +36,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 4,
       "isOutput": false
     },
     {
@@ -41,6 +45,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 5,
       "isOutput": false
     },
     {
@@ -49,6 +54,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 6,
       "isOutput": false
     },
     {
@@ -57,6 +63,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 7,
       "isOutput": false
     },
     {
@@ -65,6 +72,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 8,
       "isOutput": false
     },
     {
@@ -73,6 +81,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 9,
       "isOutput": false
     },
     {
@@ -81,6 +90,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 10,
       "isOutput": false
     },
     {
@@ -89,6 +99,7 @@
       "description": "MANUAL_TODO",
       "type": "smallint",
       "length": 2,
+      "paramIndex": 11,
       "isOutput": false
     }
   ]

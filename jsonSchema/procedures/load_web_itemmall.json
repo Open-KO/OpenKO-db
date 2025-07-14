@@ -9,6 +9,7 @@
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,
+      "paramIndex": 1,
       "isOutput": false
     }
   ]

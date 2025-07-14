@@ -9,6 +9,7 @@
       "description": "MANUAL_TODO",
       "type": "int",
       "length": 4,
+      "paramIndex": 1,
       "isOutput": false
     },
     {
@@ -17,6 +18,7 @@
       "description": "MANUAL_TODO",
       "type": "int",
       "length": 4,
+      "paramIndex": 2,
       "isOutput": false
     }
   ]
