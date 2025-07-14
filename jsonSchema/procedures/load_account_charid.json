@@ -12,5 +12,6 @@
       "paramIndex": 1,
       "isOutput": false
     }
-  ]
+  ],
+  "hasReturn": true
 }
