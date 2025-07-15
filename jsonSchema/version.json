@@ -3,6 +3,11 @@
   "name": "VERSION",
   "className": "Version",
   "description": "Version data and patch management",
+  "exports": [
+    {
+      "namespace": "versionmanager"
+    }
+  ],
   "indexes": [
     {
       "name": "PK_VERSION",
