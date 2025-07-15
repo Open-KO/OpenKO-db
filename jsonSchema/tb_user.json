@@ -3,6 +3,12 @@
   "name": "TB_USER",
   "className": "TbUser",
   "description": "User Account Information",
+  "exports": [
+    {
+      "namespace": "versionmanager",
+      "columns": ["strAccountID", "strPasswd", "strAuthority"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_TB_USER",
