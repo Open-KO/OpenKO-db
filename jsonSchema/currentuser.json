@@ -9,6 +9,17 @@
       "columns": ["nServerNo", "strServerIP", "strAccountID"]
     }
   ],
+  "indexes": [
+    {
+      "name": "PK_CURRENTUSER",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strAccountID"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "nServerNo",
