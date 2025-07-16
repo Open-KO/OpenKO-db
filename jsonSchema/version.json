@@ -15,7 +15,7 @@
       "isUnique": true,
       "isPrimaryKey": true,
       "columns": [
-        "sVersion"
+        "strFileName"
       ]
     }
   ],
