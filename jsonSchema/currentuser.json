@@ -23,7 +23,7 @@
   "columns": [
     {
       "name": "nServerNo",
-      "propertyName": "ServerNumber",
+      "propertyName": "ServerId",
       "description": "Server Index",
       "type": "int"
     },
