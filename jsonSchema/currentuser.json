@@ -3,6 +3,12 @@
   "name": "CURRENTUSER",
   "className": "CurrentUser",
   "description": "Keeps track of users currently connected to the server",
+  "exports": [
+    {
+      "namespace": "versionmanager",
+      "columns": ["nServerNo", "strServerIP", "strAccountID"]
+    }
+  ],
   "columns": [
     {
       "name": "nServerNo",

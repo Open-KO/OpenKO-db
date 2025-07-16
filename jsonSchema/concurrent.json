@@ -3,6 +3,12 @@
   "name": "CONCURRENT",
   "className": "Concurrent",
   "description": "Keeps track of concurrent user counts",
+  "exports": [
+    {
+      "namespace": "versionmanager",
+      "columns": ["serverid", "zone1_count", "zone2_count", "zone3_count"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_CONCURRENT",
