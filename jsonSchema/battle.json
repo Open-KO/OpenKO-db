@@ -7,6 +7,10 @@
     {
       "namespace": "ebenezer",
       "columns": ["sIndex", "byNation"]
+    },
+    {
+      "namespace": "aujard",
+      "columns": ["sIndex", "byNation", "strUserName"]
     }
   ],  
   "indexes": [

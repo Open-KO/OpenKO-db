@@ -11,6 +11,10 @@
 	  "byOldWarResult", "nWarEnemyID", "nVictory", "nLose", "Gold",
 	  "Domination", "Points", "sMarkVersion", "sMarkLen", "Mark", "bySiegeFlag",
 	  "sAllianceKnights", "sCape"]
+    },
+    {
+      "namespace": "aujard",
+      "columns": ["IDNum", "IDName", "Members", "Points", "Ranking", "Nation"]
     }
   ],
   "indexes": [

@@ -3,6 +3,12 @@
   "name": "USERDATA",
   "className": "UserData",
   "description": "User data contains saved character information",
+  "exports": [
+    {
+      "namespace": "aujard",
+      "columns": ["strUserId", "dwTime", "Exp"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_USERDATA",
