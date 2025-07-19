@@ -180,7 +180,7 @@
       "type": "char",
       "allowNull": true,
       "length": 50,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },

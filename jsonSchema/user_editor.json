@@ -64,7 +64,7 @@
       "description": "Old user skill",
       "type": "char",
       "length": 10,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -74,7 +74,7 @@
       "description": "New user skill",
       "type": "char",
       "length": 10,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -84,7 +84,7 @@
       "description": "Old user item",
       "type": "char",
       "length": 400,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -94,7 +94,7 @@
       "description": "New user item",
       "type": "char",
       "length": 400,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -104,7 +104,7 @@
       "description": "Old warehouse value",
       "type": "char",
       "length": 100,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -114,7 +114,7 @@
       "description": "New warehouse value",
       "type": "char",
       "length": 100,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -124,7 +124,7 @@
       "description": "Old warehouse item",
       "type": "char",
       "length": 1600,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -134,7 +134,7 @@
       "description": "New warehouse item",
       "type": "char",
       "length": 1600,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },

@@ -307,7 +307,8 @@
       "type": "varchar",
       "length": 400,
       "paramIndex": 34,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     },
     {
       "name": "@strSerial",
@@ -316,7 +317,8 @@
       "type": "varchar",
       "length": 400,
       "paramIndex": 35,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     },
     {
       "name": "@strQuest",
