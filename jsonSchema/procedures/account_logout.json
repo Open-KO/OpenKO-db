@@ -5,7 +5,7 @@
   "params": [
     {
       "name": "@AccountID",
-      "paramName": "AccountID",
+      "paramName": "accountID",
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,
@@ -14,7 +14,7 @@
     },
     {
       "name": "@LogoutCode",
-      "paramName": "LogoutCode",
+      "paramName": "logoutCode",
       "description": "MANUAL_TODO",
       "type": "int",
       "length": 4,

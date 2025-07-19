@@ -37,7 +37,8 @@
       "type": "varchar",
       "length": 1600,
       "paramIndex": 4,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     },
     {
       "name": "@strSerial",
@@ -46,7 +47,8 @@
       "type": "varchar",
       "length": 1600,
       "paramIndex": 5,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     }
   ]
 }

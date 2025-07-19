@@ -32,7 +32,7 @@
     },
     {
       "name": "@nDellosTariff",
-      "paramName": "nDellosTariff",
+      "paramName": "nDelosTariff",
       "description": "MANUAL_TODO",
       "type": "int",
       "length": 4,
@@ -50,7 +50,7 @@
     },
     {
       "name": "@strACID",
-      "paramName": "strACID",
+      "paramName": "accountId",
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,
@@ -59,7 +59,7 @@
     },
     {
       "name": "@strCharID",
-      "paramName": "strCharID",
+      "paramName": "charId",
       "description": "MANUAL_TODO",
       "type": "varchar",
       "length": 21,

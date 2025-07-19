@@ -298,7 +298,8 @@
       "type": "varchar",
       "length": 20,
       "paramIndex": 33,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     },
     {
       "name": "@strItem",
@@ -327,7 +328,8 @@
       "type": "varchar",
       "length": 400,
       "paramIndex": 36,
-      "isOutput": false
+      "isOutput": false,
+      "forceBinary": true
     },
     {
       "name": "@MannerPoint",
