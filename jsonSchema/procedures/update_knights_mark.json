@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_KNIGHTS_MARK",
   "className": "UpdateKnightsMark",
   "description": "MANUAL_TODO",

@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "ACCOUNT_LOGIN",
   "className": "AccountLogin",
   "description": "MANUAL_TODO",

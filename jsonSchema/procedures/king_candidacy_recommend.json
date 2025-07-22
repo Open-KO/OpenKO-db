@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "KING_CANDIDACY_RECOMMEND",
   "className": "KingCandidacyRecommend",
   "description": "MANUAL_TODO",

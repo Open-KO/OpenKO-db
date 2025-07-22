@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "ACCOUNT_LOGOUT",
   "className": "AccountLogout",
   "description": "MANUAL_TODO",

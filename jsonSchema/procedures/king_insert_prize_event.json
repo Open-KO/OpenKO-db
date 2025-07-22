@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "KING_INSERT_PRIZE_EVENT",
   "className": "KingInsertPrizeEvent",
   "description": "MANUAL_TODO",

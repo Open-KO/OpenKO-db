@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_BATTLE_HERO",
   "className": "UpdateBattleHero",
   "description": "MANUAL_TODO",

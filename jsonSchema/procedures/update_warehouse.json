@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_WAREHOUSE",
   "className": "UpdateWarehouse",
   "description": "MANUAL_TODO",

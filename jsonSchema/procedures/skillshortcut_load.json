@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "SKILLSHORTCUT_LOAD",
   "className": "SkillshortcutLoad",
   "description": "MANUAL_TODO",

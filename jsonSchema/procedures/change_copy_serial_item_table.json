@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "CHANGE_COPY_SERIAL_ITEM_TABLE",
   "className": "ChangeCopySerialItemTable",
   "description": "MANUAL_TODO",

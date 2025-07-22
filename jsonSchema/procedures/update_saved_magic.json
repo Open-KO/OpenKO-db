@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_SAVED_MAGIC",
   "className": "UpdateSavedMagic",
   "description": "MANUAL_TODO",

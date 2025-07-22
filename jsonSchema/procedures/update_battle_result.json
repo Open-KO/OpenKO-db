@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_BATTLE_RESULT",
   "className": "UpdateBattleResult",
   "description": "MANUAL_TODO",

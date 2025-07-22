@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "KING_IMPEACHMENT_ELECTION",
   "className": "KingImpeachmentElection",
   "description": "MANUAL_TODO",

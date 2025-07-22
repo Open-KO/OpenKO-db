@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "INSERT_PROGRAM_CHECK_USER",
   "className": "InsertProgramCheckUser",
   "description": "MANUAL_TODO",

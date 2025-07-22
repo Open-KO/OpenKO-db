@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "LOAD_ACCOUNT_CHARID",
   "className": "LoadAccountCharid",
   "description": "MANUAL_TODO",

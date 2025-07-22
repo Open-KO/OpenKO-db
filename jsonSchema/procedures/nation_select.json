@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "NATION_SELECT",
   "className": "NationSelect",
   "description": "MANUAL_TODO",

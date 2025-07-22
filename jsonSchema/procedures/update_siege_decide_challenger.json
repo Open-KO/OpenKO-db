@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_SIEGE_DECIDE_CHALLENGER",
   "className": "UpdateSiegeDecideChallenger",
   "description": "MANUAL_TODO",

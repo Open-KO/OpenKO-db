@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "LOAD_KNIGHTS_MEMBERS",
   "className": "LoadKnightsMembers",
   "description": "MANUAL_TODO",

@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_KNIGHTS_ALLIANCE",
   "className": "UpdateKnightsAlliance",
   "description": "MANUAL_TODO",

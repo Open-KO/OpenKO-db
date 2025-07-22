@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "USER_KNIGHTS_RATING_UPDATE",
   "className": "UserKnightsRatingUpdate",
   "description": "MANUAL_TODO",

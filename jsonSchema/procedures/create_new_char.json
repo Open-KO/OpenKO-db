@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "CREATE_NEW_CHAR",
   "className": "CreateNewChar",
   "description": "MANUAL_TODO",

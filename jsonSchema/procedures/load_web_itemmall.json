@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "LOAD_WEB_ITEMMALL",
   "className": "LoadWebItemmall",
   "description": "MANUAL_TODO",

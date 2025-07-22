@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_SIEGE",
   "className": "UpdateSiege",
   "description": "MANUAL_TODO",

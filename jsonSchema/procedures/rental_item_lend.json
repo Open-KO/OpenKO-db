@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "RENTAL_ITEM_LEND",
   "className": "RentalItemLend",
   "description": "MANUAL_TODO",

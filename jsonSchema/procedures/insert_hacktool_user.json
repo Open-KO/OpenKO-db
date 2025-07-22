@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "INSERT_HACKTOOL_USER",
   "className": "InsertHacktoolUser",
   "description": "MANUAL_TODO",

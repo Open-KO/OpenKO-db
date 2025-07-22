@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "KING_ELECTION_PROC",
   "className": "KingElectionProc",
   "description": "MANUAL_TODO",

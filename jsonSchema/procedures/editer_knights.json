@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "EDITER_KNIGHTS",
   "className": "EditerKnights",
   "description": "MANUAL_TODO",

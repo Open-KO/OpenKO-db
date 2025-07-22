@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "INSERT_FRIEND_LIST",
   "className": "InsertFriendList",
   "description": "MANUAL_TODO",

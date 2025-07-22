@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_PERSONAL_RANK",
   "className": "UpdatePersonalRank",
   "description": "MANUAL_TODO",

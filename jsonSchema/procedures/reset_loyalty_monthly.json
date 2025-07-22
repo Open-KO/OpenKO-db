@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "RESET_LOYALTY_MONTHLY",
   "className": "ResetLoyaltyMonthly",
   "description": "MANUAL_TODO",

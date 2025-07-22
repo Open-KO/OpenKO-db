@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "KING_UPDATE_IMPEACHMENT_STATUS",
   "className": "KingUpdateImpeachmentStatus",
   "description": "MANUAL_TODO",

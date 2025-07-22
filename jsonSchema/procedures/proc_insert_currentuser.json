@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "PROC_INSERT_CURRENTUSER",
   "className": "ProcInsertCurrentuser",
   "description": "MANUAL_TODO",

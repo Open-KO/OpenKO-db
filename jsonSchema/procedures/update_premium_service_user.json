@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "UPDATE_PREMIUM_SERVICE_USER",
   "className": "UpdatePremiumServiceUser",
   "description": "MANUAL_TODO",

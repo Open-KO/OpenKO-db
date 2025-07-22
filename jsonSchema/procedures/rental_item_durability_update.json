@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "RENTAL_ITEM_DURABILITY_UPDATE",
   "className": "RentalItemDurabilityUpdate",
   "description": "MANUAL_TODO",

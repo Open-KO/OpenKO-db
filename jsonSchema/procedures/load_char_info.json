@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "LOAD_CHAR_INFO",
   "className": "LoadCharInfo",
   "description": "MANUAL_TODO",

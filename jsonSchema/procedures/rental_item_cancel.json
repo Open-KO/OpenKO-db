@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "RENTAL_ITEM_CANCEL",
   "className": "RentalItemCancel",
   "description": "MANUAL_TODO",

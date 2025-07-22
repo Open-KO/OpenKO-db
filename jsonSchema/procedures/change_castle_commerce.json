@@ -1,4 +1,5 @@
 {
+  "database": "GAME",
   "name": "CHANGE_CASTLE_COMMERCE",
   "className": "ChangeCastleCommerce",
   "description": "MANUAL_TODO",
