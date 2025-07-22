@@ -1,0 +1,53 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_BATTLE_HERO",
+  "className": "UpdateBattleHero",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@strNation",
+      "paramName": "strNation",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 20,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@strClass",
+      "paramName": "strClass",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 30,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@strAchievement",
+      "paramName": "strAchievement",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@nIndex",
+      "paramName": "nIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 5,
+      "isOutput": false
+    }
+  ]
+}

@@ -11,6 +11,6 @@ CREATE TABLE [ZONE_INFO] (
 	[Type] tinyint NOT NULL,
 	[RoomEvent] tinyint NOT NULL,
 	[bz] varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS
-	CONSTRAINT [PK_ZONE_INFO] PRIMARY KEY CLUSTERED ([ServerNo], [ZoneNo])
+	CONSTRAINT [PK_ZONE_INFO] PRIMARY KEY CLUSTERED ([ZoneNo])
 )
 GO

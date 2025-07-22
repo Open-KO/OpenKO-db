@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "LOAD_USER_DATA",
+  "className": "LoadUserData",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@id",
+      "paramName": "id",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": true
+    }
+  ]
+}

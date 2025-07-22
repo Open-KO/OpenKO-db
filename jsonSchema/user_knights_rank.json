@@ -3,6 +3,12 @@
   "name": "USER_KNIGHTS_RANK",
   "className": "UserKnightsRank",
   "description": "User Knights Ranking",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["shIndex", "strElmoUserID", "strKarusUserID", "nMoney"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_USER_KNIGHTS_RANK",

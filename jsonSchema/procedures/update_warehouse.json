@@ -1,0 +1,55 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_WAREHOUSE",
+  "className": "UpdateWarehouse",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@accountid",
+      "paramName": "accountid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@Money",
+      "paramName": "Money",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@dwTime",
+      "paramName": "dwTime",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@strItem",
+      "paramName": "strItem",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1600,
+      "paramIndex": 4,
+      "isOutput": false,
+      "forceBinary": true
+    },
+    {
+      "name": "@strSerial",
+      "paramName": "strSerial",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1600,
+      "paramIndex": 5,
+      "isOutput": false,
+      "forceBinary": true
+    }
+  ]
+}

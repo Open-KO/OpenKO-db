@@ -3,6 +3,12 @@
   "name": "USERDATA",
   "className": "UserData",
   "description": "User data contains saved character information",
+  "exports": [
+    {
+      "namespace": "aujard",
+      "columns": ["strUserId", "dwTime", "Exp"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_USERDATA",
@@ -401,7 +407,7 @@
       "defaultValue": "0x00",
       "allowNull": true,
       "length": 10,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -412,7 +418,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -423,7 +429,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },
@@ -441,7 +447,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },

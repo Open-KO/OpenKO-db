@@ -1,0 +1,354 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_USER_DATA",
+  "className": "UpdateUserData",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@id",
+      "paramName": "id",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@Nation",
+      "paramName": "Nation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@Race",
+      "paramName": "Race",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@Class",
+      "paramName": "Class",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@HairColor",
+      "paramName": "HairColor",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 5,
+      "isOutput": false
+    },
+    {
+      "name": "@Rank",
+      "paramName": "Rank",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 6,
+      "isOutput": false
+    },
+    {
+      "name": "@Title",
+      "paramName": "Title",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 7,
+      "isOutput": false
+    },
+    {
+      "name": "@Level",
+      "paramName": "Level",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 8,
+      "isOutput": false
+    },
+    {
+      "name": "@Exp",
+      "paramName": "Exp",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 9,
+      "isOutput": false
+    },
+    {
+      "name": "@Loyalty",
+      "paramName": "Loyalty",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 10,
+      "isOutput": false
+    },
+    {
+      "name": "@Face",
+      "paramName": "Face",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 11,
+      "isOutput": false
+    },
+    {
+      "name": "@City",
+      "paramName": "City",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 12,
+      "isOutput": false
+    },
+    {
+      "name": "@Knights",
+      "paramName": "Knights",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 13,
+      "isOutput": false
+    },
+    {
+      "name": "@Fame",
+      "paramName": "Fame",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 14,
+      "isOutput": false
+    },
+    {
+      "name": "@Hp",
+      "paramName": "Hp",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 15,
+      "isOutput": false
+    },
+    {
+      "name": "@Mp",
+      "paramName": "Mp",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 16,
+      "isOutput": false
+    },
+    {
+      "name": "@Sp",
+      "paramName": "Sp",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 17,
+      "isOutput": false
+    },
+    {
+      "name": "@Str",
+      "paramName": "Str",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 18,
+      "isOutput": false
+    },
+    {
+      "name": "@Sta",
+      "paramName": "Sta",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 19,
+      "isOutput": false
+    },
+    {
+      "name": "@Dex",
+      "paramName": "Dex",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 20,
+      "isOutput": false
+    },
+    {
+      "name": "@Intel",
+      "paramName": "Intel",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 21,
+      "isOutput": false
+    },
+    {
+      "name": "@Cha",
+      "paramName": "Cha",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 22,
+      "isOutput": false
+    },
+    {
+      "name": "@Authority",
+      "paramName": "Authority",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 23,
+      "isOutput": false
+    },
+    {
+      "name": "@Points",
+      "paramName": "Points",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 24,
+      "isOutput": false
+    },
+    {
+      "name": "@Gold",
+      "paramName": "Gold",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 25,
+      "isOutput": false
+    },
+    {
+      "name": "@Zone",
+      "paramName": "Zone",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 26,
+      "isOutput": false
+    },
+    {
+      "name": "@Bind",
+      "paramName": "Bind",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 27,
+      "isOutput": false
+    },
+    {
+      "name": "@PX",
+      "paramName": "PX",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 28,
+      "isOutput": false
+    },
+    {
+      "name": "@PZ",
+      "paramName": "PZ",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 29,
+      "isOutput": false
+    },
+    {
+      "name": "@PY",
+      "paramName": "PY",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 30,
+      "isOutput": false
+    },
+    {
+      "name": "@dwTime",
+      "paramName": "dwTime",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 31,
+      "isOutput": false
+    },
+    {
+      "name": "@QuestTotal",
+      "paramName": "QuestTotal",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 32,
+      "isOutput": false
+    },
+    {
+      "name": "@strSkill",
+      "paramName": "strSkill",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 20,
+      "paramIndex": 33,
+      "isOutput": false,
+      "forceBinary": true
+    },
+    {
+      "name": "@strItem",
+      "paramName": "strItem",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 400,
+      "paramIndex": 34,
+      "isOutput": false,
+      "forceBinary": true
+    },
+    {
+      "name": "@strSerial",
+      "paramName": "strSerial",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 400,
+      "paramIndex": 35,
+      "isOutput": false,
+      "forceBinary": true
+    },
+    {
+      "name": "@strQuest",
+      "paramName": "strQuest",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 400,
+      "paramIndex": 36,
+      "isOutput": false,
+      "forceBinary": true
+    },
+    {
+      "name": "@MannerPoint",
+      "paramName": "MannerPoint",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 37,
+      "isOutput": false
+    },
+    {
+      "name": "@LoyaltyMonthly",
+      "paramName": "LoyaltyMonthly",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 38,
+      "isOutput": false
+    }
+  ]
+}

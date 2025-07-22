@@ -1,0 +1,89 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_EDITOR_ITEM_DATA",
+  "className": "UpdateEditorItemData",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@charid",
+      "paramName": "charid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@accountid",
+      "paramName": "accountid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@opid",
+      "paramName": "opid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@opip",
+      "paramName": "opip",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@sPos",
+      "paramName": "sPos",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 5,
+      "isOutput": false
+    },
+    {
+      "name": "@nItemID1",
+      "paramName": "nItemID1",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 6,
+      "isOutput": false
+    },
+    {
+      "name": "@nItemID2",
+      "paramName": "nItemID2",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 7,
+      "isOutput": false
+    },
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 8,
+      "isOutput": false
+    },
+    {
+      "name": "@sDBIndex",
+      "paramName": "sDBIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 9,
+      "isOutput": false
+    }
+  ]
+}

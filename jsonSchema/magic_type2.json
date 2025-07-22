@@ -2,7 +2,19 @@
   "database": "GAME",
   "name": "MAGIC_TYPE2",
   "className": "MagicType2",
-  "description": "Type 2 covers bow abilities",
+  "description": "Supports bow abilities",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["iNum", "HitType", "HitRate", "AddDamage", "AddRange",
+	  "NeedArrow", "AddDamagePlus"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["iNum", "HitType", "HitRate", "AddDamage", "AddRange",
+	  "NeedArrow", "AddDamagePlus"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_MAGIC_TYPE2",
@@ -17,7 +29,7 @@
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MagicNumber",
+      "propertyName": "ID",
       "description": "Magic identification number",
       "type": "int"
     },
@@ -87,8 +99,7 @@
       "name": "AddDamagePlus",
       "propertyName": "AddDamagePlus",
       "description": "Additional flat damage caused by ability",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     }
   ]
 }

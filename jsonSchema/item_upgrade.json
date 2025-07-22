@@ -3,6 +3,21 @@
   "name": "ITEM_UPGRADE",
   "className": "ItemUpgrade",
   "description": "Item upgrade configuration",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "nNPCNum", "nOriginType", "nOriginItem",
+	  "nReqItem1", "nReqItem2", "nReqItem3", "nReqItem4", "nReqItem5",
+	  "nReqItem6", "nReqItem7", "nReqItem8", "nReqNoah", "bRateType",
+	  "nGenRate", "nGiveItem"]
+    }
+  ],
+  "unions": [
+    {
+      "propertyName": "RequiredItem",
+      "columnPattern": "^nReqItem+."
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_ITEM_UPGRADE",
@@ -32,7 +47,6 @@
       "propertyName": "Name",
       "description": "Name",
       "type": "varchar",
-      "allowNull": true,
       "length": 50,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -42,7 +56,6 @@
       "propertyName": "Note",
       "description": "Note",
       "type": "varchar",
-      "allowNull": true,
       "length": 100,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -61,55 +74,55 @@
     },
     {
       "name": "nReqItem1",
-      "propertyName": "RequireItem1",
+      "propertyName": "RequiredItem1",
       "description": "Required item 1 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem2",
-      "propertyName": "RequireItem2",
+      "propertyName": "RequiredItem2",
       "description": "Required item 2 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem3",
-      "propertyName": "RequireItem3",
+      "propertyName": "RequiredItem3",
       "description": "Required item 3 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem4",
-      "propertyName": "RequireItem4",
+      "propertyName": "RequiredItem4",
       "description": "Required item 4 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem5",
-      "propertyName": "RequireItem5",
+      "propertyName": "RequiredItem5",
       "description": "Required item 5 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem6",
-      "propertyName": "RequireItem6",
+      "propertyName": "RequiredItem6",
       "description": "Required item 6 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem7",
-      "propertyName": "RequireItem7",
+      "propertyName": "RequiredItem7",
       "description": "Required item 7 identifier",
       "type": "int"
     },
     {
       "name": "nReqItem8",
-      "propertyName": "RequireItem8",
+      "propertyName": "RequiredItem8",
       "description": "Required item 8 identifier",
       "type": "int"
     },
     {
       "name": "nReqNoah",
-      "propertyName": "RequireCoin",
+      "propertyName": "RequiredCoins",
       "description": "Coins required to upgrade",
       "type": "int"
     },

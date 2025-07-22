@@ -1,0 +1,26 @@
+{
+  "database": "GAME",
+  "name": "KING_UPDATE_ELECTION_STATUS",
+  "className": "KingUpdateElectionStatus",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    }
+  ]
+}

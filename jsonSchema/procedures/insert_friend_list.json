@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "INSERT_FRIEND_LIST",
+  "className": "InsertFriendList",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@strFriend",
+      "paramName": "strFriend",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": true
+    }
+  ]
+}

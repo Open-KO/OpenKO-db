@@ -3,6 +3,16 @@
   "name": "ZONE_INFO",
   "className": "ZoneInfo",
   "description": "Zone (map) information",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["ServerNo", "ZoneNo", "strZoneName", "InitX", "InitZ", "InitY", "Type", "RoomEvent"]
+    },
+    {
+      "namespace": "ebenezer",
+      "columns": ["ServerNo", "ZoneNo", "strZoneName", "InitX", "InitZ", "InitY", "Type", "RoomEvent"]
+    }
+  ],  
   "indexes": [
     {
       "name": "PK_ZONE_INFO",
@@ -10,7 +20,6 @@
       "isUnique": true,
       "isPrimaryKey": true,
       "columns": [
-        "ServerNo",
         "ZoneNo"
       ]
     }

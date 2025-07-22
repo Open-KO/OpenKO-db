@@ -3,6 +3,20 @@
   "name": "KNIGHTS",
   "className": "Knights",
   "description": "Knights are the clan/guild system of the game",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["IDNum", "Flag", "Nation", "Ranking", "IDName", "Members",
+	  "Chief", "ViceChief_1", "ViceChief_2", "ViceChief_3", "strEnemyName",
+	  "byOldWarResult", "nWarEnemyID", "nVictory", "nLose", "Gold",
+	  "Domination", "Points", "sMarkVersion", "sMarkLen", "Mark", "bySiegeFlag",
+	  "sAllianceKnights", "sCape"]
+    },
+    {
+      "namespace": "aujard",
+      "columns": ["IDNum", "IDName", "Members", "Points", "Ranking", "Nation"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_KNIGHTS",
@@ -26,7 +40,7 @@
   "columns": [
     {
       "name": "IDNum",
-      "propertyName": "IdNumber",
+      "propertyName": "ID",
       "description": "Identification number",
       "type": "smallint"
     },
@@ -162,8 +176,7 @@
       "propertyName": "Points",
       "description": "National points",
       "type": "int",
-      "defaultValue": "0",
-      "allowNull": true
+      "defaultValue": "0"
     },
     {
       "name": "CreateTime",
@@ -200,7 +213,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     },

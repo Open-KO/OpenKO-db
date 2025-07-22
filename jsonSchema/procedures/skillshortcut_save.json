@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "SKILLSHORTCUT_SAVE",
+  "className": "SkillshortcutSave",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@nCount",
+      "paramName": "nCount",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@strSkillData",
+      "paramName": "strSkillData",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 260,
+      "paramIndex": 3,
+      "isOutput": false
+    }
+  ]
+}

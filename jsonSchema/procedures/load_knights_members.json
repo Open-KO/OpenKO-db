@@ -1,0 +1,17 @@
+{
+  "database": "GAME",
+  "name": "LOAD_KNIGHTS_MEMBERS",
+  "className": "LoadKnightsMembers",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@knightsindex",
+      "paramName": "knightsindex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": false
+    }
+  ]
+}

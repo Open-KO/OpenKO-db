@@ -1,0 +1,125 @@
+{
+  "database": "GAME",
+  "name": "CREATE_NEW_CHAR",
+  "className": "CreateNewChar",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": true
+    },
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@index",
+      "paramName": "index",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@CharID",
+      "paramName": "CharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@Race",
+      "paramName": "Race",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 5,
+      "isOutput": false
+    },
+    {
+      "name": "@Class",
+      "paramName": "Class",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 6,
+      "isOutput": false
+    },
+    {
+      "name": "@Hair",
+      "paramName": "Hair",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 7,
+      "isOutput": false
+    },
+    {
+      "name": "@Face",
+      "paramName": "Face",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 8,
+      "isOutput": false
+    },
+    {
+      "name": "@Str",
+      "paramName": "Str",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 9,
+      "isOutput": false
+    },
+    {
+      "name": "@Sta",
+      "paramName": "Sta",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 10,
+      "isOutput": false
+    },
+    {
+      "name": "@Dex",
+      "paramName": "Dex",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 11,
+      "isOutput": false
+    },
+    {
+      "name": "@Intel",
+      "paramName": "Intel",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 12,
+      "isOutput": false
+    },
+    {
+      "name": "@Cha",
+      "paramName": "Cha",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 13,
+      "isOutput": false
+    }
+  ]
+}

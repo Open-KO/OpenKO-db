@@ -1,0 +1,44 @@
+{
+  "database": "GAME",
+  "name": "KING_INSERT_PRIZE_EVENT",
+  "className": "KingInsertPrizeEvent",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nAmount",
+      "paramName": "nAmount",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 4,
+      "isOutput": false
+    }
+  ]
+}

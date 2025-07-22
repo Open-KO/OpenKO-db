@@ -3,10 +3,31 @@
   "name": "CURRENTUSER",
   "className": "CurrentUser",
   "description": "Keeps track of users currently connected to the server",
+  "exports": [
+    {
+      "namespace": "aujard",
+      "columns": ["nServerNo", "strServerIP", "strAccountID", "strCharID", "strClientIP"]
+    },
+    {
+      "namespace": "versionmanager",
+      "columns": ["nServerNo", "strServerIP", "strAccountID"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_CURRENTUSER",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strAccountID"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "nServerNo",
-      "propertyName": "ServerNumber",
+      "propertyName": "ServerId",
       "description": "Server Index",
       "type": "int"
     },

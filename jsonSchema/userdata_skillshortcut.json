@@ -39,7 +39,7 @@
       "type": "varchar",
       "defaultValue": "0x00",
       "length": 260,
-      "isHexProtect": true,
+      "forceBinary": true,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
     }

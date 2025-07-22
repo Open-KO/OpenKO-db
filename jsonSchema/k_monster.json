@@ -3,6 +3,19 @@
   "name": "K_MONSTER",
   "className": "Monster",
   "description": "Monster definitions",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2",
+	  "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle",
+	  "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint",
+	  "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay",
+	  "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3",
+	  "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR",
+	  "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange",
+	  "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_K_MONSTER",
@@ -243,43 +256,43 @@
     },
     {
       "name": "sFireR",
-      "propertyName": "FireResistance",
+      "propertyName": "FireResist",
       "description": "Fire resistance",
       "type": "smallint"
     },
     {
       "name": "sColdR",
-      "propertyName": "ColdResistance",
+      "propertyName": "ColdResist",
       "description": "Cold resistance",
       "type": "smallint"
     },
     {
       "name": "sLightningR",
-      "propertyName": "LightningResistance",
+      "propertyName": "LightningResist",
       "description": "Lightning resistance",
       "type": "smallint"
     },
     {
       "name": "sMagicR",
-      "propertyName": "MagicResistance",
+      "propertyName": "MagicResist",
       "description": "Magic resistance",
       "type": "smallint"
     },
     {
       "name": "sDiseaseR",
-      "propertyName": "DiseaseResistance",
+      "propertyName": "DiseaseResist",
       "description": "Disease resistance",
       "type": "smallint"
     },
     {
       "name": "sPoisonR",
-      "propertyName": "PoisonResistance",
+      "propertyName": "PoisonResist",
       "description": "Poison resistance",
       "type": "smallint"
     },
     {
       "name": "sLightR",
-      "propertyName": "LightResistance",
+      "propertyName": "LightResist",
       "description": "Light resistance",
       "type": "smallint"
     },

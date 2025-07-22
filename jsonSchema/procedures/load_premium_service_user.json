@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "LOAD_PREMIUM_SERVICE_USER",
+  "className": "LoadPremiumServiceUser",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@type",
+      "paramName": "type",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 2,
+      "isOutput": true
+    },
+    {
+      "name": "@days",
+      "paramName": "days",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 3,
+      "isOutput": true
+    }
+  ]
+}

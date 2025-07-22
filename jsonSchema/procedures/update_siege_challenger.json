@@ -1,0 +1,26 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_SIEGE_CHALLENGER",
+  "className": "UpdateSiegeChallenger",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@sCastleIndex",
+      "paramName": "sCastleIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@strChallengerList",
+      "paramName": "strChallengerList",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50,
+      "paramIndex": 2,
+      "isOutput": false
+    }
+  ]
+}

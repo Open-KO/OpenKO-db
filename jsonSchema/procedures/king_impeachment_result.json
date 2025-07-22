@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "KING_IMPEACHMENT_RESULT",
+  "className": "KingImpeachmentResult",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@nTotalMan",
+      "paramName": "nTotalMan",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 2,
+      "isOutput": true
+    },
+    {
+      "name": "@nAgreeMan",
+      "paramName": "nAgreeMan",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": true
+    }
+  ]
+}

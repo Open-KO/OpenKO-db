@@ -1,0 +1,18 @@
+{
+  "database": "GAME",
+  "name": "LOAD_ACCOUNT_CHARID",
+  "className": "LoadAccountCharid",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@Accountid",
+      "paramName": "Accountid",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    }
+  ],
+  "hasReturn": true
+}

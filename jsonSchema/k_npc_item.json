@@ -14,6 +14,16 @@
       ]
     }
   ],
+  "unions": [
+    {
+      "propertyName": "ItemId",
+      "columnPattern": "^iItem_+."
+    },
+    {
+      "propertyName": "DropChance",
+      "columnPattern": "^sPersent+."
+    }
+  ],
   "columns": [
     {
       "name": "sIndex",

@@ -3,6 +3,14 @@
   "name": "RENTAL_ITEM",
   "className": "RentalItem",
   "description": "Rental item",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nRentalIndex", "nItemIndex", "sDurability", "nSerialNumber",
+	  "byRegType", "byItemType", "byClass", "sRentalTime", "nRentalMoney",
+	  "strLenderCharID", "strLenderAcID", "strBorrowerCharID", "strBorrowerAcID"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_RENTAL_ITEM",

@@ -3,6 +3,12 @@
   "name": "SERVER_RESOURCE",
   "className": "ServerResource",
   "description": "Server resource",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nResourceID", "strResource"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_SERVER_RESOURCE",
@@ -35,7 +41,6 @@
       "propertyName": "Resource",
       "description": "Sprintf supported string",
       "type": "varchar",
-      "allowNull": true,
       "length": 100,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

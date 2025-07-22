@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "NATION_SELECT",
+  "className": "NationSelect",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": true
+    },
+    {
+      "name": "@AccountID",
+      "paramName": "AccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@Nation",
+      "paramName": "Nation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 3,
+      "isOutput": false
+    }
+  ]
+}

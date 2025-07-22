@@ -27,7 +27,6 @@
       "propertyName": "HackToolName",
       "description": "Name of the hack tool detected",
       "type": "varchar",
-      "allowNull": true,
       "length": 512,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

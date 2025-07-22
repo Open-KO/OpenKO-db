@@ -3,6 +3,46 @@
   "name": "ITEM_EXCHANGE",
   "className": "ItemExchange",
   "description": "Enables players to be able to give items in exchange for an item from an NPC",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "nNpcNum", "bRandomFlag", "nOriginItemNum1", "nOriginItemCount1",
+	  "nOriginItemNum2", "nOriginItemCount2", "nOriginItemNum3", "nOriginItemCount3",
+	  "nOriginItemNum4", "nOriginItemCount4", "nOriginItemNum5", "nOriginItemCount5",
+	  "nExchangeItemNum1", "nExchangeItemCount1", "nExchangeItemNum2", "nExchangeItemCount2",
+	  "nExchangeItemNum3", "nExchangeItemCount3", "nExchangeItemNum4", "nExchangeItemCount4",
+	  "nExchangeItemNum5", "nExchangeItemCount5"]
+    }
+  ],
+  "unions": [
+    {
+      "propertyName": "OriginItemNumber",
+      "columnPattern": "^nOriginItemNum+."
+    },
+    {
+      "propertyName": "OriginItemCount",
+      "columnPattern": "^nOriginItemCount+."
+    },
+    {
+      "propertyName": "ExchangeItemNumber",
+      "columnPattern": "^nExchangeItemNum+."
+    },
+    {
+      "propertyName": "ExchangeItemCount",
+      "columnPattern": "^nExchangeItemCount+."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_ITEM_EXCHANGE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],  
   "columns": [
     {
       "name": "nIndex",
@@ -21,7 +61,6 @@
       "propertyName": "NpcName",
       "description": "NPC Name",
       "type": "varchar",
-      "allowNull": true,
       "length": 50,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"
@@ -31,7 +70,6 @@
       "propertyName": "Note",
       "description": "Note",
       "type": "varchar",
-      "allowNull": true,
       "length": 100,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

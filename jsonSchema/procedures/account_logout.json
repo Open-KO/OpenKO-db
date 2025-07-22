@@ -1,0 +1,44 @@
+{
+  "database": "GAME",
+  "name": "ACCOUNT_LOGOUT",
+  "className": "AccountLogout",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "accountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@LogoutCode",
+      "paramName": "logoutCode",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": true
+    },
+    {
+      "name": "@nRet2",
+      "paramName": "nRet2",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 4,
+      "isOutput": true
+    }
+  ]
+}

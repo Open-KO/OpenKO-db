@@ -3,6 +3,23 @@
   "name": "MONSTER_SUMMON_LIST",
   "className": "MonsterSummonList",
   "description": "Monster summon list",
+  "exports": [
+    {
+      "namespace": "aiserver",
+      "columns": ["sSid", "strName", "sLevel", "sProbability", "bType"]
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK_MONSTER_SUMMON_LIST",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sSid"
+      ]
+    }
+  ], 
   "columns": [
     {
       "name": "sSid",
@@ -15,7 +32,6 @@
       "propertyName": "Name",
       "description": "Name",
       "type": "varchar",
-      "allowNull": true,
       "length": 31,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

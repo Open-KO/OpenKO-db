@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "GIVE_PREMIUM",
+  "className": "GivePremium",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strAccountID",
+      "paramName": "strAccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@days",
+      "paramName": "days",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "length": 4,
+      "paramIndex": 3,
+      "isOutput": false
+    }
+  ]
+}

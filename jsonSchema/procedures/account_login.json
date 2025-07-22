@@ -1,0 +1,35 @@
+{
+  "database": "GAME",
+  "name": "ACCOUNT_LOGIN",
+  "className": "AccountLogin",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@AccountID",
+      "paramName": "accountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@Password",
+      "paramName": "password",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 13,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": true
+    }
+  ]
+}

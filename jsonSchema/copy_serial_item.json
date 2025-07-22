@@ -35,7 +35,7 @@
       "type": "binary",
       "allowNull": true,
       "length": 4,
-      "isHexProtect": true
+      "forceBinary": true
     },
     {
       "name": "ItemSerial",
@@ -44,7 +44,7 @@
       "type": "binary",
       "allowNull": true,
       "length": 8,
-      "isHexProtect": true
+      "forceBinary": true
     }
   ]
 }

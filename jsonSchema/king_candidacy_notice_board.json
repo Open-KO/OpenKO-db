@@ -42,7 +42,7 @@
       "description": "Candidate notice",
       "type": "varbinary",
       "length": 1024,
-      "isHexProtect": true
+      "forceBinary": true
     }
   ]
 }

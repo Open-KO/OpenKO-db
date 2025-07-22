@@ -10,10 +10,10 @@ CREATE TABLE [EVENT] (
 	[Cond3] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[Cond4] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[Cond5] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[Exec1] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[Exec2] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[Exec3] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[Exec4] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[Exec5] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS
+	[Exec1] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[Exec2] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[Exec3] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[Exec4] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[Exec5] varchar(128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
 )
 GO

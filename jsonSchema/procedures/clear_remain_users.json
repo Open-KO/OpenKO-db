@@ -1,0 +1,17 @@
+{
+  "database": "GAME",
+  "name": "CLEAR_REMAIN_USERS",
+  "className": "ClearRemainUsers",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strServerIP",
+      "paramName": "strServerIP",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 15,
+      "paramIndex": 1,
+      "isOutput": false
+    }
+  ]
+}

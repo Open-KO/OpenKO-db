@@ -1,0 +1,17 @@
+{
+  "database": "GAME",
+  "name": "SKILLSHORTCUT_LOAD",
+  "className": "SkillshortcutLoad",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    }
+  ]
+}

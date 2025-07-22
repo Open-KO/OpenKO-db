@@ -3,10 +3,11 @@ GO
 
 CREATE TABLE [MONSTER_SUMMON_LIST] (
 	[sSid] smallint NOT NULL,
-	[strName] varchar(31) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[strName] varchar(31) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[sLevel] smallint NOT NULL,
 	[sProbability] smallint NOT NULL,
 	[bType] tinyint NOT NULL
+	CONSTRAINT [PK_MONSTER_SUMMON_LIST] PRIMARY KEY CLUSTERED ([sSid])
 )
 GO
 ALTER TABLE [MONSTER_SUMMON_LIST] ADD CONSTRAINT [DF_MONSTER_SUMMON_LIST_bType] DEFAULT 0 FOR [bType]

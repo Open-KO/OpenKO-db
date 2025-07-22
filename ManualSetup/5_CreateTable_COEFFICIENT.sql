@@ -10,7 +10,7 @@ CREATE TABLE [COEFFICIENT] (
 	[Spear] float NOT NULL,
 	[Pole] float NOT NULL,
 	[Staff] float NOT NULL,
-	[Bow] float,
+	[Bow] float NOT NULL,
 	[Hp] float NOT NULL,
 	[Mp] float NOT NULL,
 	[Sp] float NOT NULL,

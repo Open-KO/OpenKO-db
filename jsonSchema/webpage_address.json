@@ -3,6 +3,12 @@
   "name": "WEBPAGE_ADDRESS",
   "className": "WebpageAddress",
   "description": "Webpage URL list",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["nIndex", "strWebPageAddress"]
+    }
+  ], 
   "indexes": [
     {
       "name": "PK_WEBPAGE_ADDRESS",
@@ -26,7 +32,6 @@
       "propertyName": "WebPageAddress",
       "description": "Webpage address",
       "type": "varchar",
-      "allowNull": true,
       "length": 100,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

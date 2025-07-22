@@ -1,0 +1,80 @@
+{
+  "database": "GAME",
+  "name": "KING_UPDATE_IMPEACHMENT_STATUS",
+  "className": "KingUpdateImpeachmentStatus",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@byType",
+      "paramName": "byType",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@sYear",
+      "paramName": "sYear",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@byMonth",
+      "paramName": "byMonth",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@byDay",
+      "paramName": "byDay",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 5,
+      "isOutput": false
+    },
+    {
+      "name": "@byHour",
+      "paramName": "byHour",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 6,
+      "isOutput": false
+    },
+    {
+      "name": "@byMinute",
+      "paramName": "byMinute",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 7,
+      "isOutput": false
+    },
+    {
+      "name": "@strUserID",
+      "paramName": "strUserID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 8,
+      "isOutput": false
+    }
+  ]
+}

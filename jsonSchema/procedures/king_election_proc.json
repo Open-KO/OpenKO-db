@@ -1,0 +1,53 @@
+{
+  "database": "GAME",
+  "name": "KING_ELECTION_PROC",
+  "className": "KingElectionProc",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@strAccountID",
+      "paramName": "strAccountID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@strCharID",
+      "paramName": "strCharID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@byNation",
+      "paramName": "byNation",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@strCandidacyID",
+      "paramName": "strCandidacyID",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 5,
+      "isOutput": true
+    }
+  ]
+}

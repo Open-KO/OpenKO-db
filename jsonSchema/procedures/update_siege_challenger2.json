@@ -1,0 +1,116 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_SIEGE_CHALLENGER2",
+  "className": "UpdateSiegeChallenger2",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@sCastleIndex",
+      "paramName": "sCastleIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_1",
+      "paramName": "sKnights_1",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_2",
+      "paramName": "sKnights_2",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_3",
+      "paramName": "sKnights_3",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_4",
+      "paramName": "sKnights_4",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 5,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_5",
+      "paramName": "sKnights_5",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 6,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_6",
+      "paramName": "sKnights_6",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 7,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_7",
+      "paramName": "sKnights_7",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 8,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_8",
+      "paramName": "sKnights_8",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 9,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_9",
+      "paramName": "sKnights_9",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 10,
+      "isOutput": false
+    },
+    {
+      "name": "@sKnights_10",
+      "paramName": "sKnights_10",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 11,
+      "isOutput": false
+    },
+    {
+      "name": "@strChallengerList",
+      "paramName": "strChallengerList",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50,
+      "paramIndex": 12,
+      "isOutput": false
+    }
+  ]
+}

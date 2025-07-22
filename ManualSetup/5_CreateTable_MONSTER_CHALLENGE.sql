@@ -8,5 +8,6 @@ CREATE TABLE [MONSTER_CHALLENGE] (
 	[bStartTime3] tinyint NOT NULL,
 	[bLevelMin] tinyint NOT NULL,
 	[bLevelMax] tinyint NOT NULL
+	CONSTRAINT [PK_MONSTER_CHALLENGE] PRIMARY KEY CLUSTERED ([sIndex])
 )
 GO

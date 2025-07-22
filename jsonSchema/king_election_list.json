@@ -20,15 +20,13 @@
       "name": "nKnights",
       "propertyName": "Knights",
       "description": "Knights identifier (Knights.IDNum)",
-      "type": "smallint",
-      "allowNull": true
+      "type": "smallint"
     },
     {
       "name": "strName",
       "propertyName": "Name",
       "description": "Name TODO",
       "type": "varchar",
-      "allowNull": true,
       "length": 21,
       "collationName": "SQL_Latin1_General_CP1_CI_AS",
       "characterSet": "iso_1"

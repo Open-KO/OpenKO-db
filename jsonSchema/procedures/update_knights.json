@@ -1,0 +1,53 @@
+{
+  "database": "GAME",
+  "name": "UPDATE_KNIGHTS",
+  "className": "UpdateKnights",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": true
+    },
+    {
+      "name": "@Type",
+      "paramName": "Type",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@UserId",
+      "paramName": "UserId",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@KnightsIndex",
+      "paramName": "KnightsIndex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 4,
+      "isOutput": false
+    },
+    {
+      "name": "@Domanation",
+      "paramName": "Domination",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 5,
+      "isOutput": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "database": "GAME",
+  "name": "DELETE_KNIGHTS",
+  "className": "DeleteKnights",
+  "description": "MANUAL_TODO",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "nRet",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 1,
+      "isOutput": true
+    },
+    {
+      "name": "@knightsindex",
+      "paramName": "knightsindex",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "length": 2,
+      "paramIndex": 2,
+      "isOutput": false
+    }
+  ]
+}

@@ -3,6 +3,25 @@
   "name": "ITEM",
   "className": "Item",
   "description": "Item information",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["Num", "strName", "Kind", "Slot", "Race", "Class",
+        "Damage", "Delay", "Range", "Weight", "Duration", "BuyPrice",
+        "SellPrice", "Ac", "Countable", "Effect1", "Effect2", "ReqLevel",
+        "ReqRank", "ReqTitle", "ReqStr", "ReqSta", "ReqDex", "ReqIntel",
+        "ReqCha", "SellingGroup", "ItemType", "Hitrate", "Evasionrate",
+        "DaggerAc", "SwordAc", "MaceAc", "AxeAc", "SpearAc", "BowAc",
+        "FireDamage", "IceDamage", "LightningDamage", "PoisonDamage",
+        "HPDrain", "MPDamage", "MPDrain", "MirrorDamage", "Droprate",
+        "StrB", "StaB", "DexB", "IntelB", "ChaB", "MaxHpB", "MaxMpB",
+        "FireR", "ColdR", "LightningR", "MagicR", "PoisonR", "CurseR"]
+    },
+    {
+      "namespace": "aujard",
+      "columns": ["Num", "Countable"]
+    }
+  ],
   "indexes": [
     {
       "name": "PK_ITEM",
@@ -17,7 +36,7 @@
   "columns": [
     {
       "name": "Num",
-      "propertyName": "Number",
+      "propertyName": "ID",
       "description": "Item number",
       "type": "int"
     },
@@ -574,7 +593,7 @@
     },
     {
       "name": "ReqLevel",
-      "propertyName": "RequireLevel",
+      "propertyName": "MinLevel",
       "description": "Minimum level required to use item",
       "type": "tinyint"
     },
@@ -586,13 +605,13 @@
     },
     {
       "name": "ReqRank",
-      "propertyName": "RequireRank",
+      "propertyName": "RequiredRank",
       "description": "Rank required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqTitle",
-      "propertyName": "RequireTitle",
+      "propertyName": "RequiredTitle",
       "description": "Title required to use item",
       "type": "tinyint",
       "enums": [
@@ -640,31 +659,31 @@
     },
     {
       "name": "ReqStr",
-      "propertyName": "RequireStrength",
+      "propertyName": "RequiredStrength",
       "description": "Strength required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqSta",
-      "propertyName": "RequireStamina",
+      "propertyName": "RequiredStamina",
       "description": "Stamina required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqDex",
-      "propertyName": "RequireDexterity",
+      "propertyName": "RequiredDexterity",
       "description": "Dexterity required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqIntel",
-      "propertyName": "RequireIntelligence",
+      "propertyName": "RequiredIntelligence",
       "description": "Intelligence required to use item",
       "type": "tinyint"
     },
     {
       "name": "ReqCha",
-      "propertyName": "RequireCharisma",
+      "propertyName": "RequiredCharisma",
       "description": "Charisma required to use item",
       "type": "tinyint"
     },
@@ -839,42 +858,42 @@
     },
     {
       "name": "FireR",
-      "propertyName": "FireResistance",
+      "propertyName": "FireResist",
       "description": "Fire resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "ColdR",
-      "propertyName": "ColdResistance",
+      "propertyName": "ColdResist",
       "description": "Cold resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "LightningR",
-      "propertyName": "LightningResistance",
+      "propertyName": "LightningResist",
       "description": "Lightning resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "MagicR",
-      "propertyName": "MagicResistance",
+      "propertyName": "MagicResist",
       "description": "Magic resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "PoisonR",
-      "propertyName": "PoisonResistance",
+      "propertyName": "PoisonResist",
       "description": "Poison resistance",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "CurseR",
-      "propertyName": "CurseResistance",
+      "propertyName": "CurseResist",
       "description": "Curse resistance",
       "type": "smallint",
       "defaultValue": "0"

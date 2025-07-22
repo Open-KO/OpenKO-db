@@ -3,6 +3,24 @@
   "name": "MONSTER_CHALLENGE",
   "className": "MonsterChallenge",
   "description": "Monster challenge (Forgotten Temple)",
+  "exports": [
+    {
+      "namespace": "ebenezer",
+      "columns": ["sIndex", "bStartTime1", "bStartTime2", "bStartTime3",
+	  "bLevelMin", "bLevelMax"]
+    }
+  ], 
+  "indexes": [
+    {
+      "name": "PK_MONSTER_CHALLENGE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sIndex"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "sIndex",
