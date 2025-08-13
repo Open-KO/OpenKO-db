@@ -1,0 +1,64 @@
+{
+  "database": "GAME",
+  "name": "OPENKO_DB_VERSION",
+  "className": "KodbVersion",
+  "description": "Used to synchronize OpenKO-db database changes via the kodb-util tool",
+  "indexes": [
+    {
+      "name": "PK_OPENKO_DB_VERSION",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "Id"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "propertyName": "Id",
+      "description": "Job identifier",
+      "type": "int",
+      "autoIncrement": true
+    },
+    {
+      "name": "commit",
+      "propertyName": "Commit",
+      "description": "OpenKO-db git commit hash used by job",
+      "type": "varchar",
+      "length": 40
+    },
+    {
+      "name": "jobType",
+      "propertyName": "JobType",
+      "description": "Job Type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Install",
+          "value": "0",
+          "comment": "Clean import of the full database"
+        },
+        {
+          "name": "AutoMigrate",
+          "value": "1",
+          "comment": "Update table structure to match current schema"
+        },
+        {
+          "name": "GameDataSync",
+          "value": "2",
+          "comment": "Clean import of non-user database table data"
+        }
+      ]
+    },
+    {
+      "name": "errorMessage",
+      "propertyName": "ErrorMessage",
+      "description": "Error message that caused job to fail",
+      "type": "varchar",
+      "length": 1024,
+      "allowNull": true
+    }
+  ]
+}
