@@ -23,5 +23,3 @@ EXEC sys.sp_addsrvrolemember @loginame = N'knight', @rolename = N'diskadmin'
 GO
 EXEC sys.sp_addsrvrolemember @loginame = N'knight', @rolename = N'dbcreator'
 GO
-EXEC sys.sp_addsrvrolemember @loginame = N'knight', @rolename = N'bulkadmin'
-GO
