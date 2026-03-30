@@ -6,7 +6,7 @@
   "exports": [
     {
       "namespace": "ebenezer",
-      "columns": ["nRank", "strElmoUserID", "strKarusUserID", "nSalary"]
+      "columns": ["nRank", "strElmoUserID", "strKarusUserID", "nSalary", "isClaimed"]
     }
   ],
   "indexes": [
@@ -107,6 +107,13 @@
       "propertyName": "UpdateDate",
       "description": "Update date",
       "type": "smalldatetime"
+    },
+    {
+      "name": "isClaimed",
+      "propertyName": "IsClaimed",
+      "description": "Has stipend been claimed",
+      "type": "tinyint",
+      "defaultValue": "0"
     }
   ]
 }
