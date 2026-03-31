@@ -6,7 +6,7 @@
   "exports": [
     {
       "namespace": "ebenezer",
-      "columns": ["shIndex", "strElmoUserID", "strKarusUserID", "nMoney", "isClaimed"]
+      "columns": ["shIndex", "strElmoUserID", "strKarusUserID", "nMoney", "isClaimedElmo", "isClaimedKarus"]
     }
   ],
   "indexes": [
@@ -97,9 +97,16 @@
       "type": "int"
     },
     {
-      "name": "isClaimed",
-      "propertyName": "IsClaimed",
-      "description": "Has stipend been claimed",
+      "name": "isClaimedElmo",
+      "propertyName": "IsClaimedElmo",
+      "description": "Has El Morad stipend been claimed",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "isClaimedKarus",
+      "propertyName": "IsClaimedKarus",
+      "description": "Has Karus stipend been claimed",
       "type": "tinyint",
       "defaultValue": "0"
     }
