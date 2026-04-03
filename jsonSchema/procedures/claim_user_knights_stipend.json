@@ -1,0 +1,44 @@
+{
+  "database": "GAME",
+  "name": "CLAIM_USER_KNIGHTS_STIPEND",
+  "className": "ClaimUserKnightsStipend",
+  "description": "Attempts to claim a stipend from USER_KNIGHTS_RANK",
+  "params": [
+    {
+      "name": "@nRet",
+      "paramName": "ResultCode",
+      "description": "Result Code. 0: Success, 1: Already claimed, 2: Cache out of sync, 255: Error",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 1,
+      "isOutput": true
+    },
+    {
+      "name": "@rank",
+      "paramName": "Rank",
+      "description": "Ranking index",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
+      "name": "@nation",
+      "paramName": "Nation",
+      "description": "Character nation.  1: Karus, 2: El Morad",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 3,
+      "isOutput": false
+    },
+    {
+      "name": "@charId",
+      "paramName": "CharId",
+      "description": "Character name",
+      "type": "varchar",
+      "length": 21,
+      "paramIndex": 4,
+      "isOutput": false
+    }
+  ]
+}
