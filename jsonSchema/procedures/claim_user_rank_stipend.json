@@ -1,8 +1,8 @@
 {
   "database": "GAME",
-  "name": "CLAIM_USER_KNIGHTS_STIPEND",
-  "className": "ClaimUserKnightsStipend",
-  "description": "Attempts to claim a stipend from USER_KNIGHTS_RANK",
+  "name": "CLAIM_USER_RANK_STIPEND",
+  "className": "ClaimUserRankStipend",
+  "description": "Attempts to claim a stipend from USER_KNIGHTS_RANK/USER_PERSONAL_RANK",
   "params": [
     {
       "name": "@nRet",
@@ -14,12 +14,21 @@
       "isOutput": true
     },
     {
+      "name": "@type",
+      "paramName": "RankType",
+      "description": "Ranking Type",
+      "type": "tinyint",
+      "length": 1,
+      "paramIndex": 2,
+      "isOutput": false
+    },
+    {
       "name": "@rank",
       "paramName": "Rank",
       "description": "Ranking index",
       "type": "tinyint",
       "length": 1,
-      "paramIndex": 2,
+      "paramIndex": 3,
       "isOutput": false
     },
     {
@@ -28,7 +37,7 @@
       "description": "Character nation.  1: Karus, 2: El Morad",
       "type": "tinyint",
       "length": 1,
-      "paramIndex": 3,
+      "paramIndex": 4,
       "isOutput": false
     },
     {
@@ -37,7 +46,7 @@
       "description": "Character name",
       "type": "varchar",
       "length": 21,
-      "paramIndex": 4,
+      "paramIndex": 5,
       "isOutput": false
     }
   ]
