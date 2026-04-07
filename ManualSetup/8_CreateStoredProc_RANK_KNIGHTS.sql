@@ -6,9 +6,11 @@ UPDATE KNIGHTS SET Points=0
 SET NOCOUNT ON
 DECLARE @KnightsIndex smallint
 DECLARE @SumLoyalty int
-DECLARE job1 CURSOR FOR
 
-SELECT IDNum FROM KNIGHTS
+DECLARE job1 CURSOR FOR
+    SELECT
+        IDNum
+    FROM KNIGHTS
 
 OPEN job1
 FETCH NEXT FROM job1
@@ -17,9 +19,16 @@ WHILE @@fetch_status = 0
 BEGIN
 
 	SET @SumLoyalty = 0
-	SELECT @SumLoyalty=Sum(Loyalty) FROM USERDATA WHERE Knights = @Knightsindex and City <> 255 
+	SELECT
+	    @SumLoyalty=Sum(Loyalty)
+	FROM USERDATA
+	WHERE
+	    Knights = @KnightsIndex And
+	    City <> 255 AND
+	    Authority NOT IN (0, 250, 255)
+
 	IF @SumLoyalty <> 0
-		UPDATE KNIGHTS SET Points = @SumLoyalty WHERE IDNum = @knightsindex and IDNum NOT in (140)
+		UPDATE KNIGHTS SET Points = @SumLoyalty WHERE IDNum = @KnightsIndex
 
 	FETCH NEXT FROM job1
 	INTO @KnightsIndex

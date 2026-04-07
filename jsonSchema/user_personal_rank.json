@@ -6,7 +6,7 @@
   "exports": [
     {
       "namespace": "ebenezer",
-      "columns": ["nRank", "strElmoUserID", "strKarusUserID", "nSalary"]
+      "columns": ["nRank", "strElmoUserID", "strKarusUserID", "nSalary", "isClaimedElmo", "isClaimedKarus"]
     }
   ],
   "indexes": [
@@ -107,6 +107,20 @@
       "propertyName": "UpdateDate",
       "description": "Update date",
       "type": "smalldatetime"
+    },
+    {
+      "name": "isClaimedElmo",
+      "propertyName": "IsClaimedElmo",
+      "description": "Has El Morad stipend been claimed",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "isClaimedKarus",
+      "propertyName": "IsClaimedKarus",
+      "description": "Has Karus stipend been claimed",
+      "type": "tinyint",
+      "defaultValue": "0"
     }
   ]
 }
